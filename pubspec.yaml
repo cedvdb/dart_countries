@@ -1,6 +1,6 @@
 name: dart_countries
 description: Dart tree shakeable country list. The countries' information contain Phone number meta data, languages, currencies, iso code...
-version: 0.0.5
+version: 0.0.6
 homepage: https://github.com/cedvdb/dart_countries
 
 environment:
@@ -8,5 +8,6 @@ environment:
 
 dev_dependencies:
   xml: ^5.1.2
+  test: any
 
 
