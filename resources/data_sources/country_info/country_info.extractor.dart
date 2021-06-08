@@ -19,7 +19,7 @@ Future<Map<String, CountryInfo>> getCountryInfosMap() async {
           .map((el) => el as String)
           .cast<String>()
           .toList(),
-      currencyCode: entry.value['currency'],
+      currencyCode: (entry.value['currency'] as String).split(',').first,
     ),
   );
   return result;

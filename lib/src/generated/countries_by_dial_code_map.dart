@@ -89,7 +89,7 @@ const Country(
   capital: r"Washington D.C.",
   continent: r"NA",
   languages: ["en"],
-  currencyCode: r"USD,USN,USS",
+  currencyCode: r"USD",
   flag: r"🇺🇸", 
   isoCode: r"US", 
   phoneDescription: PhoneDescription(
@@ -1325,7 +1325,7 @@ const Country(
   capital: r"Sucre",
   continent: r"SA",
   languages: ["es","ay","qu"],
-  currencyCode: r"BOB,BOV",
+  currencyCode: r"BOB",
   flag: r"🇧🇴", 
   isoCode: r"BO", 
   phoneDescription: PhoneDescription(
@@ -1430,7 +1430,7 @@ const Country(
   capital: r"Thimphu",
   continent: r"AS",
   languages: ["dz"],
-  currencyCode: r"BTN,INR",
+  currencyCode: r"BTN",
   flag: r"🇧🇹", 
   isoCode: r"BT", 
   phoneDescription: PhoneDescription(
@@ -1619,7 +1619,7 @@ const Country(
   capital: r"Bern",
   continent: r"EU",
   languages: ["de","fr","it"],
-  currencyCode: r"CHE,CHF,CHW",
+  currencyCode: r"CHE",
   flag: r"🇨🇭", 
   isoCode: r"CH", 
   phoneDescription: PhoneDescription(
@@ -1700,7 +1700,7 @@ const Country(
   capital: r"Santiago",
   continent: r"SA",
   languages: ["es"],
-  currencyCode: r"CLF,CLP",
+  currencyCode: r"CLF",
   flag: r"🇨🇱", 
   isoCode: r"CL", 
   phoneDescription: PhoneDescription(
@@ -1835,7 +1835,7 @@ const Country(
   capital: r"Havana",
   continent: r"NA",
   languages: ["es"],
-  currencyCode: r"CUC,CUP",
+  currencyCode: r"CUC",
   flag: r"🇨🇺", 
   isoCode: r"CU", 
   phoneDescription: PhoneDescription(
@@ -2156,7 +2156,7 @@ const Country(
   capital: r"El Aaiún",
   continent: r"AF",
   languages: ["es"],
-  currencyCode: r"MAD,DZD,MRU",
+  currencyCode: r"MAD",
   flag: r"🇪🇭", 
   isoCode: r"EH", 
   phoneDescription: PhoneDescription(
@@ -2930,7 +2930,7 @@ const Country(
   capital: r"Port-au-Prince",
   continent: r"NA",
   languages: ["fr","ht"],
-  currencyCode: r"HTG,USD",
+  currencyCode: r"HTG",
   flag: r"🇭🇹", 
   isoCode: r"HT", 
   phoneDescription: PhoneDescription(
@@ -3707,7 +3707,7 @@ const Country(
   capital: r"Maseru",
   continent: r"AF",
   languages: ["en","st"],
-  currencyCode: r"LSL,ZAR",
+  currencyCode: r"LSL",
   flag: r"🇱🇸", 
   isoCode: r"LS", 
   phoneDescription: PhoneDescription(
@@ -4355,7 +4355,7 @@ const Country(
   capital: r"Windhoek",
   continent: r"AF",
   languages: ["en","af"],
-  currencyCode: r"NAD,ZAR",
+  currencyCode: r"NAD",
   flag: r"🇳🇦", 
   isoCode: r"NA", 
   phoneDescription: PhoneDescription(
@@ -4730,7 +4730,7 @@ const Country(
   capital: r"Panama City",
   continent: r"NA",
   languages: ["es"],
-  currencyCode: r"PAB,USD",
+  currencyCode: r"PAB",
   flag: r"🇵🇦", 
   isoCode: r"PA", 
   phoneDescription: PhoneDescription(
@@ -5645,7 +5645,7 @@ const Country(
   capital: r"San Salvador",
   continent: r"NA",
   languages: ["es"],
-  currencyCode: r"SVC,USD",
+  currencyCode: r"SVC",
   flag: r"🇸🇻", 
   isoCode: r"SV", 
   phoneDescription: PhoneDescription(
@@ -6131,7 +6131,7 @@ const Country(
   capital: r"Montevideo",
   continent: r"SA",
   languages: ["es"],
-  currencyCode: r"UYI,UYU",
+  currencyCode: r"UYI",
   flag: r"🇺🇾", 
   isoCode: r"UY", 
   phoneDescription: PhoneDescription(
@@ -6428,7 +6428,7 @@ const Country(
   capital: r"Harare",
   continent: r"AF",
   languages: ["en","sn","nd"],
-  currencyCode: r"USD,ZAR,BWP,GBP,AUD,CNY,INR,JPY",
+  currencyCode: r"USD",
   flag: r"🇿🇼", 
   isoCode: r"ZW", 
   phoneDescription: PhoneDescription(
