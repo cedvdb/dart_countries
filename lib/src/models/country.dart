@@ -44,7 +44,7 @@ class Country {
   });
 
   static Country fromIsoCode(String isoCode) {
-    final country = countriesByIsoCode[isoCode];
+    final country = countriesByIsoCode[isoCode.toUpperCase()];
     if (country == null) throw 'Invalid isoCode $isoCode';
     return country;
   }
