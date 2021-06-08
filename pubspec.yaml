@@ -1,18 +1,12 @@
 name: dart_countries
 description: Dart tree shakeable country list. The countries' information contain Phone number meta data, languages, currencies, iso code...
-version: 0.0.3
+version: 0.0.5
 homepage: https://github.com/cedvdb/dart_countries
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
 
-dependencies:
-  flutter:
-    sdk: flutter
-
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
   xml: ^5.1.2
 
 

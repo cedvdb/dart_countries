@@ -1,4 +1,4 @@
-import 'package:dart_countries/src/dart_countries.dart';
+import 'package:dart_countries/dart_countries.dart';
 
 void main(List<String> arguments) {
 // creation
