@@ -1,6 +1,6 @@
-import 'package:dart_countries/resources/data_sources/country_info/country_info.extractor.dart';
 import 'package:dart_countries/src/models/country.dart';
 
+import 'data_sources/country_info/country_info.extractor.dart';
 import 'data_sources/phone_number/phone_metadata_extractor.dart';
 
 /// generates the country instances via the source files

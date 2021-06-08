@@ -1,7 +1,7 @@
 name: dart_countries
 description: Dart tree shakeable country list with country information.
 version: 0.0.1
-homepage:
+homepage: https://github.com/cedvdb/dart_countries
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

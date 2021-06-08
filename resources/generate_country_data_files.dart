@@ -12,7 +12,7 @@ import 'generate_countries.dart';
 const String DATA_TOKEN = '// data here';
 const String COMMENT_TOKEN = '// comment here';
 const String comment = '// This file was auto generated';
-const String INPUT_PATH = 'lib/resources/template_files';
+const String INPUT_PATH = 'resources/template_files';
 const String TEMPLATE_COUNTRY_LIST = '$INPUT_PATH/template_country_list.dart';
 const String TEMPLATE_COUNTRY_BY_ISO_CODE =
     '$INPUT_PATH/template_country_by_iso_code.dart';

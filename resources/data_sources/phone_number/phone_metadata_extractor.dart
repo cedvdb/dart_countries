@@ -15,7 +15,7 @@ Future<Map<String, PhoneDescription>> getPhoneDescriptionMap() async {
 
 Future<XmlDocument> _readPhoneNumbersXml() async {
   final filePath =
-      'lib/resources/data_sources/phone_number/phone_number_metadata.xml';
+      'resources/data_sources/phone_number/phone_number_metadata.xml';
   final xmlString = await File(filePath).readAsString();
   return XmlDocument.parse(xmlString);
 }
