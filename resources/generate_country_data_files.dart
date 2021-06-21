@@ -4,6 +4,8 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:dart_countries/dart_countries.dart';
+
 import 'data_sources/country_info/country_info.extractor.dart';
 import 'data_sources/phone_number/phone_metadata_extractor.dart';
 
@@ -15,23 +17,34 @@ extension StringExtension on String {
   }
 }
 
+extension StringFile on PhoneDescription {
+  asStringFile() {
+    return '''
+PhoneDescription(
+  dialCode: $dialCode,
+  leadingDigits: $leadingDigits,
+  internationalPrefix,
+  nationalPrefix,
+  nationalPrefixForParsing,
+  nationalPrefixTransformRule,
+  isMainCountryForDialCode,
+  validation,
+);
+    ''';
+  }
+}
+
 void main() async {
   final countriesInfo = await getCountryInfo();
   final countriesPhoneDesc = await getPhoneDescriptionMap();
-  // add phone info to the country info
-  final phoneKey = 'phone';
-  countriesPhoneDesc.entries
-      .forEach((entry) => countriesInfo[entry.key][phoneKey] = entry.value);
   // remove places where phone info is null
-  countriesInfo.removeWhere((key, value) => value[phoneKey] == null);
+  countriesInfo.removeWhere((key, value) => countriesPhoneDesc[key] == null);
   generateMapFileForProperty(CountryInfoKeys.name, countriesInfo);
   generateMapFileForProperty(CountryInfoKeys.native, countriesInfo);
   generateMapFileForProperty(CountryInfoKeys.capital, countriesInfo);
   generateMapFileForProperty(CountryInfoKeys.continent, countriesInfo);
   generateMapFileForProperty(CountryInfoKeys.currency, countriesInfo);
   generateMapFileForProperty(CountryInfoKeys.languages, countriesInfo);
-  generateMapFileForProperty(
-      'dialCode', countriesInfo, (c) => c.phone.dialCode);
 }
 
 generateMapFileForProperty(String property, Map<String, dynamic> map) {
