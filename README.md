@@ -2,8 +2,6 @@
 
 Dart const country list containing information relative to a country.
 
-The advantage of this package over a json file is that the information is tree shakeable therefore the compiled executable will be smaller.
-
 Country information:
 
   - name: English name
