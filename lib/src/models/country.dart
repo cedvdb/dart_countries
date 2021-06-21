@@ -1,18 +1,25 @@
 import 'dart:convert';
 
+import 'package:dart_countries/src/generated/countries_capital.dart';
+import 'package:dart_countries/src/generated/countries_continent.dart';
+import 'package:dart_countries/src/generated/countries_currency.dart';
+import 'package:dart_countries/src/generated/countries_languages.dart';
+import 'package:dart_countries/src/generated/countries_name.dart';
+import 'package:dart_countries/src/generated/countries_native.dart';
+
 import 'phone_description.dart';
 
 /// Country regroup informations for displaying a list of countries
 class Country {
   /// English name of the country
-  final String name;
+  String get name => countriesName[isoCode]!;
 
   /// The naame as the native would spell it
-  final String nativeName;
-  final String capital;
-  final String continent;
-  final List<String> languages;
-  final String currencyCode;
+  String get nativeName => countriesNative[isoCode]!;
+  String get capital => countriesCapital[isoCode]!;
+  String get continent => countriesContinent[isoCode]!;
+  List<String> get languages => countriesLanguages[isoCode]!;
+  String get currencyCode => countriesCurrency[isoCode]!;
 
   /// emoji flag
   final String flag;

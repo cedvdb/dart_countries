@@ -18,40 +18,27 @@ void main() async {
   final countriesInfo = await getCountryInfo();
   final countriesPhoneDesc = await getPhoneDescriptionMap();
   // remove places where phone info is null, as those places are
-  // places where no one lives
+  // places where no one lives and also the opposite
   countriesInfo.removeWhere((key, value) => countriesPhoneDesc[key] == null);
+  countriesPhoneDesc.removeWhere((key, value) => countriesInfo[key] == null);
   generateMapFileForProperty(CountryInfoKeys.name, countriesInfo);
   generateMapFileForProperty(CountryInfoKeys.native, countriesInfo);
   generateMapFileForProperty(CountryInfoKeys.capital, countriesInfo);
   generateMapFileForProperty(CountryInfoKeys.continent, countriesInfo);
   generateMapFileForProperty(CountryInfoKeys.currency, countriesInfo);
   generateMapFileForProperty(CountryInfoKeys.languages, countriesInfo);
-  generateMapFileForProperty(
-    'dialCode',
-    Map.fromIterable(
-      countriesPhoneDesc.entries,
-      key: (entry) => entry.key,
-      value: (entry) => entry.value.toMap(),
-    ),
-  );
-  generateMapFileForProperty(
-    'phoneNumberLengths',
-    Map.fromIterable(
-      countriesPhoneDesc.entries,
-      key: (entry) => entry.key,
-      value: (entry) => {
-        'phoneNumberLengths': {
-          'mobile': entry.value.validation.mobile.lengths,
-          'fixedLine': entry.value.validation.fixedLine.lengths,
-        }
-      },
-    ),
-  );
-
-  generateFile(
-    fileName: OUTPUT_PATH + 'countries_phone_description.dart',
-    content: AUTO_GEN_COMMENT + 'const countriesPhoneDescription = {',
-  );
+  countriesPhoneDesc.forEach((key, value) {
+    countriesInfo[key]['dialCode'] = value.dialCode;
+  });
+  generateMapFileForProperty('dialCode', countriesInfo);
+  countriesPhoneDesc.forEach((key, value) {
+    countriesInfo[key]['phoneNumberLengths'] = {
+      'mobile': value.validation.mobile.lengths,
+      'fixedLine': value.validation.fixedLine.lengths,
+    };
+  });
+  generateMapFileForProperty('phoneNumberLengths', countriesInfo);
+  generatePhoneDescFile(countriesPhoneDesc);
 }
 
 generateMapFileForProperty(String property, Map<String, dynamic> map) {
@@ -69,4 +56,17 @@ generateFile({required String fileName, required String content}) async {
       '// This file was auto generated on ${DateTime.now().toIso8601String()}\n\n' +
           content;
   return file.writeAsString(content);
+}
+
+generatePhoneDescFile(Map phoneDescs) {
+  var content = 'import "../models/phone_description.dart"; \n\n';
+  content += 'const countriesPhoneDescription = {';
+  phoneDescs.forEach((key, value) {
+    content += '"$key": ${encodePhoneDescription(value)},';
+  });
+  content += '};';
+  generateFile(
+    fileName: 'countries_phone_description.dart',
+    content: content,
+  );
 }
