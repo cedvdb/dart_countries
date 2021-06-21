@@ -4,40 +4,19 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:dart_countries/dart_countries.dart';
-
 import 'data_sources/country_info/country_info.extractor.dart';
 import 'data_sources/phone_number/phone_metadata_extractor.dart';
+import 'package:basic_utils/basic_utils.dart' show StringUtils;
+
+import 'phone_encoder.dart';
 
 const String OUTPUT_PATH = 'lib/src/generated/';
-
-extension StringExtension on String {
-  String capitalize() {
-    return "${this[0].toUpperCase()}${this.substring(1)}";
-  }
-}
-
-extension StringFile on PhoneDescription {
-  asStringFile() {
-    return '''
-PhoneDescription(
-  dialCode: $dialCode,
-  leadingDigits: $leadingDigits,
-  internationalPrefix,
-  nationalPrefix,
-  nationalPrefixForParsing,
-  nationalPrefixTransformRule,
-  isMainCountryForDialCode,
-  validation,
-);
-    ''';
-  }
-}
 
 void main() async {
   final countriesInfo = await getCountryInfo();
   final countriesPhoneDesc = await getPhoneDescriptionMap();
-  // remove places where phone info is null
+  // remove places where phone info is null, as those places are
+  // places where no one lives
   countriesInfo.removeWhere((key, value) => countriesPhoneDesc[key] == null);
   generateMapFileForProperty(CountryInfoKeys.name, countriesInfo);
   generateMapFileForProperty(CountryInfoKeys.native, countriesInfo);
@@ -45,13 +24,45 @@ void main() async {
   generateMapFileForProperty(CountryInfoKeys.continent, countriesInfo);
   generateMapFileForProperty(CountryInfoKeys.currency, countriesInfo);
   generateMapFileForProperty(CountryInfoKeys.languages, countriesInfo);
+  generateMapFileForProperty(
+    'dialCode',
+    Map.fromIterable(
+      countriesPhoneDesc.entries,
+      key: (entry) => entry.key,
+      value: (entry) => entry.value.toMap(),
+    ),
+  );
+  generateMapFileForProperty(
+    'phoneNumberLengths',
+    Map.fromIterable(
+      countriesPhoneDesc.entries,
+      key: (entry) => entry.key,
+      value: (entry) => {
+        'phoneNumberLengths': {
+          'mobile': entry.value.validation.mobile.lengths,
+          'fixedLine': entry.value.validation.fixedLine.lengths,
+        }
+      },
+    ),
+  );
+
+  generateMapFileForProperty(
+    'phoneDescription',
+    Map.fromIterable(
+      countriesPhoneDesc.entries,
+      key: (entry) => entry.key,
+      value: (entry) =>
+          {'phoneDescription': encodePhoneDescription(entry.value)},
+    ),
+  );
 }
 
 generateMapFileForProperty(String property, Map<String, dynamic> map) {
   final newMap = Map.fromIterable(map.keys, value: (k) => map[k][property]);
-  final fileName = 'countries_$property.dart';
+  final fileName =
+      'countries_${StringUtils.camelCaseToLowerUnderscore(property)}.dart';
   final content =
-      'const countries${property.capitalize()} = ${jsonEncode(newMap)};';
+      'const countries${StringUtils.capitalize(property)} = ${jsonEncode(newMap)};';
   _generateFile(fileName: fileName, content: content);
 }
 

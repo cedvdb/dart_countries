@@ -1,7 +1,5 @@
 import 'dart:convert';
 
-import 'package:dart_countries/src/generated/countries_by_iso_code_map.dart';
-
 import 'phone_description.dart';
 
 /// Country regroup informations for displaying a list of countries

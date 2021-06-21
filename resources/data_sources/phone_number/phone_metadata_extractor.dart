@@ -97,7 +97,11 @@ PhoneValidationRules _extractPhoneValidationRules(XmlElement element) {
 
 /// the patterns in the xml are weirdly formatted
 String parsePattern(String pattern) {
-  return pattern.replaceAll(' ', '').replaceAll('\r', '').replaceAll('\n', '');
+  return pattern
+      .replaceAll(' ', '')
+      .replaceAll('\r', '')
+      .replaceAll('\n', '')
+      .replaceAll(r'$', '\$');
 }
 
 /// Parse lengths string into array of Int, e.g. "6,[8-10]" becomes [6,8,9,10]
