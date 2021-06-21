@@ -1,9 +1,11 @@
-// This file was auto generated on 2021-06-22T01:21:10.912911
+// This file was auto generated on 2021-06-22T01:43:36.198273
 
 import "../models/phone_description.dart";
 
+import "./iso_codes.enum.dart";
+
 const countriesPhoneDescription = {
-  "AD": PhoneDescription(
+  IsoCode.AD: PhoneDescription(
     dialCode: r"376",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -26,7 +28,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "AE": PhoneDescription(
+  IsoCode.AE: PhoneDescription(
     dialCode: r"971",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -49,7 +51,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "AF": PhoneDescription(
+  IsoCode.AF: PhoneDescription(
     dialCode: r"93",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -72,7 +74,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "AG": PhoneDescription(
+  IsoCode.AG: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"268",
     internationalPrefix: r"011",
@@ -95,7 +97,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "AI": PhoneDescription(
+  IsoCode.AI: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"264",
     internationalPrefix: r"011",
@@ -118,7 +120,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "AL": PhoneDescription(
+  IsoCode.AL: PhoneDescription(
     dialCode: r"355",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -142,7 +144,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "AM": PhoneDescription(
+  IsoCode.AM: PhoneDescription(
     dialCode: r"374",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -166,7 +168,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "AO": PhoneDescription(
+  IsoCode.AO: PhoneDescription(
     dialCode: r"244",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -189,7 +191,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "AR": PhoneDescription(
+  IsoCode.AR: PhoneDescription(
     dialCode: r"54",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -215,7 +217,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "AS": PhoneDescription(
+  IsoCode.AS: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"684",
     internationalPrefix: r"011",
@@ -238,7 +240,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "AT": PhoneDescription(
+  IsoCode.AT: PhoneDescription(
     dialCode: r"43",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -263,7 +265,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "AU": PhoneDescription(
+  IsoCode.AU: PhoneDescription(
     dialCode: r"61",
     leadingDigits: null,
     internationalPrefix: r"001[14-689]|14(?:1[14]|34|4[17]|[56]6|7[47]|88)0011",
@@ -288,7 +290,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "AW": PhoneDescription(
+  IsoCode.AW: PhoneDescription(
     dialCode: r"297",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -312,7 +314,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "AX": PhoneDescription(
+  IsoCode.AX: PhoneDescription(
     dialCode: r"358",
     leadingDigits: r"18",
     internationalPrefix: r"00|99(?:[01469]|5(?:[14]1|3[23]|5[59]|77|88|9[09]))",
@@ -336,7 +338,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "AZ": PhoneDescription(
+  IsoCode.AZ: PhoneDescription(
     dialCode: r"994",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -361,7 +363,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "BA": PhoneDescription(
+  IsoCode.BA: PhoneDescription(
     dialCode: r"387",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -385,7 +387,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "BB": PhoneDescription(
+  IsoCode.BB: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"246",
     internationalPrefix: r"011",
@@ -410,7 +412,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "BD": PhoneDescription(
+  IsoCode.BD: PhoneDescription(
     dialCode: r"880",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -435,7 +437,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "BE": PhoneDescription(
+  IsoCode.BE: PhoneDescription(
     dialCode: r"32",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -459,7 +461,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "BF": PhoneDescription(
+  IsoCode.BF: PhoneDescription(
     dialCode: r"226",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -483,7 +485,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "BG": PhoneDescription(
+  IsoCode.BG: PhoneDescription(
     dialCode: r"359",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -507,7 +509,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "BH": PhoneDescription(
+  IsoCode.BH: PhoneDescription(
     dialCode: r"973",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -532,7 +534,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "BI": PhoneDescription(
+  IsoCode.BI: PhoneDescription(
     dialCode: r"257",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -555,7 +557,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "BJ": PhoneDescription(
+  IsoCode.BJ: PhoneDescription(
     dialCode: r"229",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -578,7 +580,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "BL": PhoneDescription(
+  IsoCode.BL: PhoneDescription(
     dialCode: r"590",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -601,7 +603,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "BM": PhoneDescription(
+  IsoCode.BM: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"441",
     internationalPrefix: r"011",
@@ -624,7 +626,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "BN": PhoneDescription(
+  IsoCode.BN: PhoneDescription(
     dialCode: r"673",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -647,7 +649,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "BO": PhoneDescription(
+  IsoCode.BO: PhoneDescription(
     dialCode: r"591",
     leadingDigits: null,
     internationalPrefix: r"00(?:1\d)?",
@@ -671,7 +673,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "BQ": PhoneDescription(
+  IsoCode.BQ: PhoneDescription(
     dialCode: r"599",
     leadingDigits: r"[347]",
     internationalPrefix: r"00",
@@ -695,7 +697,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "BR": PhoneDescription(
+  IsoCode.BR: PhoneDescription(
     dialCode: r"55",
     leadingDigits: null,
     internationalPrefix: r"00(?:1[245]|2[1-35]|31|4[13]|[56]5|99)",
@@ -722,7 +724,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "BS": PhoneDescription(
+  IsoCode.BS: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"242",
     internationalPrefix: r"011",
@@ -747,7 +749,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "BT": PhoneDescription(
+  IsoCode.BT: PhoneDescription(
     dialCode: r"975",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -770,7 +772,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "BW": PhoneDescription(
+  IsoCode.BW: PhoneDescription(
     dialCode: r"267",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -794,7 +796,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "BY": PhoneDescription(
+  IsoCode.BY: PhoneDescription(
     dialCode: r"375",
     leadingDigits: null,
     internationalPrefix: r"810",
@@ -819,7 +821,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "BZ": PhoneDescription(
+  IsoCode.BZ: PhoneDescription(
     dialCode: r"501",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -842,7 +844,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "CA": PhoneDescription(
+  IsoCode.CA: PhoneDescription(
     dialCode: r"1",
     leadingDigits: null,
     internationalPrefix: r"011",
@@ -867,7 +869,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "CC": PhoneDescription(
+  IsoCode.CC: PhoneDescription(
     dialCode: r"61",
     leadingDigits: null,
     internationalPrefix: r"001[14-689]|14(?:1[14]|34|4[17]|[56]6|7[47]|88)0011",
@@ -892,7 +894,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "CD": PhoneDescription(
+  IsoCode.CD: PhoneDescription(
     dialCode: r"243",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -915,7 +917,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "CF": PhoneDescription(
+  IsoCode.CF: PhoneDescription(
     dialCode: r"236",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -938,7 +940,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "CG": PhoneDescription(
+  IsoCode.CG: PhoneDescription(
     dialCode: r"242",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -962,7 +964,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "CH": PhoneDescription(
+  IsoCode.CH: PhoneDescription(
     dialCode: r"41",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -985,7 +987,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "CI": PhoneDescription(
+  IsoCode.CI: PhoneDescription(
     dialCode: r"225",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1010,7 +1012,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "CK": PhoneDescription(
+  IsoCode.CK: PhoneDescription(
     dialCode: r"682",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1033,7 +1035,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "CL": PhoneDescription(
+  IsoCode.CL: PhoneDescription(
     dialCode: r"56",
     leadingDigits: null,
     internationalPrefix:
@@ -1059,7 +1061,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "CM": PhoneDescription(
+  IsoCode.CM: PhoneDescription(
     dialCode: r"237",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1082,7 +1084,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "CN": PhoneDescription(
+  IsoCode.CN: PhoneDescription(
     dialCode: r"86",
     leadingDigits: null,
     internationalPrefix: r"00|1(?:[12]\d|79)\d\d00",
@@ -1108,7 +1110,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "CO": PhoneDescription(
+  IsoCode.CO: PhoneDescription(
     dialCode: r"57",
     leadingDigits: null,
     internationalPrefix: r"00(?:4(?:[14]4|56)|[579])",
@@ -1132,7 +1134,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "CR": PhoneDescription(
+  IsoCode.CR: PhoneDescription(
     dialCode: r"506",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1156,7 +1158,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "CU": PhoneDescription(
+  IsoCode.CU: PhoneDescription(
     dialCode: r"53",
     leadingDigits: null,
     internationalPrefix: r"119",
@@ -1180,7 +1182,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "CV": PhoneDescription(
+  IsoCode.CV: PhoneDescription(
     dialCode: r"238",
     leadingDigits: null,
     internationalPrefix: r"0",
@@ -1203,7 +1205,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "CW": PhoneDescription(
+  IsoCode.CW: PhoneDescription(
     dialCode: r"599",
     leadingDigits: r"[69]",
     internationalPrefix: r"00",
@@ -1227,7 +1229,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "CX": PhoneDescription(
+  IsoCode.CX: PhoneDescription(
     dialCode: r"61",
     leadingDigits: null,
     internationalPrefix: r"001[14-689]|14(?:1[14]|34|4[17]|[56]6|7[47]|88)0011",
@@ -1252,7 +1254,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "CY": PhoneDescription(
+  IsoCode.CY: PhoneDescription(
     dialCode: r"357",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1275,7 +1277,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "CZ": PhoneDescription(
+  IsoCode.CZ: PhoneDescription(
     dialCode: r"420",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1298,7 +1300,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "DE": PhoneDescription(
+  IsoCode.DE: PhoneDescription(
     dialCode: r"49",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1323,7 +1325,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "DJ": PhoneDescription(
+  IsoCode.DJ: PhoneDescription(
     dialCode: r"253",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1346,7 +1348,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "DK": PhoneDescription(
+  IsoCode.DK: PhoneDescription(
     dialCode: r"45",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1369,7 +1371,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "DM": PhoneDescription(
+  IsoCode.DM: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"767",
     internationalPrefix: r"011",
@@ -1392,7 +1394,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "DO": PhoneDescription(
+  IsoCode.DO: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"8001|8[024]9",
     internationalPrefix: r"011",
@@ -1416,7 +1418,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "DZ": PhoneDescription(
+  IsoCode.DZ: PhoneDescription(
     dialCode: r"213",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1440,7 +1442,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "EC": PhoneDescription(
+  IsoCode.EC: PhoneDescription(
     dialCode: r"593",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1463,7 +1465,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "EE": PhoneDescription(
+  IsoCode.EE: PhoneDescription(
     dialCode: r"372",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1487,7 +1489,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "EG": PhoneDescription(
+  IsoCode.EG: PhoneDescription(
     dialCode: r"20",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1511,7 +1513,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "EH": PhoneDescription(
+  IsoCode.EH: PhoneDescription(
     dialCode: r"212",
     leadingDigits: r"528[89]",
     internationalPrefix: r"00",
@@ -1534,7 +1536,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "ER": PhoneDescription(
+  IsoCode.ER: PhoneDescription(
     dialCode: r"291",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1557,7 +1559,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "ES": PhoneDescription(
+  IsoCode.ES: PhoneDescription(
     dialCode: r"34",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1582,7 +1584,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "ET": PhoneDescription(
+  IsoCode.ET: PhoneDescription(
     dialCode: r"251",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1606,7 +1608,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "FI": PhoneDescription(
+  IsoCode.FI: PhoneDescription(
     dialCode: r"358",
     leadingDigits: r"1[03-79]|[2-9]",
     internationalPrefix: r"00|99(?:[01469]|5(?:[14]1|3[23]|5[59]|77|88|9[09]))",
@@ -1630,7 +1632,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "FJ": PhoneDescription(
+  IsoCode.FJ: PhoneDescription(
     dialCode: r"679",
     leadingDigits: null,
     internationalPrefix: r"0(?:0|52)",
@@ -1653,7 +1655,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "FK": PhoneDescription(
+  IsoCode.FK: PhoneDescription(
     dialCode: r"500",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1676,7 +1678,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "FM": PhoneDescription(
+  IsoCode.FM: PhoneDescription(
     dialCode: r"691",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1701,7 +1703,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "FO": PhoneDescription(
+  IsoCode.FO: PhoneDescription(
     dialCode: r"298",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1724,7 +1726,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "FR": PhoneDescription(
+  IsoCode.FR: PhoneDescription(
     dialCode: r"33",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1747,7 +1749,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "GA": PhoneDescription(
+  IsoCode.GA: PhoneDescription(
     dialCode: r"241",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1770,7 +1772,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "GB": PhoneDescription(
+  IsoCode.GB: PhoneDescription(
     dialCode: r"44",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1795,7 +1797,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "GD": PhoneDescription(
+  IsoCode.GD: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"473",
     internationalPrefix: r"011",
@@ -1820,7 +1822,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "GE": PhoneDescription(
+  IsoCode.GE: PhoneDescription(
     dialCode: r"995",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1845,7 +1847,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "GF": PhoneDescription(
+  IsoCode.GF: PhoneDescription(
     dialCode: r"594",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1868,7 +1870,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "GG": PhoneDescription(
+  IsoCode.GG: PhoneDescription(
     dialCode: r"44",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1891,7 +1893,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "GH": PhoneDescription(
+  IsoCode.GH: PhoneDescription(
     dialCode: r"233",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1915,7 +1917,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "GI": PhoneDescription(
+  IsoCode.GI: PhoneDescription(
     dialCode: r"350",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1938,7 +1940,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "GL": PhoneDescription(
+  IsoCode.GL: PhoneDescription(
     dialCode: r"299",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1961,7 +1963,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "GM": PhoneDescription(
+  IsoCode.GM: PhoneDescription(
     dialCode: r"220",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -1985,7 +1987,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "GN": PhoneDescription(
+  IsoCode.GN: PhoneDescription(
     dialCode: r"224",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2009,7 +2011,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "GP": PhoneDescription(
+  IsoCode.GP: PhoneDescription(
     dialCode: r"590",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2033,7 +2035,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "GQ": PhoneDescription(
+  IsoCode.GQ: PhoneDescription(
     dialCode: r"240",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2056,7 +2058,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "GR": PhoneDescription(
+  IsoCode.GR: PhoneDescription(
     dialCode: r"30",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2080,7 +2082,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "GT": PhoneDescription(
+  IsoCode.GT: PhoneDescription(
     dialCode: r"502",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2103,7 +2105,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "GU": PhoneDescription(
+  IsoCode.GU: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"671",
     internationalPrefix: r"011",
@@ -2128,7 +2130,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "GW": PhoneDescription(
+  IsoCode.GW: PhoneDescription(
     dialCode: r"245",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2151,7 +2153,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "GY": PhoneDescription(
+  IsoCode.GY: PhoneDescription(
     dialCode: r"592",
     leadingDigits: null,
     internationalPrefix: r"001",
@@ -2175,7 +2177,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "HK": PhoneDescription(
+  IsoCode.HK: PhoneDescription(
     dialCode: r"852",
     leadingDigits: null,
     internationalPrefix: r"00(?:30|5[09]|[126-9]?)",
@@ -2201,7 +2203,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "HN": PhoneDescription(
+  IsoCode.HN: PhoneDescription(
     dialCode: r"504",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2225,7 +2227,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "HR": PhoneDescription(
+  IsoCode.HR: PhoneDescription(
     dialCode: r"385",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2248,7 +2250,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "HT": PhoneDescription(
+  IsoCode.HT: PhoneDescription(
     dialCode: r"509",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2271,7 +2273,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "HU": PhoneDescription(
+  IsoCode.HU: PhoneDescription(
     dialCode: r"36",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2295,7 +2297,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "ID": PhoneDescription(
+  IsoCode.ID: PhoneDescription(
     dialCode: r"62",
     leadingDigits: null,
     internationalPrefix: r"00[89]",
@@ -2320,7 +2322,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "IE": PhoneDescription(
+  IsoCode.IE: PhoneDescription(
     dialCode: r"353",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2344,7 +2346,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "IL": PhoneDescription(
+  IsoCode.IL: PhoneDescription(
     dialCode: r"972",
     leadingDigits: null,
     internationalPrefix: r"0(?:0|1[2-9])",
@@ -2368,7 +2370,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "IM": PhoneDescription(
+  IsoCode.IM: PhoneDescription(
     dialCode: r"44",
     leadingDigits: r"74576|(?:16|7[56])24",
     internationalPrefix: r"00",
@@ -2391,7 +2393,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "IN": PhoneDescription(
+  IsoCode.IN: PhoneDescription(
     dialCode: r"91",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2416,7 +2418,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "IO": PhoneDescription(
+  IsoCode.IO: PhoneDescription(
     dialCode: r"246",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2439,7 +2441,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "IQ": PhoneDescription(
+  IsoCode.IQ: PhoneDescription(
     dialCode: r"964",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2462,7 +2464,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "IR": PhoneDescription(
+  IsoCode.IR: PhoneDescription(
     dialCode: r"98",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2487,7 +2489,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "IS": PhoneDescription(
+  IsoCode.IS: PhoneDescription(
     dialCode: r"354",
     leadingDigits: null,
     internationalPrefix: r"00|1(?:0(?:01|[12]0)|100)",
@@ -2512,7 +2514,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "IT": PhoneDescription(
+  IsoCode.IT: PhoneDescription(
     dialCode: r"39",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2537,7 +2539,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "JE": PhoneDescription(
+  IsoCode.JE: PhoneDescription(
     dialCode: r"44",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2560,7 +2562,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "JM": PhoneDescription(
+  IsoCode.JM: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"658|876",
     internationalPrefix: r"011",
@@ -2585,7 +2587,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "JO": PhoneDescription(
+  IsoCode.JO: PhoneDescription(
     dialCode: r"962",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2609,7 +2611,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "JP": PhoneDescription(
+  IsoCode.JP: PhoneDescription(
     dialCode: r"81",
     leadingDigits: null,
     internationalPrefix: r"010",
@@ -2633,7 +2635,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "KE": PhoneDescription(
+  IsoCode.KE: PhoneDescription(
     dialCode: r"254",
     leadingDigits: null,
     internationalPrefix: r"000",
@@ -2657,7 +2659,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "KG": PhoneDescription(
+  IsoCode.KG: PhoneDescription(
     dialCode: r"996",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2682,7 +2684,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "KH": PhoneDescription(
+  IsoCode.KH: PhoneDescription(
     dialCode: r"855",
     leadingDigits: null,
     internationalPrefix: r"00[14-9]",
@@ -2707,7 +2709,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "KI": PhoneDescription(
+  IsoCode.KI: PhoneDescription(
     dialCode: r"686",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2731,7 +2733,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "KM": PhoneDescription(
+  IsoCode.KM: PhoneDescription(
     dialCode: r"269",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2754,7 +2756,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "KN": PhoneDescription(
+  IsoCode.KN: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"869",
     internationalPrefix: r"011",
@@ -2777,7 +2779,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "KP": PhoneDescription(
+  IsoCode.KP: PhoneDescription(
     dialCode: r"850",
     leadingDigits: null,
     internationalPrefix: r"00|99",
@@ -2800,7 +2802,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "KR": PhoneDescription(
+  IsoCode.KR: PhoneDescription(
     dialCode: r"82",
     leadingDigits: null,
     internationalPrefix: r"00(?:[125689]|3(?:[46]5|91)|7(?:00|27|3|55|6[126]))",
@@ -2826,7 +2828,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "KW": PhoneDescription(
+  IsoCode.KW: PhoneDescription(
     dialCode: r"965",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2851,7 +2853,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "KY": PhoneDescription(
+  IsoCode.KY: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"345",
     internationalPrefix: r"011",
@@ -2876,7 +2878,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "KZ": PhoneDescription(
+  IsoCode.KZ: PhoneDescription(
     dialCode: r"7",
     leadingDigits: r"33|7",
     internationalPrefix: r"810",
@@ -2900,7 +2902,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "LA": PhoneDescription(
+  IsoCode.LA: PhoneDescription(
     dialCode: r"856",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2923,7 +2925,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "LB": PhoneDescription(
+  IsoCode.LB: PhoneDescription(
     dialCode: r"961",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2948,7 +2950,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "LC": PhoneDescription(
+  IsoCode.LC: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"758",
     internationalPrefix: r"011",
@@ -2973,7 +2975,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "LI": PhoneDescription(
+  IsoCode.LI: PhoneDescription(
     dialCode: r"423",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -2998,7 +3000,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "LK": PhoneDescription(
+  IsoCode.LK: PhoneDescription(
     dialCode: r"94",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3022,7 +3024,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "LR": PhoneDescription(
+  IsoCode.LR: PhoneDescription(
     dialCode: r"231",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3045,7 +3047,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "LS": PhoneDescription(
+  IsoCode.LS: PhoneDescription(
     dialCode: r"266",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3068,7 +3070,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "LT": PhoneDescription(
+  IsoCode.LT: PhoneDescription(
     dialCode: r"370",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3091,7 +3093,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "LU": PhoneDescription(
+  IsoCode.LU: PhoneDescription(
     dialCode: r"352",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3117,7 +3119,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "LV": PhoneDescription(
+  IsoCode.LV: PhoneDescription(
     dialCode: r"371",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3140,7 +3142,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "LY": PhoneDescription(
+  IsoCode.LY: PhoneDescription(
     dialCode: r"218",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3164,7 +3166,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MA": PhoneDescription(
+  IsoCode.MA: PhoneDescription(
     dialCode: r"212",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3188,7 +3190,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MC": PhoneDescription(
+  IsoCode.MC: PhoneDescription(
     dialCode: r"377",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3211,7 +3213,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MD": PhoneDescription(
+  IsoCode.MD: PhoneDescription(
     dialCode: r"373",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3234,7 +3236,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "ME": PhoneDescription(
+  IsoCode.ME: PhoneDescription(
     dialCode: r"382",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3258,7 +3260,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MF": PhoneDescription(
+  IsoCode.MF: PhoneDescription(
     dialCode: r"590",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3281,7 +3283,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MG": PhoneDescription(
+  IsoCode.MG: PhoneDescription(
     dialCode: r"261",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3305,7 +3307,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MH": PhoneDescription(
+  IsoCode.MH: PhoneDescription(
     dialCode: r"692",
     leadingDigits: null,
     internationalPrefix: r"011",
@@ -3328,7 +3330,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MK": PhoneDescription(
+  IsoCode.MK: PhoneDescription(
     dialCode: r"389",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3353,7 +3355,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "ML": PhoneDescription(
+  IsoCode.ML: PhoneDescription(
     dialCode: r"223",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3377,7 +3379,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MM": PhoneDescription(
+  IsoCode.MM: PhoneDescription(
     dialCode: r"95",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3403,7 +3405,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MN": PhoneDescription(
+  IsoCode.MN: PhoneDescription(
     dialCode: r"976",
     leadingDigits: null,
     internationalPrefix: r"001",
@@ -3427,7 +3429,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MO": PhoneDescription(
+  IsoCode.MO: PhoneDescription(
     dialCode: r"853",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3451,7 +3453,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MP": PhoneDescription(
+  IsoCode.MP: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"670",
     internationalPrefix: r"011",
@@ -3476,7 +3478,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MQ": PhoneDescription(
+  IsoCode.MQ: PhoneDescription(
     dialCode: r"596",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3499,7 +3501,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MR": PhoneDescription(
+  IsoCode.MR: PhoneDescription(
     dialCode: r"222",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3522,7 +3524,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MS": PhoneDescription(
+  IsoCode.MS: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"664",
     internationalPrefix: r"011",
@@ -3545,7 +3547,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MT": PhoneDescription(
+  IsoCode.MT: PhoneDescription(
     dialCode: r"356",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3569,7 +3571,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MU": PhoneDescription(
+  IsoCode.MU: PhoneDescription(
     dialCode: r"230",
     leadingDigits: null,
     internationalPrefix: r"0(?:0|[24-7]0|3[03])",
@@ -3594,7 +3596,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MV": PhoneDescription(
+  IsoCode.MV: PhoneDescription(
     dialCode: r"960",
     leadingDigits: null,
     internationalPrefix: r"0(?:0|19)",
@@ -3618,7 +3620,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MW": PhoneDescription(
+  IsoCode.MW: PhoneDescription(
     dialCode: r"265",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3641,7 +3643,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MX": PhoneDescription(
+  IsoCode.MX: PhoneDescription(
     dialCode: r"52",
     leadingDigits: null,
     internationalPrefix: r"0[09]",
@@ -3666,7 +3668,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MY": PhoneDescription(
+  IsoCode.MY: PhoneDescription(
     dialCode: r"60",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3691,7 +3693,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "MZ": PhoneDescription(
+  IsoCode.MZ: PhoneDescription(
     dialCode: r"258",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3714,7 +3716,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "NA": PhoneDescription(
+  IsoCode.NA: PhoneDescription(
     dialCode: r"264",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3738,7 +3740,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "NC": PhoneDescription(
+  IsoCode.NC: PhoneDescription(
     dialCode: r"687",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3761,7 +3763,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "NE": PhoneDescription(
+  IsoCode.NE: PhoneDescription(
     dialCode: r"227",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3785,7 +3787,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "NF": PhoneDescription(
+  IsoCode.NF: PhoneDescription(
     dialCode: r"672",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3808,7 +3810,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "NG": PhoneDescription(
+  IsoCode.NG: PhoneDescription(
     dialCode: r"234",
     leadingDigits: null,
     internationalPrefix: r"009",
@@ -3833,7 +3835,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "NI": PhoneDescription(
+  IsoCode.NI: PhoneDescription(
     dialCode: r"505",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3857,7 +3859,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "NL": PhoneDescription(
+  IsoCode.NL: PhoneDescription(
     dialCode: r"31",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3882,7 +3884,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "NO": PhoneDescription(
+  IsoCode.NO: PhoneDescription(
     dialCode: r"47",
     leadingDigits: r"[02-689]|7[0-8]",
     internationalPrefix: r"00",
@@ -3905,7 +3907,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "NP": PhoneDescription(
+  IsoCode.NP: PhoneDescription(
     dialCode: r"977",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3929,7 +3931,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "NR": PhoneDescription(
+  IsoCode.NR: PhoneDescription(
     dialCode: r"674",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3952,7 +3954,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "NU": PhoneDescription(
+  IsoCode.NU: PhoneDescription(
     dialCode: r"683",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -3975,7 +3977,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "NZ": PhoneDescription(
+  IsoCode.NZ: PhoneDescription(
     dialCode: r"64",
     leadingDigits: null,
     internationalPrefix: r"0(?:0|161)",
@@ -3999,7 +4001,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "OM": PhoneDescription(
+  IsoCode.OM: PhoneDescription(
     dialCode: r"968",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4022,7 +4024,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "PA": PhoneDescription(
+  IsoCode.PA: PhoneDescription(
     dialCode: r"507",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4047,7 +4049,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "PE": PhoneDescription(
+  IsoCode.PE: PhoneDescription(
     dialCode: r"51",
     leadingDigits: null,
     internationalPrefix: r"19(?:1[124]|77|90)00",
@@ -4071,7 +4073,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "PF": PhoneDescription(
+  IsoCode.PF: PhoneDescription(
     dialCode: r"689",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4094,7 +4096,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "PG": PhoneDescription(
+  IsoCode.PG: PhoneDescription(
     dialCode: r"675",
     leadingDigits: null,
     internationalPrefix: r"00|140[1-3]",
@@ -4118,7 +4120,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "PH": PhoneDescription(
+  IsoCode.PH: PhoneDescription(
     dialCode: r"63",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4143,7 +4145,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "PK": PhoneDescription(
+  IsoCode.PK: PhoneDescription(
     dialCode: r"92",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4168,7 +4170,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "PL": PhoneDescription(
+  IsoCode.PL: PhoneDescription(
     dialCode: r"48",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4192,7 +4194,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "PM": PhoneDescription(
+  IsoCode.PM: PhoneDescription(
     dialCode: r"508",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4215,7 +4217,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "PR": PhoneDescription(
+  IsoCode.PR: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"787|939",
     internationalPrefix: r"011",
@@ -4238,7 +4240,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "PS": PhoneDescription(
+  IsoCode.PS: PhoneDescription(
     dialCode: r"970",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4261,7 +4263,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "PT": PhoneDescription(
+  IsoCode.PT: PhoneDescription(
     dialCode: r"351",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4285,7 +4287,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "PW": PhoneDescription(
+  IsoCode.PW: PhoneDescription(
     dialCode: r"680",
     leadingDigits: null,
     internationalPrefix: r"01[12]",
@@ -4309,7 +4311,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "PY": PhoneDescription(
+  IsoCode.PY: PhoneDescription(
     dialCode: r"595",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4333,7 +4335,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "QA": PhoneDescription(
+  IsoCode.QA: PhoneDescription(
     dialCode: r"974",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4356,7 +4358,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "RE": PhoneDescription(
+  IsoCode.RE: PhoneDescription(
     dialCode: r"262",
     leadingDigits: r"26[23]|69|[89]",
     internationalPrefix: r"00",
@@ -4380,7 +4382,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "RO": PhoneDescription(
+  IsoCode.RO: PhoneDescription(
     dialCode: r"40",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4403,7 +4405,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "RS": PhoneDescription(
+  IsoCode.RS: PhoneDescription(
     dialCode: r"381",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4428,7 +4430,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "RU": PhoneDescription(
+  IsoCode.RU: PhoneDescription(
     dialCode: r"7",
     leadingDigits: r"3[04-689]|[489]",
     internationalPrefix: r"810",
@@ -4452,7 +4454,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "RW": PhoneDescription(
+  IsoCode.RW: PhoneDescription(
     dialCode: r"250",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4475,7 +4477,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "SA": PhoneDescription(
+  IsoCode.SA: PhoneDescription(
     dialCode: r"966",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4498,7 +4500,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "SB": PhoneDescription(
+  IsoCode.SB: PhoneDescription(
     dialCode: r"677",
     leadingDigits: null,
     internationalPrefix: r"0[01]",
@@ -4522,7 +4524,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "SC": PhoneDescription(
+  IsoCode.SC: PhoneDescription(
     dialCode: r"248",
     leadingDigits: null,
     internationalPrefix: r"010|0[0-2]",
@@ -4545,7 +4547,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "SD": PhoneDescription(
+  IsoCode.SD: PhoneDescription(
     dialCode: r"249",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4568,7 +4570,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "SE": PhoneDescription(
+  IsoCode.SE: PhoneDescription(
     dialCode: r"46",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4593,7 +4595,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "SG": PhoneDescription(
+  IsoCode.SG: PhoneDescription(
     dialCode: r"65",
     leadingDigits: null,
     internationalPrefix: r"0[0-3]\d",
@@ -4617,7 +4619,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "SH": PhoneDescription(
+  IsoCode.SH: PhoneDescription(
     dialCode: r"290",
     leadingDigits: r"[256]",
     internationalPrefix: r"00",
@@ -4640,7 +4642,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "SI": PhoneDescription(
+  IsoCode.SI: PhoneDescription(
     dialCode: r"386",
     leadingDigits: null,
     internationalPrefix: r"00|10(?:22|66|88|99)",
@@ -4663,7 +4665,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "SJ": PhoneDescription(
+  IsoCode.SJ: PhoneDescription(
     dialCode: r"47",
     leadingDigits: r"79",
     internationalPrefix: r"00",
@@ -4686,7 +4688,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "SK": PhoneDescription(
+  IsoCode.SK: PhoneDescription(
     dialCode: r"421",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4710,7 +4712,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "SL": PhoneDescription(
+  IsoCode.SL: PhoneDescription(
     dialCode: r"232",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4733,7 +4735,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "SM": PhoneDescription(
+  IsoCode.SM: PhoneDescription(
     dialCode: r"378",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4756,7 +4758,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "SN": PhoneDescription(
+  IsoCode.SN: PhoneDescription(
     dialCode: r"221",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4779,7 +4781,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "SO": PhoneDescription(
+  IsoCode.SO: PhoneDescription(
     dialCode: r"252",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4804,7 +4806,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "SR": PhoneDescription(
+  IsoCode.SR: PhoneDescription(
     dialCode: r"597",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4827,7 +4829,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "SS": PhoneDescription(
+  IsoCode.SS: PhoneDescription(
     dialCode: r"211",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4850,7 +4852,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "ST": PhoneDescription(
+  IsoCode.ST: PhoneDescription(
     dialCode: r"239",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4873,7 +4875,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "SV": PhoneDescription(
+  IsoCode.SV: PhoneDescription(
     dialCode: r"503",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4897,7 +4899,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "SX": PhoneDescription(
+  IsoCode.SX: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"721",
     internationalPrefix: r"011",
@@ -4920,7 +4922,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "SY": PhoneDescription(
+  IsoCode.SY: PhoneDescription(
     dialCode: r"963",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4944,7 +4946,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "SZ": PhoneDescription(
+  IsoCode.SZ: PhoneDescription(
     dialCode: r"268",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -4967,7 +4969,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "TC": PhoneDescription(
+  IsoCode.TC: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"649",
     internationalPrefix: r"011",
@@ -4990,7 +4992,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "TD": PhoneDescription(
+  IsoCode.TD: PhoneDescription(
     dialCode: r"235",
     leadingDigits: null,
     internationalPrefix: r"00|16",
@@ -5013,7 +5015,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "TG": PhoneDescription(
+  IsoCode.TG: PhoneDescription(
     dialCode: r"228",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -5036,7 +5038,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "TH": PhoneDescription(
+  IsoCode.TH: PhoneDescription(
     dialCode: r"66",
     leadingDigits: null,
     internationalPrefix: r"00[1-9]",
@@ -5059,7 +5061,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "TJ": PhoneDescription(
+  IsoCode.TJ: PhoneDescription(
     dialCode: r"992",
     leadingDigits: null,
     internationalPrefix: r"810",
@@ -5083,7 +5085,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "TK": PhoneDescription(
+  IsoCode.TK: PhoneDescription(
     dialCode: r"690",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -5106,7 +5108,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "TL": PhoneDescription(
+  IsoCode.TL: PhoneDescription(
     dialCode: r"670",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -5129,7 +5131,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "TM": PhoneDescription(
+  IsoCode.TM: PhoneDescription(
     dialCode: r"993",
     leadingDigits: null,
     internationalPrefix: r"810",
@@ -5153,7 +5155,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "TN": PhoneDescription(
+  IsoCode.TN: PhoneDescription(
     dialCode: r"216",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -5177,7 +5179,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "TO": PhoneDescription(
+  IsoCode.TO: PhoneDescription(
     dialCode: r"676",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -5200,7 +5202,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "TR": PhoneDescription(
+  IsoCode.TR: PhoneDescription(
     dialCode: r"90",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -5224,7 +5226,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "TT": PhoneDescription(
+  IsoCode.TT: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"868",
     internationalPrefix: r"011",
@@ -5249,7 +5251,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "TV": PhoneDescription(
+  IsoCode.TV: PhoneDescription(
     dialCode: r"688",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -5272,7 +5274,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "TW": PhoneDescription(
+  IsoCode.TW: PhoneDescription(
     dialCode: r"886",
     leadingDigits: null,
     internationalPrefix: r"0(?:0[25-79]|19)",
@@ -5296,7 +5298,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "TZ": PhoneDescription(
+  IsoCode.TZ: PhoneDescription(
     dialCode: r"255",
     leadingDigits: null,
     internationalPrefix: r"00[056]",
@@ -5319,7 +5321,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "UA": PhoneDescription(
+  IsoCode.UA: PhoneDescription(
     dialCode: r"380",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -5342,7 +5344,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "UG": PhoneDescription(
+  IsoCode.UG: PhoneDescription(
     dialCode: r"256",
     leadingDigits: null,
     internationalPrefix: r"00[057]",
@@ -5366,7 +5368,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "US": PhoneDescription(
+  IsoCode.US: PhoneDescription(
     dialCode: r"1",
     leadingDigits: null,
     internationalPrefix: r"011",
@@ -5391,7 +5393,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "UY": PhoneDescription(
+  IsoCode.UY: PhoneDescription(
     dialCode: r"598",
     leadingDigits: null,
     internationalPrefix: r"0(?:0|1[3-9]\d)",
@@ -5414,7 +5416,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "UZ": PhoneDescription(
+  IsoCode.UZ: PhoneDescription(
     dialCode: r"998",
     leadingDigits: null,
     internationalPrefix: r"810",
@@ -5439,7 +5441,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "VA": PhoneDescription(
+  IsoCode.VA: PhoneDescription(
     dialCode: r"39",
     leadingDigits: r"06698",
     internationalPrefix: r"00",
@@ -5463,7 +5465,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "VC": PhoneDescription(
+  IsoCode.VC: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"784",
     internationalPrefix: r"011",
@@ -5488,7 +5490,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "VE": PhoneDescription(
+  IsoCode.VE: PhoneDescription(
     dialCode: r"58",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -5511,7 +5513,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "VG": PhoneDescription(
+  IsoCode.VG: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"284",
     internationalPrefix: r"011",
@@ -5536,7 +5538,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "VI": PhoneDescription(
+  IsoCode.VI: PhoneDescription(
     dialCode: r"1",
     leadingDigits: r"340",
     internationalPrefix: r"011",
@@ -5561,7 +5563,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "VN": PhoneDescription(
+  IsoCode.VN: PhoneDescription(
     dialCode: r"84",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -5586,7 +5588,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "VU": PhoneDescription(
+  IsoCode.VU: PhoneDescription(
     dialCode: r"678",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -5609,7 +5611,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "WF": PhoneDescription(
+  IsoCode.WF: PhoneDescription(
     dialCode: r"681",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -5632,7 +5634,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "WS": PhoneDescription(
+  IsoCode.WS: PhoneDescription(
     dialCode: r"685",
     leadingDigits: null,
     internationalPrefix: r"0",
@@ -5655,7 +5657,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "XK": PhoneDescription(
+  IsoCode.XK: PhoneDescription(
     dialCode: r"383",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -5678,7 +5680,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "YE": PhoneDescription(
+  IsoCode.YE: PhoneDescription(
     dialCode: r"967",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -5702,7 +5704,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "YT": PhoneDescription(
+  IsoCode.YT: PhoneDescription(
     dialCode: r"262",
     leadingDigits: r"269|63",
     internationalPrefix: r"00",
@@ -5725,7 +5727,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "ZA": PhoneDescription(
+  IsoCode.ZA: PhoneDescription(
     dialCode: r"27",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -5750,7 +5752,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "ZM": PhoneDescription(
+  IsoCode.ZM: PhoneDescription(
     dialCode: r"260",
     leadingDigits: null,
     internationalPrefix: r"00",
@@ -5773,7 +5775,7 @@ const countriesPhoneDescription = {
       ),
     ),
   ),
-  "ZW": PhoneDescription(
+  IsoCode.ZW: PhoneDescription(
     dialCode: r"263",
     leadingDigits: null,
     internationalPrefix: r"00",

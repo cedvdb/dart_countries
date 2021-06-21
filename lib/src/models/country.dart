@@ -1,20 +1,21 @@
 import 'dart:convert';
 
-import 'package:dart_countries/src/generated/countries_capital.dart';
-import 'package:dart_countries/src/generated/countries_continent.dart';
-import 'package:dart_countries/src/generated/countries_currency.dart';
-import 'package:dart_countries/src/generated/countries_dial_code.dart';
-import 'package:dart_countries/src/generated/countries_flag.dart';
-import 'package:dart_countries/src/generated/countries_languages.dart';
-import 'package:dart_countries/src/generated/countries_name.dart';
-import 'package:dart_countries/src/generated/countries_native.dart';
-import 'package:dart_countries/src/generated/countries_phone_description.dart';
+import 'package:dart_countries/src/generated/countries_capital.map.dart';
+import 'package:dart_countries/src/generated/countries_continent.map.dart';
+import 'package:dart_countries/src/generated/countries_currency.map.dart';
+import 'package:dart_countries/src/generated/countries_dial_code.map.dart';
+import 'package:dart_countries/src/generated/countries_flag.map.dart';
+import 'package:dart_countries/src/generated/countries_languages.map.dart';
+import 'package:dart_countries/src/generated/countries_name.map.dart';
+import 'package:dart_countries/src/generated/countries_native.map.dart';
+import 'package:dart_countries/src/generated/countries_phone_description.map.dart';
+import 'package:dart_countries/src/generated/iso_codes.enum.dart';
 
 import 'phone_description.dart';
 
 /// Country regroup informations for displaying a list of countries
 class Country {
-  final String isoCode;
+  final IsoCode isoCode;
 
   /// English name of the country
   String get name => countriesName[isoCode]!;
