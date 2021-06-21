@@ -4,30 +4,30 @@ import 'package:dart_countries/src/models/phone_description.dart';
 
 String encodePhoneDescription(PhoneDescription desc) {
   return '''PhoneDescription(
-      dialCode: ${enc(desc.dialCode)}, 
-      leadingDigits: ${enc(desc.leadingDigits)},
-      internationalPrefix: ${enc(desc.internationalPrefix)}, 
-      nationalPrefix: ${enc(desc.nationalPrefix)},
-      nationalPrefixForParsing: ${enc(desc.nationalPrefixForParsing)},
-      nationalPrefixTransformRule: ${enc(desc.nationalPrefixTransformRule)},
-      isMainCountryForDialCode: ${enc(desc.isMainCountryForDialCode)},
-      validation: ${phoneValidationString(desc.validation)},
+      dialCode: ${_enc(desc.dialCode)}, 
+      leadingDigits: ${_enc(desc.leadingDigits)},
+      internationalPrefix: ${_enc(desc.internationalPrefix)}, 
+      nationalPrefix: ${_enc(desc.nationalPrefix)},
+      nationalPrefixForParsing: ${_enc(desc.nationalPrefixForParsing)},
+      nationalPrefixTransformRule: ${_enc(desc.nationalPrefixTransformRule)},
+      isMainCountryForDialCode: ${_enc(desc.isMainCountryForDialCode)},
+      validation: ${_phoneValidationString(desc.validation)},
     )''';
 }
 
-String phoneValidationString(PhoneValidation v) {
+String _phoneValidationString(PhoneValidation v) {
   return '''PhoneValidation(
-        general: ${phoneValidationRulesString(v.general)}, 
-        mobile: ${phoneValidationRulesString(v.mobile)}, 
-        fixedLine: ${phoneValidationRulesString(v.fixedLine)}, 
+        general: ${_phoneValidationRulesString(v.general)}, 
+        mobile: ${_phoneValidationRulesString(v.mobile)}, 
+        fixedLine: ${_phoneValidationRulesString(v.fixedLine)}, 
       )''';
 }
 
-String phoneValidationRulesString(PhoneValidationRules r) {
-  return '''PhoneValidationRules(lengths: ${enc(r.lengths)}, pattern: ${enc(r.pattern)},)''';
+String _phoneValidationRulesString(PhoneValidationRules r) {
+  return '''PhoneValidationRules(lengths: ${_enc(r.lengths)}, pattern: ${_enc(r.pattern)},)''';
 }
 
-String enc(v) {
+String _enc(v) {
   if (v is String) return 'r"$v"';
   if (v == null) return 'null';
   return jsonEncode(v);

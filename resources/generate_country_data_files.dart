@@ -11,6 +11,8 @@ import 'package:basic_utils/basic_utils.dart' show StringUtils;
 import 'phone_encoder.dart';
 
 const String OUTPUT_PATH = 'lib/src/generated/';
+final String AUTO_GEN_COMMENT =
+    '// This file was auto generated on ${DateTime.now().toIso8601String()}\n\n';
 
 void main() async {
   final countriesInfo = await getCountryInfo();
@@ -46,14 +48,9 @@ void main() async {
     ),
   );
 
-  generateMapFileForProperty(
-    'phoneDescription',
-    Map.fromIterable(
-      countriesPhoneDesc.entries,
-      key: (entry) => entry.key,
-      value: (entry) =>
-          {'phoneDescription': encodePhoneDescription(entry.value)},
-    ),
+  generateFile(
+    fileName: OUTPUT_PATH + 'countries_phone_description.dart',
+    content: AUTO_GEN_COMMENT + 'const countriesPhoneDescription = {',
   );
 }
 
@@ -61,12 +58,12 @@ generateMapFileForProperty(String property, Map<String, dynamic> map) {
   final newMap = Map.fromIterable(map.keys, value: (k) => map[k][property]);
   final fileName =
       'countries_${StringUtils.camelCaseToLowerUnderscore(property)}.dart';
-  final content =
+  final content = AUTO_GEN_COMMENT +
       'const countries${StringUtils.capitalize(property)} = ${jsonEncode(newMap)};';
-  _generateFile(fileName: fileName, content: content);
+  generateFile(fileName: fileName, content: content);
 }
 
-_generateFile({required String fileName, required String content}) async {
+generateFile({required String fileName, required String content}) async {
   final file = await File(OUTPUT_PATH + fileName).create(recursive: true);
   content =
       '// This file was auto generated on ${DateTime.now().toIso8601String()}\n\n' +
