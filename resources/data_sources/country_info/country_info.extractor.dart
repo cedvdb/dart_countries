@@ -10,11 +10,24 @@ class CountryInfoKeys {
   static final String continent = 'continent';
   static final String languages = 'languages';
   static final String currency = 'currency';
+  static final String flag = 'flag';
 }
 
 /// reads the json file of country names which is an array of country information
 Future<Map<String, dynamic>> getCountryInfo() async {
   final filePath = 'resources/data_sources/country_info/country_info.json';
   final jsonString = await File(filePath).readAsString();
-  return jsonDecode(jsonString);
+  Map<String, dynamic> info = jsonDecode(jsonString);
+  info.forEach((key, value) =>
+      info[key][CountryInfoKeys.flag] = _generateFlagEmojiUnicode(key));
+  return info;
+}
+
+String _generateFlagEmojiUnicode(String isoCode) {
+  final base = 127397;
+  return isoCode.codeUnits
+      .map((e) => String.fromCharCode(base + e))
+      .toList()
+      .reduce((value, element) => value + element)
+      .toString();
 }

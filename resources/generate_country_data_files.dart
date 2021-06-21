@@ -27,6 +27,7 @@ void main() async {
   generateMapFileForProperty(CountryInfoKeys.continent, countriesInfo);
   generateMapFileForProperty(CountryInfoKeys.currency, countriesInfo);
   generateMapFileForProperty(CountryInfoKeys.languages, countriesInfo);
+  generateMapFileForProperty(CountryInfoKeys.flag, countriesInfo);
   countriesPhoneDesc.forEach((key, value) {
     countriesInfo[key]['dialCode'] = value.dialCode;
   });
