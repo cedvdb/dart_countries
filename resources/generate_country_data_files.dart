@@ -11,7 +11,6 @@ import 'package:basic_utils/basic_utils.dart' show StringUtils;
 import 'phone_encoder.dart';
 
 const String OUTPUT_PATH = 'lib/src/generated/';
-const String ISO_CODE_IMPORT = 'import "./iso_codes.enum.dart";';
 final String AUTO_GEN_COMMENT =
     '// This file was auto generated on ${DateTime.now().toIso8601String()}\n\n';
 
@@ -22,7 +21,7 @@ void main() async {
   // places where no one lives and also the opposite
   countriesInfo.removeWhere((key, value) => countriesPhoneDesc[key] == null);
   countriesPhoneDesc.removeWhere((key, value) => countriesInfo[key] == null);
-  generateIsoCodeEnum(countriesInfo);
+  generateIsoCodeClass(countriesInfo);
   generateMapFileForProperty(CountryInfoKeys.name, countriesInfo);
   generateMapFileForProperty(CountryInfoKeys.native, countriesInfo);
   generateMapFileForProperty(CountryInfoKeys.capital, countriesInfo);
@@ -44,24 +43,20 @@ void main() async {
   generatePhoneDescFile(countriesPhoneDesc);
 }
 
-generateIsoCodeEnum(Map<String, dynamic> map) {
+generateIsoCodeClass(Map<String, dynamic> map) {
   String content = AUTO_GEN_COMMENT;
-  content += 'enum IsoCode {';
-  map.keys.forEach((key) => content += '${key},');
+  content += 'abstract class IsoCode {';
+  map.keys.forEach((key) => content += 'static final ${key} = "${key}";');
   content += '}';
-  generateFile(fileName: 'iso_codes.enum.dart', content: content);
+  generateFile(fileName: 'iso_codes.class.dart', content: content);
 }
 
 generateMapFileForProperty(String property, Map<String, dynamic> map) {
   final newMap = Map.fromIterable(map.keys, value: (k) => map[k][property]);
   final fileName =
       'countries_${StringUtils.camelCaseToLowerUnderscore(property)}.map.dart';
-  String content = ISO_CODE_IMPORT +
-      AUTO_GEN_COMMENT +
-      'const countries${StringUtils.capitalize(property)} = {';
-  map.forEach((key, value) =>
-      content += 'IsoCode.${key}: ${jsonEncode(value[property])},');
-  content += '};';
+  final content = AUTO_GEN_COMMENT +
+      'const countries${StringUtils.capitalize(property)} = ${jsonEncode(newMap)};';
   generateFile(fileName: fileName, content: content);
 }
 
@@ -75,10 +70,9 @@ generateFile({required String fileName, required String content}) async {
 
 generatePhoneDescFile(Map phoneDescs) {
   var content = 'import "../models/phone_description.dart"; \n\n';
-  content += ISO_CODE_IMPORT;
   content += 'const countriesPhoneDescription = {';
   phoneDescs.forEach((key, value) {
-    content += 'IsoCode.${key}: ${encodePhoneDescription(value)},';
+    content += '"$key": ${encodePhoneDescription(value)},';
   });
   content += '};';
   generateFile(

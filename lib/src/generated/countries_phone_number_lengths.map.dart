@@ -1,978 +1,978 @@
-// This file was auto generated on 2021-06-22T01:43:36.198273
+// This file was auto generated on 2021-06-22T02:00:43.818992
 
-import "./iso_codes.enum.dart"; // This file was auto generated on 2021-06-22T01:43:36.167316
+// This file was auto generated on 2021-06-22T02:00:43.788096
 
 const countriesPhonenumberlengths = {
-  IsoCode.AD: {
+  "AD": {
     "mobile": [6, 9],
     "fixedLine": [6]
   },
-  IsoCode.AE: {
+  "AE": {
     "mobile": [9],
     "fixedLine": [8]
   },
-  IsoCode.AF: {
+  "AF": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.AG: {
+  "AG": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.AI: {
+  "AI": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.AL: {
+  "AL": {
     "mobile": [9],
     "fixedLine": [8]
   },
-  IsoCode.AM: {
+  "AM": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.AO: {
+  "AO": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.AR: {
+  "AR": {
     "mobile": [10, 11],
     "fixedLine": [10]
   },
-  IsoCode.AS: {
+  "AS": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.AT: {
+  "AT": {
     "mobile": [7, 8, 9, 10, 11, 12, 13],
     "fixedLine": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
   },
-  IsoCode.AU: {
+  "AU": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.AW: {
+  "AW": {
     "mobile": [7],
     "fixedLine": [7]
   },
-  IsoCode.AX: {
+  "AX": {
     "mobile": [6, 7, 8, 9, 10],
     "fixedLine": [6, 7, 8, 9]
   },
-  IsoCode.AZ: {
+  "AZ": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.BA: {
+  "BA": {
     "mobile": [8, 9],
     "fixedLine": [8]
   },
-  IsoCode.BB: {
+  "BB": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.BD: {
+  "BD": {
     "mobile": [10],
     "fixedLine": [6, 7, 8, 9, 10]
   },
-  IsoCode.BE: {
+  "BE": {
     "mobile": [9],
     "fixedLine": [8]
   },
-  IsoCode.BF: {
+  "BF": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.BG: {
+  "BG": {
     "mobile": [8, 9],
     "fixedLine": [6, 7, 8]
   },
-  IsoCode.BH: {
+  "BH": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.BI: {
+  "BI": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.BJ: {
+  "BJ": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.BL: {
+  "BL": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.BM: {
+  "BM": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.BN: {
+  "BN": {
     "mobile": [7],
     "fixedLine": [7]
   },
-  IsoCode.BO: {
+  "BO": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.BQ: {
+  "BQ": {
     "mobile": [7],
     "fixedLine": [7]
   },
-  IsoCode.BR: {
+  "BR": {
     "mobile": [10, 11],
     "fixedLine": [10]
   },
-  IsoCode.BS: {
+  "BS": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.BT: {
+  "BT": {
     "mobile": [8],
     "fixedLine": [7]
   },
-  IsoCode.BW: {
+  "BW": {
     "mobile": [8],
     "fixedLine": [7]
   },
-  IsoCode.BY: {
+  "BY": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.BZ: {
+  "BZ": {
     "mobile": [7],
     "fixedLine": [7]
   },
-  IsoCode.CA: {
+  "CA": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.CC: {
+  "CC": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.CD: {
+  "CD": {
     "mobile": [7, 9],
     "fixedLine": [7, 9]
   },
-  IsoCode.CF: {
+  "CF": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.CG: {
+  "CG": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.CH: {
+  "CH": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.CI: {
+  "CI": {
     "mobile": [8, 10],
     "fixedLine": [8, 10]
   },
-  IsoCode.CK: {
+  "CK": {
     "mobile": [5],
     "fixedLine": [5]
   },
-  IsoCode.CL: {
+  "CL": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.CM: {
+  "CM": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.CN: {
+  "CN": {
     "mobile": [11],
     "fixedLine": [7, 8, 9, 10, 11]
   },
-  IsoCode.CO: {
+  "CO": {
     "mobile": [10],
     "fixedLine": [8]
   },
-  IsoCode.CR: {
+  "CR": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.CU: {
+  "CU": {
     "mobile": [8],
     "fixedLine": [6, 7, 8, 10]
   },
-  IsoCode.CV: {
+  "CV": {
     "mobile": [7],
     "fixedLine": [7]
   },
-  IsoCode.CW: {
+  "CW": {
     "mobile": [7, 8],
     "fixedLine": [7, 8]
   },
-  IsoCode.CX: {
+  "CX": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.CY: {
+  "CY": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.CZ: {
+  "CZ": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.DE: {
+  "DE": {
     "mobile": [10, 11],
     "fixedLine": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
   },
-  IsoCode.DJ: {
+  "DJ": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.DK: {
+  "DK": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.DM: {
+  "DM": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.DO: {
+  "DO": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.DZ: {
+  "DZ": {
     "mobile": [9],
     "fixedLine": [8, 9]
   },
-  IsoCode.EC: {
+  "EC": {
     "mobile": [9],
     "fixedLine": [8]
   },
-  IsoCode.EE: {
+  "EE": {
     "mobile": [7, 8],
     "fixedLine": [7]
   },
-  IsoCode.EG: {
+  "EG": {
     "mobile": [10],
     "fixedLine": [8, 9]
   },
-  IsoCode.EH: {
+  "EH": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.ER: {
+  "ER": {
     "mobile": [7],
     "fixedLine": [7]
   },
-  IsoCode.ES: {
+  "ES": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.ET: {
+  "ET": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.FI: {
+  "FI": {
     "mobile": [6, 7, 8, 9, 10],
     "fixedLine": [5, 6, 7, 8, 9]
   },
-  IsoCode.FJ: {
+  "FJ": {
     "mobile": [7],
     "fixedLine": [7]
   },
-  IsoCode.FK: {
+  "FK": {
     "mobile": [5],
     "fixedLine": [5]
   },
-  IsoCode.FM: {
+  "FM": {
     "mobile": [7],
     "fixedLine": [7]
   },
-  IsoCode.FO: {
+  "FO": {
     "mobile": [6],
     "fixedLine": [6]
   },
-  IsoCode.FR: {
+  "FR": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.GA: {
+  "GA": {
     "mobile": [7, 8],
     "fixedLine": [8]
   },
-  IsoCode.GB: {
+  "GB": {
     "mobile": [10],
     "fixedLine": [9, 10]
   },
-  IsoCode.GD: {
+  "GD": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.GE: {
+  "GE": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.GF: {
+  "GF": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.GG: {
+  "GG": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.GH: {
+  "GH": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.GI: {
+  "GI": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.GL: {
+  "GL": {
     "mobile": [6],
     "fixedLine": [6]
   },
-  IsoCode.GM: {
+  "GM": {
     "mobile": [7],
     "fixedLine": [7]
   },
-  IsoCode.GN: {
+  "GN": {
     "mobile": [9],
     "fixedLine": [8]
   },
-  IsoCode.GP: {
+  "GP": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.GQ: {
+  "GQ": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.GR: {
+  "GR": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.GT: {
+  "GT": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.GU: {
+  "GU": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.GW: {
+  "GW": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.GY: {
+  "GY": {
     "mobile": [7],
     "fixedLine": [7]
   },
-  IsoCode.HK: {
+  "HK": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.HN: {
+  "HN": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.HR: {
+  "HR": {
     "mobile": [8, 9],
     "fixedLine": [8, 9]
   },
-  IsoCode.HT: {
+  "HT": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.HU: {
+  "HU": {
     "mobile": [9],
     "fixedLine": [8]
   },
-  IsoCode.ID: {
+  "ID": {
     "mobile": [9, 10, 11, 12],
     "fixedLine": [7, 8, 9, 10, 11]
   },
-  IsoCode.IE: {
+  "IE": {
     "mobile": [9],
     "fixedLine": [7, 8, 9, 10]
   },
-  IsoCode.IL: {
+  "IL": {
     "mobile": [9],
     "fixedLine": [8, 11, 12]
   },
-  IsoCode.IM: {
+  "IM": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.IN: {
+  "IN": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.IO: {
+  "IO": {
     "mobile": [7],
     "fixedLine": [7]
   },
-  IsoCode.IQ: {
+  "IQ": {
     "mobile": [10],
     "fixedLine": [8, 9]
   },
-  IsoCode.IR: {
+  "IR": {
     "mobile": [10],
     "fixedLine": [6, 7, 10]
   },
-  IsoCode.IS: {
+  "IS": {
     "mobile": [7, 9],
     "fixedLine": [7]
   },
-  IsoCode.IT: {
+  "IT": {
     "mobile": [9, 10],
     "fixedLine": [6, 7, 8, 9, 10, 11]
   },
-  IsoCode.JE: {
+  "JE": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.JM: {
+  "JM": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.JO: {
+  "JO": {
     "mobile": [9],
     "fixedLine": [8]
   },
-  IsoCode.JP: {
+  "JP": {
     "mobile": [10],
     "fixedLine": [9]
   },
-  IsoCode.KE: {
+  "KE": {
     "mobile": [9],
     "fixedLine": [7, 8, 9]
   },
-  IsoCode.KG: {
+  "KG": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.KH: {
+  "KH": {
     "mobile": [8, 9],
     "fixedLine": [8, 9]
   },
-  IsoCode.KI: {
+  "KI": {
     "mobile": [8],
     "fixedLine": [5, 8]
   },
-  IsoCode.KM: {
+  "KM": {
     "mobile": [7],
     "fixedLine": [7]
   },
-  IsoCode.KN: {
+  "KN": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.KP: {
+  "KP": {
     "mobile": [10],
     "fixedLine": [8, 10]
   },
-  IsoCode.KR: {
+  "KR": {
     "mobile": [9, 10],
     "fixedLine": [5, 6, 8, 9, 10]
   },
-  IsoCode.KW: {
+  "KW": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.KY: {
+  "KY": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.KZ: {
+  "KZ": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.LA: {
+  "LA": {
     "mobile": [10],
     "fixedLine": [8]
   },
-  IsoCode.LB: {
+  "LB": {
     "mobile": [7, 8],
     "fixedLine": [7, 8]
   },
-  IsoCode.LC: {
+  "LC": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.LI: {
+  "LI": {
     "mobile": [7, 9],
     "fixedLine": [7]
   },
-  IsoCode.LK: {
+  "LK": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.LR: {
+  "LR": {
     "mobile": [7, 9],
     "fixedLine": [8, 9]
   },
-  IsoCode.LS: {
+  "LS": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.LT: {
+  "LT": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.LU: {
+  "LU": {
     "mobile": [9],
     "fixedLine": [4, 5, 6, 7, 8, 9, 10, 11]
   },
-  IsoCode.LV: {
+  "LV": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.LY: {
+  "LY": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.MA: {
+  "MA": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.MC: {
+  "MC": {
     "mobile": [8, 9],
     "fixedLine": [8]
   },
-  IsoCode.MD: {
+  "MD": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.ME: {
+  "ME": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.MF: {
+  "MF": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.MG: {
+  "MG": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.MH: {
+  "MH": {
     "mobile": [7],
     "fixedLine": [7]
   },
-  IsoCode.MK: {
+  "MK": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.ML: {
+  "ML": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.MM: {
+  "MM": {
     "mobile": [7, 8, 9, 10],
     "fixedLine": [6, 7, 8, 9]
   },
-  IsoCode.MN: {
+  "MN": {
     "mobile": [8],
     "fixedLine": [8, 9, 10]
   },
-  IsoCode.MO: {
+  "MO": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.MP: {
+  "MP": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.MQ: {
+  "MQ": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.MR: {
+  "MR": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.MS: {
+  "MS": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.MT: {
+  "MT": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.MU: {
+  "MU": {
     "mobile": [8],
     "fixedLine": [7, 8]
   },
-  IsoCode.MV: {
+  "MV": {
     "mobile": [7],
     "fixedLine": [7]
   },
-  IsoCode.MW: {
+  "MW": {
     "mobile": [9],
     "fixedLine": [7, 9]
   },
-  IsoCode.MX: {
+  "MX": {
     "mobile": [10, 11],
     "fixedLine": [10]
   },
-  IsoCode.MY: {
+  "MY": {
     "mobile": [9, 10],
     "fixedLine": [8, 9]
   },
-  IsoCode.MZ: {
+  "MZ": {
     "mobile": [9],
     "fixedLine": [8]
   },
-  IsoCode.NA: {
+  "NA": {
     "mobile": [9],
     "fixedLine": [8, 9]
   },
-  IsoCode.NC: {
+  "NC": {
     "mobile": [6],
     "fixedLine": [6]
   },
-  IsoCode.NE: {
+  "NE": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.NF: {
+  "NF": {
     "mobile": [6],
     "fixedLine": [6]
   },
-  IsoCode.NG: {
+  "NG": {
     "mobile": [10],
     "fixedLine": [7, 8]
   },
-  IsoCode.NI: {
+  "NI": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.NL: {
+  "NL": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.NO: {
+  "NO": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.NP: {
+  "NP": {
     "mobile": [10],
     "fixedLine": [8]
   },
-  IsoCode.NR: {
+  "NR": {
     "mobile": [7],
     "fixedLine": [7]
   },
-  IsoCode.NU: {
+  "NU": {
     "mobile": [7],
     "fixedLine": [4]
   },
-  IsoCode.NZ: {
+  "NZ": {
     "mobile": [8, 9, 10],
     "fixedLine": [8]
   },
-  IsoCode.OM: {
+  "OM": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.PA: {
+  "PA": {
     "mobile": [7, 8],
     "fixedLine": [7]
   },
-  IsoCode.PE: {
+  "PE": {
     "mobile": [9],
     "fixedLine": [8]
   },
-  IsoCode.PF: {
+  "PF": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.PG: {
+  "PG": {
     "mobile": [8],
     "fixedLine": [7, 8]
   },
-  IsoCode.PH: {
+  "PH": {
     "mobile": [10],
     "fixedLine": [6, 8, 9, 10]
   },
-  IsoCode.PK: {
+  "PK": {
     "mobile": [10],
     "fixedLine": [9, 10]
   },
-  IsoCode.PL: {
+  "PL": {
     "mobile": [9],
     "fixedLine": [7, 9]
   },
-  IsoCode.PM: {
+  "PM": {
     "mobile": [6],
     "fixedLine": [6]
   },
-  IsoCode.PR: {
+  "PR": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.PS: {
+  "PS": {
     "mobile": [9],
     "fixedLine": [8]
   },
-  IsoCode.PT: {
+  "PT": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.PW: {
+  "PW": {
     "mobile": [7],
     "fixedLine": [7]
   },
-  IsoCode.PY: {
+  "PY": {
     "mobile": [9],
     "fixedLine": [7, 8, 9]
   },
-  IsoCode.QA: {
+  "QA": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.RE: {
+  "RE": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.RO: {
+  "RO": {
     "mobile": [9],
     "fixedLine": [6, 9]
   },
-  IsoCode.RS: {
+  "RS": {
     "mobile": [8, 9, 10],
     "fixedLine": [7, 8, 9, 10, 11, 12]
   },
-  IsoCode.RU: {
+  "RU": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.RW: {
+  "RW": {
     "mobile": [9],
     "fixedLine": [8, 9]
   },
-  IsoCode.SA: {
+  "SA": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.SB: {
+  "SB": {
     "mobile": [5, 7],
     "fixedLine": [5]
   },
-  IsoCode.SC: {
+  "SC": {
     "mobile": [7],
     "fixedLine": [7]
   },
-  IsoCode.SD: {
+  "SD": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.SE: {
+  "SE": {
     "mobile": [9],
     "fixedLine": [7, 8, 9]
   },
-  IsoCode.SG: {
+  "SG": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.SH: {
+  "SH": {
     "mobile": [5],
     "fixedLine": [4, 5]
   },
-  IsoCode.SI: {
+  "SI": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.SJ: {
+  "SJ": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.SK: {
+  "SK": {
     "mobile": [9],
     "fixedLine": [6, 7, 9]
   },
-  IsoCode.SL: {
+  "SL": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.SM: {
+  "SM": {
     "mobile": [8],
     "fixedLine": [10]
   },
-  IsoCode.SN: {
+  "SN": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.SO: {
+  "SO": {
     "mobile": [7, 8, 9],
     "fixedLine": [6, 7]
   },
-  IsoCode.SR: {
+  "SR": {
     "mobile": [7],
     "fixedLine": [6, 7]
   },
-  IsoCode.SS: {
+  "SS": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.ST: {
+  "ST": {
     "mobile": [7],
     "fixedLine": [7]
   },
-  IsoCode.SV: {
+  "SV": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.SX: {
+  "SX": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.SY: {
+  "SY": {
     "mobile": [9],
     "fixedLine": [8, 9]
   },
-  IsoCode.SZ: {
+  "SZ": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.TC: {
+  "TC": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.TD: {
+  "TD": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.TG: {
+  "TG": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.TH: {
+  "TH": {
     "mobile": [9],
     "fixedLine": [8]
   },
-  IsoCode.TJ: {
+  "TJ": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.TK: {
+  "TK": {
     "mobile": [4, 5, 6, 7],
     "fixedLine": [4, 5, 6, 7]
   },
-  IsoCode.TL: {
+  "TL": {
     "mobile": [8],
     "fixedLine": [7]
   },
-  IsoCode.TM: {
+  "TM": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.TN: {
+  "TN": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.TO: {
+  "TO": {
     "mobile": [7],
     "fixedLine": [5]
   },
-  IsoCode.TR: {
+  "TR": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.TT: {
+  "TT": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.TV: {
+  "TV": {
     "mobile": [6, 7],
     "fixedLine": [5]
   },
-  IsoCode.TW: {
+  "TW": {
     "mobile": [9],
     "fixedLine": [8, 9]
   },
-  IsoCode.TZ: {
+  "TZ": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.UA: {
+  "UA": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.UG: {
+  "UG": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.US: {
+  "US": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.UY: {
+  "UY": {
     "mobile": [8],
     "fixedLine": [8]
   },
-  IsoCode.UZ: {
+  "UZ": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.VA: {
+  "VA": {
     "mobile": [9, 10],
     "fixedLine": [6, 7, 8, 9, 10, 11]
   },
-  IsoCode.VC: {
+  "VC": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.VE: {
+  "VE": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.VG: {
+  "VG": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.VI: {
+  "VI": {
     "mobile": [10],
     "fixedLine": [10]
   },
-  IsoCode.VN: {
+  "VN": {
     "mobile": [9],
     "fixedLine": [10]
   },
-  IsoCode.VU: {
+  "VU": {
     "mobile": [7],
     "fixedLine": [5]
   },
-  IsoCode.WF: {
+  "WF": {
     "mobile": [6],
     "fixedLine": [6]
   },
-  IsoCode.WS: {
+  "WS": {
     "mobile": [7, 10],
     "fixedLine": [5, 6]
   },
-  IsoCode.XK: {
+  "XK": {
     "mobile": [8],
     "fixedLine": [8, 9]
   },
-  IsoCode.YE: {
+  "YE": {
     "mobile": [9],
     "fixedLine": [7, 8]
   },
-  IsoCode.YT: {
+  "YT": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.ZA: {
+  "ZA": {
     "mobile": [5, 6, 7, 8, 9],
     "fixedLine": [9]
   },
-  IsoCode.ZM: {
+  "ZM": {
     "mobile": [9],
     "fixedLine": [9]
   },
-  IsoCode.ZW: {
+  "ZW": {
     "mobile": [9],
     "fixedLine": [5, 6, 7, 8, 9, 10]
-  },
+  }
 };

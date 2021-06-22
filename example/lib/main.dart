@@ -1,9 +1,13 @@
 import 'package:dart_countries/dart_countries.dart';
+import 'package:dart_countries/src/generated/iso_codes.class.dart';
 
 void main(List<String> arguments) {
 // creation
   // final allCountries = countries;
   // final us = Country.fromIsoCode('be');
+  final countries = [
+    Country(IsoCode.US),
+  ];
   countries.forEach((us) {
     print(us.name);
     print(us.nativeName);

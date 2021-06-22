@@ -9,13 +9,12 @@ import 'package:dart_countries/src/generated/countries_languages.map.dart';
 import 'package:dart_countries/src/generated/countries_name.map.dart';
 import 'package:dart_countries/src/generated/countries_native.map.dart';
 import 'package:dart_countries/src/generated/countries_phone_description.map.dart';
-import 'package:dart_countries/src/generated/iso_codes.enum.dart';
 
 import 'phone_description.dart';
 
 /// Country regroup informations for displaying a list of countries
 class Country {
-  final IsoCode isoCode;
+  final String isoCode;
 
   /// English name of the country
   String get name => countriesName[isoCode]!;
