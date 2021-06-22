@@ -1,14 +1,14 @@
 import 'package:dart_countries/dart_countries.dart';
-import 'package:dart_countries/src/generated/iso_codes.class.dart';
 import 'package:test/test.dart';
 
 void main() {
   group('Country', () {
     test('should create with isoCode ', () {
       expect(Country(IsoCode.FR).name, equals('France'));
-      expect(Country('FR').name, equals('France'));
-      expect(Country('fr').name, equals('France'));
-      expect(() => Country('WRONG'), throwsA(TypeMatcher<Object>()));
+      expect(Country.fromIsoCodeString('FR').name, equals('France'));
+      expect(Country.fromIsoCodeString('fr').name, equals('France'));
+      expect(() => Country.fromIsoCodeString('WRONG'),
+          throwsA(TypeMatcher<Object>()));
     });
 
     test('should give the correct info for country US', () {
@@ -24,7 +24,7 @@ void main() {
     });
 
     test('dial code for display', () {
-      expect(Country('us').displayDialCode, equals('+ 1'));
+      expect(Country(IsoCode.US).displayDialCode, equals('+ 1'));
     });
   });
 }

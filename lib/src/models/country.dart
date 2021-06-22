@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:dart_countries/dart_countries.dart';
 import 'package:dart_countries/src/generated/countries_capital.map.dart';
 import 'package:dart_countries/src/generated/countries_continent.map.dart';
 import 'package:dart_countries/src/generated/countries_currency.map.dart';
@@ -40,6 +41,10 @@ class Country {
   String get displayDialCode => '+ $dialCode';
 
   const Country(this.isoCode);
+
+  Country.fromIsoCodeString(String isoCodeStr)
+      : assert(isoCodeConversionMap[isoCodeStr.toUpperCase()] != null),
+        isoCode = isoCodeConversionMap[isoCodeStr.toUpperCase()]!;
 
   Map<String, dynamic> toMap() {
     return {

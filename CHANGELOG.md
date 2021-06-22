@@ -1,3 +1,6 @@
+## 1.0.0 - 22/06/2021
+ * Added maps so user can import only what's needed
+
 ## 0.0.6 - 08/06/2021
  * Added tests
 

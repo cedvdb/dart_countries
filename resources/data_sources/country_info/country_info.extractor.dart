@@ -20,6 +20,11 @@ Future<Map<String, dynamic>> getCountryInfo() async {
   Map<String, dynamic> info = jsonDecode(jsonString);
   info.forEach((key, value) =>
       info[key][CountryInfoKeys.flag] = _generateFlagEmojiUnicode(key));
+  // keep only main currency
+  info.forEach((key, value) {
+    final main = info[key][CountryInfoKeys.currency].split(',').first;
+    info[key][CountryInfoKeys.currency] = main;
+  });
   return info;
 }
 
