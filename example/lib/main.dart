@@ -1,8 +1,4 @@
 import 'package:dart_countries/dart_countries.dart';
-import 'package:dart_countries/src/generated/countries_currency.map.dart';
-import 'package:dart_countries/src/generated/countries_dial_code.map.dart';
-import 'package:dart_countries/src/generated/countries_phone_description.map.dart';
-import 'package:dart_countries/src/generated/iso_codes.class.dart';
 
 void main(List<String> arguments) {
 // creation

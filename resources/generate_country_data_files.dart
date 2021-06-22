@@ -11,7 +11,7 @@ import 'package:basic_utils/basic_utils.dart' show StringUtils;
 import 'phone_encoder.dart';
 
 const OUTPUT_PATH = 'lib/src/generated/';
-const ISO_CODE_FILE = './iso_codes.enum.dart';
+const ISO_CODE_FILE = 'iso_codes.enum.dart';
 const ISO_CODE_IMPORT = 'import "./$ISO_CODE_FILE";';
 final AUTO_GEN_COMMENT =
     '// This file was auto generated on ${DateTime.now().toIso8601String()}\n\n';
@@ -43,6 +43,7 @@ void main() async {
   });
   generateMapFileForProperty('phoneNumberLengths', countriesInfo);
   generatePhoneDescFile(countriesPhoneDesc);
+  generateCountryList(countriesInfo);
 }
 
 generateIsoCodeEnum(Map<String, dynamic> map) {
@@ -57,24 +58,36 @@ generateMapFileForProperty(String property, Map<String, dynamic> map) {
   final fileName =
       'countries_${StringUtils.camelCaseToLowerUnderscore(property)}.map.dart';
   String content = ISO_CODE_IMPORT +
-      'const countries${StringUtils.capitalize(property)} = {';
-  newMap.forEach(
-      (key, value) => content += 'IsoCode.${key}: ${jsonEncode(value)},');
-  content += '};';
+      'const countries${StringUtils.capitalize(property)} = {%%};';
+  String body = '';
+  newMap
+      .forEach((key, value) => body += 'IsoCode.${key}: ${jsonEncode(value)},');
+  content = content.replaceFirst('%%', body);
   generateFile(fileName: fileName, content: content);
 }
 
 generatePhoneDescFile(Map phoneDescs) {
-  var content = ISO_CODE_IMPORT + 'import "../models/phone_description.dart";';
-  content += 'const countriesPhoneDescription = {';
+  String content =
+      ISO_CODE_IMPORT + 'import "../models/phone_description.dart";';
+  content += 'const countriesPhoneDescription = {%%};';
+  String body = '';
   phoneDescs.forEach((key, value) {
-    content += 'IsoCode.$key: ${encodePhoneDescription(value)},';
+    body += 'IsoCode.$key: ${encodePhoneDescription(value)},';
   });
-  content += '};';
+  content = content.replaceFirst('%%', body);
   generateFile(
     fileName: 'countries_phone_description.map.dart',
     content: content,
   );
+}
+
+generateCountryList(Map countriesInfo) {
+  String content = ISO_CODE_IMPORT + 'import "../models/country.dart";';
+  content += 'const countries = [%%];';
+  String body = '';
+  countriesInfo.forEach((key, value) => body += 'Country(IsoCode.${key}),');
+  content = content.replaceFirst('%%', body);
+  generateFile(fileName: 'countries.list.dart', content: content);
 }
 
 generateFile({required String fileName, required String content}) async {
