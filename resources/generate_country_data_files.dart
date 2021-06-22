@@ -4,9 +4,12 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:dart_countries/src/models/phone_description.dart';
+
 import 'data_sources/generate_countries_aggregated_info_json.dart';
 import 'package:basic_utils/basic_utils.dart' show StringUtils;
 
+import 'data_sources/phone_number/phone_metadata_extractor.dart';
 import 'data_sources/read_country_info.dart';
 import 'phone_encoder.dart';
 
@@ -34,7 +37,7 @@ void main() async {
     generateMapFileForProperty(CountryInfoKeys.dialCode, countriesInfo),
     generateMapFileForProperty(
         CountryInfoKeys.phoneNumberLengths, countriesInfo),
-    // generatePhoneDescMapFile(countriesPhoneDesc),
+    generatePhoneDescMapFile(countriesInfo),
   ]);
   generateFile(fileName: 'generated.dart', content: generatedContent);
 }
@@ -83,13 +86,15 @@ Future generateMapFileForProperty(
   return generateFile(fileName: fileName, content: content);
 }
 
-Future generatePhoneDescMapFile(Map phoneDescs) {
+Future generatePhoneDescMapFile(Map countriesInfo) {
   String content =
       ISO_CODE_IMPORT + 'import "$SRC/models/phone_description.dart";';
   content += 'const countriesPhoneDescription = {%%};';
   String body = '';
-  phoneDescs.forEach((key, value) {
-    body += 'IsoCode.$key: ${encodePhoneDescription(value)},';
+  countriesInfo.forEach((key, value) {
+    final desc =
+        PhoneDescription.fromMap(value[CountryInfoKeys.phoneDescription]);
+    body += 'IsoCode.$key: ${encodePhoneDescription(desc)},';
   });
   content = content.replaceFirst('%%', body);
   return generateFile(

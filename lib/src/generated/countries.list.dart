@@ -1,4 +1,4 @@
-// This file was auto generated on 2021-06-22T15:40:17.357495
+// This file was auto generated on 2021-06-22T15:46:09.208069
 
 import "package:dart_countries/src/generated/iso_codes.enum.dart";
 import "../models/country.dart";
