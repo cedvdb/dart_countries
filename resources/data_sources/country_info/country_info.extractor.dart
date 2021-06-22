@@ -5,11 +5,11 @@ import 'dart:io';
 
 class CountryInfoKeys {
   static final String name = 'name';
-  static final String native = 'native';
+  static final String native = 'nativeName';
   static final String capital = 'capital';
   static final String continent = 'continent';
   static final String languages = 'languages';
-  static final String currency = 'currency';
+  static final String currency = 'currencyCode';
   static final String flag = 'flag';
 }
 

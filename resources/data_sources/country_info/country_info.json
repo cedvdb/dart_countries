@@ -1,33 +1,30 @@
 {
   "AD": {
     "name": "Andorra",
-    "native": "Andorra",
-    "phone": "376",
+    "nativeName": "Andorra",
     "continent": "EU",
     "capital": "Andorra la Vella",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "ca"
     ]
   },
   "AE": {
     "name": "United Arab Emirates",
-    "native": "دولة الإمارات العربية المتحدة",
-    "phone": "971",
+    "nativeName": "دولة الإمارات العربية المتحدة",
     "continent": "AS",
     "capital": "Abu Dhabi",
-    "currency": "AED",
+    "currencyCode": "AED",
     "languages": [
       "ar"
     ]
   },
   "AF": {
     "name": "Afghanistan",
-    "native": "افغانستان",
-    "phone": "93",
+    "nativeName": "افغانستان",
     "continent": "AS",
     "capital": "Kabul",
-    "currency": "AFN",
+    "currencyCode": "AFN",
     "languages": [
       "ps",
       "uz",
@@ -36,44 +33,40 @@
   },
   "AG": {
     "name": "Antigua and Barbuda",
-    "native": "Antigua and Barbuda",
-    "phone": "1268",
+    "nativeName": "Antigua and Barbuda",
     "continent": "NA",
     "capital": "Saint John's",
-    "currency": "XCD",
+    "currencyCode": "XCD",
     "languages": [
       "en"
     ]
   },
   "AI": {
     "name": "Anguilla",
-    "native": "Anguilla",
-    "phone": "1264",
+    "nativeName": "Anguilla",
     "continent": "NA",
     "capital": "The Valley",
-    "currency": "XCD",
+    "currencyCode": "XCD",
     "languages": [
       "en"
     ]
   },
   "AL": {
     "name": "Albania",
-    "native": "Shqipëria",
-    "phone": "355",
+    "nativeName": "Shqipëria",
     "continent": "EU",
     "capital": "Tirana",
-    "currency": "ALL",
+    "currencyCode": "ALL",
     "languages": [
       "sq"
     ]
   },
   "AM": {
     "name": "Armenia",
-    "native": "Հայաստան",
-    "phone": "374",
+    "nativeName": "Հայաստան",
     "continent": "AS",
     "capital": "Yerevan",
-    "currency": "AMD",
+    "currencyCode": "AMD",
     "languages": [
       "hy",
       "ru"
@@ -81,31 +74,28 @@
   },
   "AO": {
     "name": "Angola",
-    "native": "Angola",
-    "phone": "244",
+    "nativeName": "Angola",
     "continent": "AF",
     "capital": "Luanda",
-    "currency": "AOA",
+    "currencyCode": "AOA",
     "languages": [
       "pt"
     ]
   },
   "AQ": {
     "name": "Antarctica",
-    "native": "Antarctica",
-    "phone": "672",
+    "nativeName": "Antarctica",
     "continent": "AN",
     "capital": "",
-    "currency": "",
+    "currencyCode": "",
     "languages": []
   },
   "AR": {
     "name": "Argentina",
-    "native": "Argentina",
-    "phone": "54",
+    "nativeName": "Argentina",
     "continent": "SA",
     "capital": "Buenos Aires",
-    "currency": "ARS",
+    "currencyCode": "ARS",
     "languages": [
       "es",
       "gn"
@@ -113,11 +103,10 @@
   },
   "AS": {
     "name": "American Samoa",
-    "native": "American Samoa",
-    "phone": "1684",
+    "nativeName": "American Samoa",
     "continent": "OC",
     "capital": "Pago Pago",
-    "currency": "USD",
+    "currencyCode": "USD",
     "languages": [
       "en",
       "sm"
@@ -125,33 +114,30 @@
   },
   "AT": {
     "name": "Austria",
-    "native": "Österreich",
-    "phone": "43",
+    "nativeName": "Österreich",
     "continent": "EU",
     "capital": "Vienna",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "de"
     ]
   },
   "AU": {
     "name": "Australia",
-    "native": "Australia",
-    "phone": "61",
+    "nativeName": "Australia",
     "continent": "OC",
     "capital": "Canberra",
-    "currency": "AUD",
+    "currencyCode": "AUD",
     "languages": [
       "en"
     ]
   },
   "AW": {
     "name": "Aruba",
-    "native": "Aruba",
-    "phone": "297",
+    "nativeName": "Aruba",
     "continent": "NA",
     "capital": "Oranjestad",
-    "currency": "AWG",
+    "currencyCode": "AWG",
     "languages": [
       "nl",
       "pa"
@@ -159,33 +145,30 @@
   },
   "AX": {
     "name": "Åland",
-    "native": "Åland",
-    "phone": "358",
+    "nativeName": "Åland",
     "continent": "EU",
     "capital": "Mariehamn",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "sv"
     ]
   },
   "AZ": {
     "name": "Azerbaijan",
-    "native": "Azərbaycan",
-    "phone": "994",
+    "nativeName": "Azərbaycan",
     "continent": "AS",
     "capital": "Baku",
-    "currency": "AZN",
+    "currencyCode": "AZN",
     "languages": [
       "az"
     ]
   },
   "BA": {
     "name": "Bosnia and Herzegovina",
-    "native": "Bosna i Hercegovina",
-    "phone": "387",
+    "nativeName": "Bosna i Hercegovina",
     "continent": "EU",
     "capital": "Sarajevo",
-    "currency": "BAM",
+    "currencyCode": "BAM",
     "languages": [
       "bs",
       "hr",
@@ -194,33 +177,30 @@
   },
   "BB": {
     "name": "Barbados",
-    "native": "Barbados",
-    "phone": "1246",
+    "nativeName": "Barbados",
     "continent": "NA",
     "capital": "Bridgetown",
-    "currency": "BBD",
+    "currencyCode": "BBD",
     "languages": [
       "en"
     ]
   },
   "BD": {
     "name": "Bangladesh",
-    "native": "Bangladesh",
-    "phone": "880",
+    "nativeName": "Bangladesh",
     "continent": "AS",
     "capital": "Dhaka",
-    "currency": "BDT",
+    "currencyCode": "BDT",
     "languages": [
       "bn"
     ]
   },
   "BE": {
     "name": "Belgium",
-    "native": "België",
-    "phone": "32",
+    "nativeName": "België",
     "continent": "EU",
     "capital": "Brussels",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "nl",
       "fr",
@@ -229,11 +209,10 @@
   },
   "BF": {
     "name": "Burkina Faso",
-    "native": "Burkina Faso",
-    "phone": "226",
+    "nativeName": "Burkina Faso",
     "continent": "AF",
     "capital": "Ouagadougou",
-    "currency": "XOF",
+    "currencyCode": "XOF",
     "languages": [
       "fr",
       "ff"
@@ -241,33 +220,30 @@
   },
   "BG": {
     "name": "Bulgaria",
-    "native": "България",
-    "phone": "359",
+    "nativeName": "България",
     "continent": "EU",
     "capital": "Sofia",
-    "currency": "BGN",
+    "currencyCode": "BGN",
     "languages": [
       "bg"
     ]
   },
   "BH": {
     "name": "Bahrain",
-    "native": "‏البحرين",
-    "phone": "973",
+    "nativeName": "‏البحرين",
     "continent": "AS",
     "capital": "Manama",
-    "currency": "BHD",
+    "currencyCode": "BHD",
     "languages": [
       "ar"
     ]
   },
   "BI": {
     "name": "Burundi",
-    "native": "Burundi",
-    "phone": "257",
+    "nativeName": "Burundi",
     "continent": "AF",
     "capital": "Bujumbura",
-    "currency": "BIF",
+    "currencyCode": "BIF",
     "languages": [
       "fr",
       "rn"
@@ -275,55 +251,50 @@
   },
   "BJ": {
     "name": "Benin",
-    "native": "Bénin",
-    "phone": "229",
+    "nativeName": "Bénin",
     "continent": "AF",
     "capital": "Porto-Novo",
-    "currency": "XOF",
+    "currencyCode": "XOF",
     "languages": [
       "fr"
     ]
   },
   "BL": {
     "name": "Saint Barthélemy",
-    "native": "Saint-Barthélemy",
-    "phone": "590",
+    "nativeName": "Saint-Barthélemy",
     "continent": "NA",
     "capital": "Gustavia",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "fr"
     ]
   },
   "BM": {
     "name": "Bermuda",
-    "native": "Bermuda",
-    "phone": "1441",
+    "nativeName": "Bermuda",
     "continent": "NA",
     "capital": "Hamilton",
-    "currency": "BMD",
+    "currencyCode": "BMD",
     "languages": [
       "en"
     ]
   },
   "BN": {
     "name": "Brunei",
-    "native": "Negara Brunei Darussalam",
-    "phone": "673",
+    "nativeName": "Negara Brunei Darussalam",
     "continent": "AS",
     "capital": "Bandar Seri Begawan",
-    "currency": "BND",
+    "currencyCode": "BND",
     "languages": [
       "ms"
     ]
   },
   "BO": {
     "name": "Bolivia",
-    "native": "Bolivia",
-    "phone": "591",
+    "nativeName": "Bolivia",
     "continent": "SA",
     "capital": "Sucre",
-    "currency": "BOB,BOV",
+    "currencyCode": "BOB",
     "languages": [
       "es",
       "ay",
@@ -332,55 +303,50 @@
   },
   "BQ": {
     "name": "Bonaire",
-    "native": "Bonaire",
-    "phone": "5997",
+    "nativeName": "Bonaire",
     "continent": "NA",
     "capital": "Kralendijk",
-    "currency": "USD",
+    "currencyCode": "USD",
     "languages": [
       "nl"
     ]
   },
   "BR": {
     "name": "Brazil",
-    "native": "Brasil",
-    "phone": "55",
+    "nativeName": "Brasil",
     "continent": "SA",
     "capital": "Brasília",
-    "currency": "BRL",
+    "currencyCode": "BRL",
     "languages": [
       "pt"
     ]
   },
   "BS": {
     "name": "Bahamas",
-    "native": "Bahamas",
-    "phone": "1242",
+    "nativeName": "Bahamas",
     "continent": "NA",
     "capital": "Nassau",
-    "currency": "BSD",
+    "currencyCode": "BSD",
     "languages": [
       "en"
     ]
   },
   "BT": {
     "name": "Bhutan",
-    "native": "ʼbrug-yul",
-    "phone": "975",
+    "nativeName": "ʼbrug-yul",
     "continent": "AS",
     "capital": "Thimphu",
-    "currency": "BTN,INR",
+    "currencyCode": "BTN",
     "languages": [
       "dz"
     ]
   },
   "BV": {
     "name": "Bouvet Island",
-    "native": "Bouvetøya",
-    "phone": "47",
+    "nativeName": "Bouvetøya",
     "continent": "AN",
     "capital": "",
-    "currency": "NOK",
+    "currencyCode": "NOK",
     "languages": [
       "no",
       "nb",
@@ -389,11 +355,10 @@
   },
   "BW": {
     "name": "Botswana",
-    "native": "Botswana",
-    "phone": "267",
+    "nativeName": "Botswana",
     "continent": "AF",
     "capital": "Gaborone",
-    "currency": "BWP",
+    "currencyCode": "BWP",
     "languages": [
       "en",
       "tn"
@@ -401,11 +366,10 @@
   },
   "BY": {
     "name": "Belarus",
-    "native": "Белару́сь",
-    "phone": "375",
+    "nativeName": "Белару́сь",
     "continent": "EU",
     "capital": "Minsk",
-    "currency": "BYN",
+    "currencyCode": "BYN",
     "languages": [
       "be",
       "ru"
@@ -413,11 +377,10 @@
   },
   "BZ": {
     "name": "Belize",
-    "native": "Belize",
-    "phone": "501",
+    "nativeName": "Belize",
     "continent": "NA",
     "capital": "Belmopan",
-    "currency": "BZD",
+    "currencyCode": "BZD",
     "languages": [
       "en",
       "es"
@@ -425,11 +388,10 @@
   },
   "CA": {
     "name": "Canada",
-    "native": "Canada",
-    "phone": "1",
+    "nativeName": "Canada",
     "continent": "NA",
     "capital": "Ottawa",
-    "currency": "CAD",
+    "currencyCode": "CAD",
     "languages": [
       "en",
       "fr"
@@ -437,22 +399,20 @@
   },
   "CC": {
     "name": "Cocos [Keeling] Islands",
-    "native": "Cocos (Keeling) Islands",
-    "phone": "61",
+    "nativeName": "Cocos (Keeling) Islands",
     "continent": "AS",
     "capital": "West Island",
-    "currency": "AUD",
+    "currencyCode": "AUD",
     "languages": [
       "en"
     ]
   },
   "CD": {
     "name": "Democratic Republic of the Congo",
-    "native": "République démocratique du Congo",
-    "phone": "243",
+    "nativeName": "République démocratique du Congo",
     "continent": "AF",
     "capital": "Kinshasa",
-    "currency": "CDF",
+    "currencyCode": "CDF",
     "languages": [
       "fr",
       "ln",
@@ -463,11 +423,10 @@
   },
   "CF": {
     "name": "Central African Republic",
-    "native": "Ködörösêse tî Bêafrîka",
-    "phone": "236",
+    "nativeName": "Ködörösêse tî Bêafrîka",
     "continent": "AF",
     "capital": "Bangui",
-    "currency": "XAF",
+    "currencyCode": "XAF",
     "languages": [
       "fr",
       "sg"
@@ -475,11 +434,10 @@
   },
   "CG": {
     "name": "Republic of the Congo",
-    "native": "République du Congo",
-    "phone": "242",
+    "nativeName": "République du Congo",
     "continent": "AF",
     "capital": "Brazzaville",
-    "currency": "XAF",
+    "currencyCode": "XAF",
     "languages": [
       "fr",
       "ln"
@@ -487,11 +445,10 @@
   },
   "CH": {
     "name": "Switzerland",
-    "native": "Schweiz",
-    "phone": "41",
+    "nativeName": "Schweiz",
     "continent": "EU",
     "capital": "Bern",
-    "currency": "CHE,CHF,CHW",
+    "currencyCode": "CHE",
     "languages": [
       "de",
       "fr",
@@ -500,44 +457,40 @@
   },
   "CI": {
     "name": "Ivory Coast",
-    "native": "Côte d'Ivoire",
-    "phone": "225",
+    "nativeName": "Côte d'Ivoire",
     "continent": "AF",
     "capital": "Yamoussoukro",
-    "currency": "XOF",
+    "currencyCode": "XOF",
     "languages": [
       "fr"
     ]
   },
   "CK": {
     "name": "Cook Islands",
-    "native": "Cook Islands",
-    "phone": "682",
+    "nativeName": "Cook Islands",
     "continent": "OC",
     "capital": "Avarua",
-    "currency": "NZD",
+    "currencyCode": "NZD",
     "languages": [
       "en"
     ]
   },
   "CL": {
     "name": "Chile",
-    "native": "Chile",
-    "phone": "56",
+    "nativeName": "Chile",
     "continent": "SA",
     "capital": "Santiago",
-    "currency": "CLF,CLP",
+    "currencyCode": "CLF",
     "languages": [
       "es"
     ]
   },
   "CM": {
     "name": "Cameroon",
-    "native": "Cameroon",
-    "phone": "237",
+    "nativeName": "Cameroon",
     "continent": "AF",
     "capital": "Yaoundé",
-    "currency": "XAF",
+    "currencyCode": "XAF",
     "languages": [
       "en",
       "fr"
@@ -545,66 +498,60 @@
   },
   "CN": {
     "name": "China",
-    "native": "中国",
-    "phone": "86",
+    "nativeName": "中国",
     "continent": "AS",
     "capital": "Beijing",
-    "currency": "CNY",
+    "currencyCode": "CNY",
     "languages": [
       "zh"
     ]
   },
   "CO": {
     "name": "Colombia",
-    "native": "Colombia",
-    "phone": "57",
+    "nativeName": "Colombia",
     "continent": "SA",
     "capital": "Bogotá",
-    "currency": "COP",
+    "currencyCode": "COP",
     "languages": [
       "es"
     ]
   },
   "CR": {
     "name": "Costa Rica",
-    "native": "Costa Rica",
-    "phone": "506",
+    "nativeName": "Costa Rica",
     "continent": "NA",
     "capital": "San José",
-    "currency": "CRC",
+    "currencyCode": "CRC",
     "languages": [
       "es"
     ]
   },
   "CU": {
     "name": "Cuba",
-    "native": "Cuba",
-    "phone": "53",
+    "nativeName": "Cuba",
     "continent": "NA",
     "capital": "Havana",
-    "currency": "CUC,CUP",
+    "currencyCode": "CUC",
     "languages": [
       "es"
     ]
   },
   "CV": {
     "name": "Cape Verde",
-    "native": "Cabo Verde",
-    "phone": "238",
+    "nativeName": "Cabo Verde",
     "continent": "AF",
     "capital": "Praia",
-    "currency": "CVE",
+    "currencyCode": "CVE",
     "languages": [
       "pt"
     ]
   },
   "CW": {
     "name": "Curacao",
-    "native": "Curaçao",
-    "phone": "5999",
+    "nativeName": "Curaçao",
     "continent": "NA",
     "capital": "Willemstad",
-    "currency": "ANG",
+    "currencyCode": "ANG",
     "languages": [
       "nl",
       "pa",
@@ -613,22 +560,20 @@
   },
   "CX": {
     "name": "Christmas Island",
-    "native": "Christmas Island",
-    "phone": "61",
+    "nativeName": "Christmas Island",
     "continent": "AS",
     "capital": "Flying Fish Cove",
-    "currency": "AUD",
+    "currencyCode": "AUD",
     "languages": [
       "en"
     ]
   },
   "CY": {
     "name": "Cyprus",
-    "native": "Κύπρος",
-    "phone": "357",
+    "nativeName": "Κύπρος",
     "continent": "EU",
     "capital": "Nicosia",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "el",
       "tr",
@@ -637,11 +582,10 @@
   },
   "CZ": {
     "name": "Czech Republic",
-    "native": "Česká republika",
-    "phone": "420",
+    "nativeName": "Česká republika",
     "continent": "EU",
     "capital": "Prague",
-    "currency": "CZK",
+    "currencyCode": "CZK",
     "languages": [
       "cs",
       "sk"
@@ -649,22 +593,20 @@
   },
   "DE": {
     "name": "Germany",
-    "native": "Deutschland",
-    "phone": "49",
+    "nativeName": "Deutschland",
     "continent": "EU",
     "capital": "Berlin",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "de"
     ]
   },
   "DJ": {
     "name": "Djibouti",
-    "native": "Djibouti",
-    "phone": "253",
+    "nativeName": "Djibouti",
     "continent": "AF",
     "capital": "Djibouti",
-    "currency": "DJF",
+    "currencyCode": "DJF",
     "languages": [
       "fr",
       "ar"
@@ -672,99 +614,90 @@
   },
   "DK": {
     "name": "Denmark",
-    "native": "Danmark",
-    "phone": "45",
+    "nativeName": "Danmark",
     "continent": "EU",
     "capital": "Copenhagen",
-    "currency": "DKK",
+    "currencyCode": "DKK",
     "languages": [
       "da"
     ]
   },
   "DM": {
     "name": "Dominica",
-    "native": "Dominica",
-    "phone": "1767",
+    "nativeName": "Dominica",
     "continent": "NA",
     "capital": "Roseau",
-    "currency": "XCD",
+    "currencyCode": "XCD",
     "languages": [
       "en"
     ]
   },
   "DO": {
     "name": "Dominican Republic",
-    "native": "República Dominicana",
-    "phone": "1809,1829,1849",
+    "nativeName": "República Dominicana",
     "continent": "NA",
     "capital": "Santo Domingo",
-    "currency": "DOP",
+    "currencyCode": "DOP",
     "languages": [
       "es"
     ]
   },
   "DZ": {
     "name": "Algeria",
-    "native": "الجزائر",
-    "phone": "213",
+    "nativeName": "الجزائر",
     "continent": "AF",
     "capital": "Algiers",
-    "currency": "DZD",
+    "currencyCode": "DZD",
     "languages": [
       "ar"
     ]
   },
   "EC": {
     "name": "Ecuador",
-    "native": "Ecuador",
-    "phone": "593",
+    "nativeName": "Ecuador",
     "continent": "SA",
     "capital": "Quito",
-    "currency": "USD",
+    "currencyCode": "USD",
     "languages": [
       "es"
     ]
   },
   "EE": {
     "name": "Estonia",
-    "native": "Eesti",
-    "phone": "372",
+    "nativeName": "Eesti",
     "continent": "EU",
     "capital": "Tallinn",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "et"
     ]
   },
   "EG": {
     "name": "Egypt",
-    "native": "مصر‎",
-    "phone": "20",
+    "nativeName": "مصر‎",
     "continent": "AF",
     "capital": "Cairo",
-    "currency": "EGP",
+    "currencyCode": "EGP",
     "languages": [
       "ar"
     ]
   },
   "EH": {
     "name": "Western Sahara",
-    "native": "الصحراء الغربية",
-    "phone": "212",
+    "nativeName": "الصحراء الغربية",
     "continent": "AF",
     "capital": "El Aaiún",
-    "currency": "MAD,DZD,MRU",
+    "currencyCode": "MAD",
     "languages": [
       "es"
     ]
   },
   "ER": {
     "name": "Eritrea",
-    "native": "ኤርትራ",
-    "phone": "291",
+    "nativeName": "ኤርትራ",
     "continent": "AF",
     "capital": "Asmara",
-    "currency": "ERN",
+    "currencyCode": "ERN",
     "languages": [
       "ti",
       "ar",
@@ -773,11 +706,10 @@
   },
   "ES": {
     "name": "Spain",
-    "native": "España",
-    "phone": "34",
+    "nativeName": "España",
     "continent": "EU",
     "capital": "Madrid",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "es",
       "eu",
@@ -788,22 +720,20 @@
   },
   "ET": {
     "name": "Ethiopia",
-    "native": "ኢትዮጵያ",
-    "phone": "251",
+    "nativeName": "ኢትዮጵያ",
     "continent": "AF",
     "capital": "Addis Ababa",
-    "currency": "ETB",
+    "currencyCode": "ETB",
     "languages": [
       "am"
     ]
   },
   "FI": {
     "name": "Finland",
-    "native": "Suomi",
-    "phone": "358",
+    "nativeName": "Suomi",
     "continent": "EU",
     "capital": "Helsinki",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "fi",
       "sv"
@@ -811,11 +741,10 @@
   },
   "FJ": {
     "name": "Fiji",
-    "native": "Fiji",
-    "phone": "679",
+    "nativeName": "Fiji",
     "continent": "OC",
     "capital": "Suva",
-    "currency": "FJD",
+    "currencyCode": "FJD",
     "languages": [
       "en",
       "fj",
@@ -825,110 +754,100 @@
   },
   "FK": {
     "name": "Falkland Islands",
-    "native": "Falkland Islands",
-    "phone": "500",
+    "nativeName": "Falkland Islands",
     "continent": "SA",
     "capital": "Stanley",
-    "currency": "FKP",
+    "currencyCode": "FKP",
     "languages": [
       "en"
     ]
   },
   "FM": {
     "name": "Micronesia",
-    "native": "Micronesia",
-    "phone": "691",
+    "nativeName": "Micronesia",
     "continent": "OC",
     "capital": "Palikir",
-    "currency": "USD",
+    "currencyCode": "USD",
     "languages": [
       "en"
     ]
   },
   "FO": {
     "name": "Faroe Islands",
-    "native": "Føroyar",
-    "phone": "298",
+    "nativeName": "Føroyar",
     "continent": "EU",
     "capital": "Tórshavn",
-    "currency": "DKK",
+    "currencyCode": "DKK",
     "languages": [
       "fo"
     ]
   },
   "FR": {
     "name": "France",
-    "native": "France",
-    "phone": "33",
+    "nativeName": "France",
     "continent": "EU",
     "capital": "Paris",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "fr"
     ]
   },
   "GA": {
     "name": "Gabon",
-    "native": "Gabon",
-    "phone": "241",
+    "nativeName": "Gabon",
     "continent": "AF",
     "capital": "Libreville",
-    "currency": "XAF",
+    "currencyCode": "XAF",
     "languages": [
       "fr"
     ]
   },
   "GB": {
     "name": "United Kingdom",
-    "native": "United Kingdom",
-    "phone": "44",
+    "nativeName": "United Kingdom",
     "continent": "EU",
     "capital": "London",
-    "currency": "GBP",
+    "currencyCode": "GBP",
     "languages": [
       "en"
     ]
   },
   "GD": {
     "name": "Grenada",
-    "native": "Grenada",
-    "phone": "1473",
+    "nativeName": "Grenada",
     "continent": "NA",
     "capital": "St. George's",
-    "currency": "XCD",
+    "currencyCode": "XCD",
     "languages": [
       "en"
     ]
   },
   "GE": {
     "name": "Georgia",
-    "native": "საქართველო",
-    "phone": "995",
+    "nativeName": "საქართველო",
     "continent": "AS",
     "capital": "Tbilisi",
-    "currency": "GEL",
+    "currencyCode": "GEL",
     "languages": [
       "ka"
     ]
   },
   "GF": {
     "name": "French Guiana",
-    "native": "Guyane française",
-    "phone": "594",
+    "nativeName": "Guyane française",
     "continent": "SA",
     "capital": "Cayenne",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "fr"
     ]
   },
   "GG": {
     "name": "Guernsey",
-    "native": "Guernsey",
-    "phone": "44",
+    "nativeName": "Guernsey",
     "continent": "EU",
     "capital": "St. Peter Port",
-    "currency": "GBP",
+    "currencyCode": "GBP",
     "languages": [
       "en",
       "fr"
@@ -936,55 +855,50 @@
   },
   "GH": {
     "name": "Ghana",
-    "native": "Ghana",
-    "phone": "233",
+    "nativeName": "Ghana",
     "continent": "AF",
     "capital": "Accra",
-    "currency": "GHS",
+    "currencyCode": "GHS",
     "languages": [
       "en"
     ]
   },
   "GI": {
     "name": "Gibraltar",
-    "native": "Gibraltar",
-    "phone": "350",
+    "nativeName": "Gibraltar",
     "continent": "EU",
     "capital": "Gibraltar",
-    "currency": "GIP",
+    "currencyCode": "GIP",
     "languages": [
       "en"
     ]
   },
   "GL": {
     "name": "Greenland",
-    "native": "Kalaallit Nunaat",
-    "phone": "299",
+    "nativeName": "Kalaallit Nunaat",
     "continent": "NA",
     "capital": "Nuuk",
-    "currency": "DKK",
+    "currencyCode": "DKK",
     "languages": [
       "kl"
     ]
   },
   "GM": {
     "name": "Gambia",
-    "native": "Gambia",
-    "phone": "220",
+    "nativeName": "Gambia",
     "continent": "AF",
     "capital": "Banjul",
-    "currency": "GMD",
+    "currencyCode": "GMD",
     "languages": [
       "en"
     ]
   },
   "GN": {
     "name": "Guinea",
-    "native": "Guinée",
-    "phone": "224",
+    "nativeName": "Guinée",
     "continent": "AF",
     "capital": "Conakry",
-    "currency": "GNF",
+    "currencyCode": "GNF",
     "languages": [
       "fr",
       "ff"
@@ -992,22 +906,20 @@
   },
   "GP": {
     "name": "Guadeloupe",
-    "native": "Guadeloupe",
-    "phone": "590",
+    "nativeName": "Guadeloupe",
     "continent": "NA",
     "capital": "Basse-Terre",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "fr"
     ]
   },
   "GQ": {
     "name": "Equatorial Guinea",
-    "native": "Guinea Ecuatorial",
-    "phone": "240",
+    "nativeName": "Guinea Ecuatorial",
     "continent": "AF",
     "capital": "Malabo",
-    "currency": "XAF",
+    "currencyCode": "XAF",
     "languages": [
       "es",
       "fr"
@@ -1015,44 +927,40 @@
   },
   "GR": {
     "name": "Greece",
-    "native": "Ελλάδα",
-    "phone": "30",
+    "nativeName": "Ελλάδα",
     "continent": "EU",
     "capital": "Athens",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "el"
     ]
   },
   "GS": {
     "name": "South Georgia and the South Sandwich Islands",
-    "native": "South Georgia",
-    "phone": "500",
+    "nativeName": "South Georgia",
     "continent": "AN",
     "capital": "King Edward Point",
-    "currency": "GBP",
+    "currencyCode": "GBP",
     "languages": [
       "en"
     ]
   },
   "GT": {
     "name": "Guatemala",
-    "native": "Guatemala",
-    "phone": "502",
+    "nativeName": "Guatemala",
     "continent": "NA",
     "capital": "Guatemala City",
-    "currency": "GTQ",
+    "currencyCode": "GTQ",
     "languages": [
       "es"
     ]
   },
   "GU": {
     "name": "Guam",
-    "native": "Guam",
-    "phone": "1671",
+    "nativeName": "Guam",
     "continent": "OC",
     "capital": "Hagåtña",
-    "currency": "USD",
+    "currencyCode": "USD",
     "languages": [
       "en",
       "ch",
@@ -1061,33 +969,30 @@
   },
   "GW": {
     "name": "Guinea-Bissau",
-    "native": "Guiné-Bissau",
-    "phone": "245",
+    "nativeName": "Guiné-Bissau",
     "continent": "AF",
     "capital": "Bissau",
-    "currency": "XOF",
+    "currencyCode": "XOF",
     "languages": [
       "pt"
     ]
   },
   "GY": {
     "name": "Guyana",
-    "native": "Guyana",
-    "phone": "592",
+    "nativeName": "Guyana",
     "continent": "SA",
     "capital": "Georgetown",
-    "currency": "GYD",
+    "currencyCode": "GYD",
     "languages": [
       "en"
     ]
   },
   "HK": {
     "name": "Hong Kong",
-    "native": "香港",
-    "phone": "852",
+    "nativeName": "香港",
     "continent": "AS",
     "capital": "City of Victoria",
-    "currency": "HKD",
+    "currencyCode": "HKD",
     "languages": [
       "zh",
       "en"
@@ -1095,44 +1000,40 @@
   },
   "HM": {
     "name": "Heard Island and McDonald Islands",
-    "native": "Heard Island and McDonald Islands",
-    "phone": "61",
+    "nativeName": "Heard Island and McDonald Islands",
     "continent": "AN",
     "capital": "",
-    "currency": "AUD",
+    "currencyCode": "AUD",
     "languages": [
       "en"
     ]
   },
   "HN": {
     "name": "Honduras",
-    "native": "Honduras",
-    "phone": "504",
+    "nativeName": "Honduras",
     "continent": "NA",
     "capital": "Tegucigalpa",
-    "currency": "HNL",
+    "currencyCode": "HNL",
     "languages": [
       "es"
     ]
   },
   "HR": {
     "name": "Croatia",
-    "native": "Hrvatska",
-    "phone": "385",
+    "nativeName": "Hrvatska",
     "continent": "EU",
     "capital": "Zagreb",
-    "currency": "HRK",
+    "currencyCode": "HRK",
     "languages": [
       "hr"
     ]
   },
   "HT": {
     "name": "Haiti",
-    "native": "Haïti",
-    "phone": "509",
+    "nativeName": "Haïti",
     "continent": "NA",
     "capital": "Port-au-Prince",
-    "currency": "HTG,USD",
+    "currencyCode": "HTG",
     "languages": [
       "fr",
       "ht"
@@ -1140,33 +1041,30 @@
   },
   "HU": {
     "name": "Hungary",
-    "native": "Magyarország",
-    "phone": "36",
+    "nativeName": "Magyarország",
     "continent": "EU",
     "capital": "Budapest",
-    "currency": "HUF",
+    "currencyCode": "HUF",
     "languages": [
       "hu"
     ]
   },
   "ID": {
     "name": "Indonesia",
-    "native": "Indonesia",
-    "phone": "62",
+    "nativeName": "Indonesia",
     "continent": "AS",
     "capital": "Jakarta",
-    "currency": "IDR",
+    "currencyCode": "IDR",
     "languages": [
       "id"
     ]
   },
   "IE": {
     "name": "Ireland",
-    "native": "Éire",
-    "phone": "353",
+    "nativeName": "Éire",
     "continent": "EU",
     "capital": "Dublin",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "ga",
       "en"
@@ -1174,11 +1072,10 @@
   },
   "IL": {
     "name": "Israel",
-    "native": "יִשְׂרָאֵל",
-    "phone": "972",
+    "nativeName": "יִשְׂרָאֵל",
     "continent": "AS",
     "capital": "Jerusalem",
-    "currency": "ILS",
+    "currencyCode": "ILS",
     "languages": [
       "he",
       "ar"
@@ -1186,11 +1083,10 @@
   },
   "IM": {
     "name": "Isle of Man",
-    "native": "Isle of Man",
-    "phone": "44",
+    "nativeName": "Isle of Man",
     "continent": "EU",
     "capital": "Douglas",
-    "currency": "GBP",
+    "currencyCode": "GBP",
     "languages": [
       "en",
       "gv"
@@ -1198,11 +1094,10 @@
   },
   "IN": {
     "name": "India",
-    "native": "भारत",
-    "phone": "91",
+    "nativeName": "भारत",
     "continent": "AS",
     "capital": "New Delhi",
-    "currency": "INR",
+    "currencyCode": "INR",
     "languages": [
       "hi",
       "en"
@@ -1210,22 +1105,20 @@
   },
   "IO": {
     "name": "British Indian Ocean Territory",
-    "native": "British Indian Ocean Territory",
-    "phone": "246",
+    "nativeName": "British Indian Ocean Territory",
     "continent": "AS",
     "capital": "Diego Garcia",
-    "currency": "USD",
+    "currencyCode": "USD",
     "languages": [
       "en"
     ]
   },
   "IQ": {
     "name": "Iraq",
-    "native": "العراق",
-    "phone": "964",
+    "nativeName": "العراق",
     "continent": "AS",
     "capital": "Baghdad",
-    "currency": "IQD",
+    "currencyCode": "IQD",
     "languages": [
       "ar",
       "ku"
@@ -1233,44 +1126,40 @@
   },
   "IR": {
     "name": "Iran",
-    "native": "ایران",
-    "phone": "98",
+    "nativeName": "ایران",
     "continent": "AS",
     "capital": "Tehran",
-    "currency": "IRR",
+    "currencyCode": "IRR",
     "languages": [
       "fa"
     ]
   },
   "IS": {
     "name": "Iceland",
-    "native": "Ísland",
-    "phone": "354",
+    "nativeName": "Ísland",
     "continent": "EU",
     "capital": "Reykjavik",
-    "currency": "ISK",
+    "currencyCode": "ISK",
     "languages": [
       "is"
     ]
   },
   "IT": {
     "name": "Italy",
-    "native": "Italia",
-    "phone": "39",
+    "nativeName": "Italia",
     "continent": "EU",
     "capital": "Rome",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "it"
     ]
   },
   "JE": {
     "name": "Jersey",
-    "native": "Jersey",
-    "phone": "44",
+    "nativeName": "Jersey",
     "continent": "EU",
     "capital": "Saint Helier",
-    "currency": "GBP",
+    "currencyCode": "GBP",
     "languages": [
       "en",
       "fr"
@@ -1278,44 +1167,40 @@
   },
   "JM": {
     "name": "Jamaica",
-    "native": "Jamaica",
-    "phone": "1876",
+    "nativeName": "Jamaica",
     "continent": "NA",
     "capital": "Kingston",
-    "currency": "JMD",
+    "currencyCode": "JMD",
     "languages": [
       "en"
     ]
   },
   "JO": {
     "name": "Jordan",
-    "native": "الأردن",
-    "phone": "962",
+    "nativeName": "الأردن",
     "continent": "AS",
     "capital": "Amman",
-    "currency": "JOD",
+    "currencyCode": "JOD",
     "languages": [
       "ar"
     ]
   },
   "JP": {
     "name": "Japan",
-    "native": "日本",
-    "phone": "81",
+    "nativeName": "日本",
     "continent": "AS",
     "capital": "Tokyo",
-    "currency": "JPY",
+    "currencyCode": "JPY",
     "languages": [
       "ja"
     ]
   },
   "KE": {
     "name": "Kenya",
-    "native": "Kenya",
-    "phone": "254",
+    "nativeName": "Kenya",
     "continent": "AF",
     "capital": "Nairobi",
-    "currency": "KES",
+    "currencyCode": "KES",
     "languages": [
       "en",
       "sw"
@@ -1323,11 +1208,10 @@
   },
   "KG": {
     "name": "Kyrgyzstan",
-    "native": "Кыргызстан",
-    "phone": "996",
+    "nativeName": "Кыргызстан",
     "continent": "AS",
     "capital": "Bishkek",
-    "currency": "KGS",
+    "currencyCode": "KGS",
     "languages": [
       "ky",
       "ru"
@@ -1335,33 +1219,30 @@
   },
   "KH": {
     "name": "Cambodia",
-    "native": "Kâmpŭchéa",
-    "phone": "855",
+    "nativeName": "Kâmpŭchéa",
     "continent": "AS",
     "capital": "Phnom Penh",
-    "currency": "KHR",
+    "currencyCode": "KHR",
     "languages": [
       "km"
     ]
   },
   "KI": {
     "name": "Kiribati",
-    "native": "Kiribati",
-    "phone": "686",
+    "nativeName": "Kiribati",
     "continent": "OC",
     "capital": "South Tarawa",
-    "currency": "AUD",
+    "currencyCode": "AUD",
     "languages": [
       "en"
     ]
   },
   "KM": {
     "name": "Comoros",
-    "native": "Komori",
-    "phone": "269",
+    "nativeName": "Komori",
     "continent": "AF",
     "capital": "Moroni",
-    "currency": "KMF",
+    "currencyCode": "KMF",
     "languages": [
       "ar",
       "fr"
@@ -1369,66 +1250,60 @@
   },
   "KN": {
     "name": "Saint Kitts and Nevis",
-    "native": "Saint Kitts and Nevis",
-    "phone": "1869",
+    "nativeName": "Saint Kitts and Nevis",
     "continent": "NA",
     "capital": "Basseterre",
-    "currency": "XCD",
+    "currencyCode": "XCD",
     "languages": [
       "en"
     ]
   },
   "KP": {
     "name": "North Korea",
-    "native": "북한",
-    "phone": "850",
+    "nativeName": "북한",
     "continent": "AS",
     "capital": "Pyongyang",
-    "currency": "KPW",
+    "currencyCode": "KPW",
     "languages": [
       "ko"
     ]
   },
   "KR": {
     "name": "South Korea",
-    "native": "대한민국",
-    "phone": "82",
+    "nativeName": "대한민국",
     "continent": "AS",
     "capital": "Seoul",
-    "currency": "KRW",
+    "currencyCode": "KRW",
     "languages": [
       "ko"
     ]
   },
   "KW": {
     "name": "Kuwait",
-    "native": "الكويت",
-    "phone": "965",
+    "nativeName": "الكويت",
     "continent": "AS",
     "capital": "Kuwait City",
-    "currency": "KWD",
+    "currencyCode": "KWD",
     "languages": [
       "ar"
     ]
   },
   "KY": {
     "name": "Cayman Islands",
-    "native": "Cayman Islands",
-    "phone": "1345",
+    "nativeName": "Cayman Islands",
     "continent": "NA",
     "capital": "George Town",
-    "currency": "KYD",
+    "currencyCode": "KYD",
     "languages": [
       "en"
     ]
   },
   "KZ": {
     "name": "Kazakhstan",
-    "native": "Қазақстан",
-    "phone": "76,77",
+    "nativeName": "Қазақстан",
     "continent": "AS",
     "capital": "Astana",
-    "currency": "KZT",
+    "currencyCode": "KZT",
     "languages": [
       "kk",
       "ru"
@@ -1436,22 +1311,20 @@
   },
   "LA": {
     "name": "Laos",
-    "native": "ສປປລາວ",
-    "phone": "856",
+    "nativeName": "ສປປລາວ",
     "continent": "AS",
     "capital": "Vientiane",
-    "currency": "LAK",
+    "currencyCode": "LAK",
     "languages": [
       "lo"
     ]
   },
   "LB": {
     "name": "Lebanon",
-    "native": "لبنان",
-    "phone": "961",
+    "nativeName": "لبنان",
     "continent": "AS",
     "capital": "Beirut",
-    "currency": "LBP",
+    "currencyCode": "LBP",
     "languages": [
       "ar",
       "fr"
@@ -1459,33 +1332,30 @@
   },
   "LC": {
     "name": "Saint Lucia",
-    "native": "Saint Lucia",
-    "phone": "1758",
+    "nativeName": "Saint Lucia",
     "continent": "NA",
     "capital": "Castries",
-    "currency": "XCD",
+    "currencyCode": "XCD",
     "languages": [
       "en"
     ]
   },
   "LI": {
     "name": "Liechtenstein",
-    "native": "Liechtenstein",
-    "phone": "423",
+    "nativeName": "Liechtenstein",
     "continent": "EU",
     "capital": "Vaduz",
-    "currency": "CHF",
+    "currencyCode": "CHF",
     "languages": [
       "de"
     ]
   },
   "LK": {
     "name": "Sri Lanka",
-    "native": "śrī laṃkāva",
-    "phone": "94",
+    "nativeName": "śrī laṃkāva",
     "continent": "AS",
     "capital": "Colombo",
-    "currency": "LKR",
+    "currencyCode": "LKR",
     "languages": [
       "si",
       "ta"
@@ -1493,22 +1363,20 @@
   },
   "LR": {
     "name": "Liberia",
-    "native": "Liberia",
-    "phone": "231",
+    "nativeName": "Liberia",
     "continent": "AF",
     "capital": "Monrovia",
-    "currency": "LRD",
+    "currencyCode": "LRD",
     "languages": [
       "en"
     ]
   },
   "LS": {
     "name": "Lesotho",
-    "native": "Lesotho",
-    "phone": "266",
+    "nativeName": "Lesotho",
     "continent": "AF",
     "capital": "Maseru",
-    "currency": "LSL,ZAR",
+    "currencyCode": "LSL",
     "languages": [
       "en",
       "st"
@@ -1516,22 +1384,20 @@
   },
   "LT": {
     "name": "Lithuania",
-    "native": "Lietuva",
-    "phone": "370",
+    "nativeName": "Lietuva",
     "continent": "EU",
     "capital": "Vilnius",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "lt"
     ]
   },
   "LU": {
     "name": "Luxembourg",
-    "native": "Luxembourg",
-    "phone": "352",
+    "nativeName": "Luxembourg",
     "continent": "EU",
     "capital": "Luxembourg",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "fr",
       "de",
@@ -1540,66 +1406,60 @@
   },
   "LV": {
     "name": "Latvia",
-    "native": "Latvija",
-    "phone": "371",
+    "nativeName": "Latvija",
     "continent": "EU",
     "capital": "Riga",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "lv"
     ]
   },
   "LY": {
     "name": "Libya",
-    "native": "‏ليبيا",
-    "phone": "218",
+    "nativeName": "‏ليبيا",
     "continent": "AF",
     "capital": "Tripoli",
-    "currency": "LYD",
+    "currencyCode": "LYD",
     "languages": [
       "ar"
     ]
   },
   "MA": {
     "name": "Morocco",
-    "native": "المغرب",
-    "phone": "212",
+    "nativeName": "المغرب",
     "continent": "AF",
     "capital": "Rabat",
-    "currency": "MAD",
+    "currencyCode": "MAD",
     "languages": [
       "ar"
     ]
   },
   "MC": {
     "name": "Monaco",
-    "native": "Monaco",
-    "phone": "377",
+    "nativeName": "Monaco",
     "continent": "EU",
     "capital": "Monaco",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "fr"
     ]
   },
   "MD": {
     "name": "Moldova",
-    "native": "Moldova",
-    "phone": "373",
+    "nativeName": "Moldova",
     "continent": "EU",
     "capital": "Chișinău",
-    "currency": "MDL",
+    "currencyCode": "MDL",
     "languages": [
       "ro"
     ]
   },
   "ME": {
     "name": "Montenegro",
-    "native": "Црна Гора",
-    "phone": "382",
+    "nativeName": "Црна Гора",
     "continent": "EU",
     "capital": "Podgorica",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "sr",
       "bs",
@@ -1609,11 +1469,10 @@
   },
   "MF": {
     "name": "Saint Martin",
-    "native": "Saint-Martin",
-    "phone": "590",
+    "nativeName": "Saint-Martin",
     "continent": "NA",
     "capital": "Marigot",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "en",
       "fr",
@@ -1622,11 +1481,10 @@
   },
   "MG": {
     "name": "Madagascar",
-    "native": "Madagasikara",
-    "phone": "261",
+    "nativeName": "Madagasikara",
     "continent": "AF",
     "capital": "Antananarivo",
-    "currency": "MGA",
+    "currencyCode": "MGA",
     "languages": [
       "fr",
       "mg"
@@ -1634,11 +1492,10 @@
   },
   "MH": {
     "name": "Marshall Islands",
-    "native": "M̧ajeļ",
-    "phone": "692",
+    "nativeName": "M̧ajeļ",
     "continent": "OC",
     "capital": "Majuro",
-    "currency": "USD",
+    "currencyCode": "USD",
     "languages": [
       "en",
       "mh"
@@ -1646,55 +1503,50 @@
   },
   "MK": {
     "name": "North Macedonia",
-    "native": "Северна Македонија",
-    "phone": "389",
+    "nativeName": "Северна Македонија",
     "continent": "EU",
     "capital": "Skopje",
-    "currency": "MKD",
+    "currencyCode": "MKD",
     "languages": [
       "mk"
     ]
   },
   "ML": {
     "name": "Mali",
-    "native": "Mali",
-    "phone": "223",
+    "nativeName": "Mali",
     "continent": "AF",
     "capital": "Bamako",
-    "currency": "XOF",
+    "currencyCode": "XOF",
     "languages": [
       "fr"
     ]
   },
   "MM": {
     "name": "Myanmar [Burma]",
-    "native": "မြန်မာ",
-    "phone": "95",
+    "nativeName": "မြန်မာ",
     "continent": "AS",
     "capital": "Naypyidaw",
-    "currency": "MMK",
+    "currencyCode": "MMK",
     "languages": [
       "my"
     ]
   },
   "MN": {
     "name": "Mongolia",
-    "native": "Монгол улс",
-    "phone": "976",
+    "nativeName": "Монгол улс",
     "continent": "AS",
     "capital": "Ulan Bator",
-    "currency": "MNT",
+    "currencyCode": "MNT",
     "languages": [
       "mn"
     ]
   },
   "MO": {
     "name": "Macao",
-    "native": "澳門",
-    "phone": "853",
+    "nativeName": "澳門",
     "continent": "AS",
     "capital": "",
-    "currency": "MOP",
+    "currencyCode": "MOP",
     "languages": [
       "zh",
       "pt"
@@ -1702,11 +1554,10 @@
   },
   "MP": {
     "name": "Northern Mariana Islands",
-    "native": "Northern Mariana Islands",
-    "phone": "1670",
+    "nativeName": "Northern Mariana Islands",
     "continent": "OC",
     "capital": "Saipan",
-    "currency": "USD",
+    "currencyCode": "USD",
     "languages": [
       "en",
       "ch"
@@ -1714,44 +1565,40 @@
   },
   "MQ": {
     "name": "Martinique",
-    "native": "Martinique",
-    "phone": "596",
+    "nativeName": "Martinique",
     "continent": "NA",
     "capital": "Fort-de-France",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "fr"
     ]
   },
   "MR": {
     "name": "Mauritania",
-    "native": "موريتانيا",
-    "phone": "222",
+    "nativeName": "موريتانيا",
     "continent": "AF",
     "capital": "Nouakchott",
-    "currency": "MRU",
+    "currencyCode": "MRU",
     "languages": [
       "ar"
     ]
   },
   "MS": {
     "name": "Montserrat",
-    "native": "Montserrat",
-    "phone": "1664",
+    "nativeName": "Montserrat",
     "continent": "NA",
     "capital": "Plymouth",
-    "currency": "XCD",
+    "currencyCode": "XCD",
     "languages": [
       "en"
     ]
   },
   "MT": {
     "name": "Malta",
-    "native": "Malta",
-    "phone": "356",
+    "nativeName": "Malta",
     "continent": "EU",
     "capital": "Valletta",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "mt",
       "en"
@@ -1759,33 +1606,30 @@
   },
   "MU": {
     "name": "Mauritius",
-    "native": "Maurice",
-    "phone": "230",
+    "nativeName": "Maurice",
     "continent": "AF",
     "capital": "Port Louis",
-    "currency": "MUR",
+    "currencyCode": "MUR",
     "languages": [
       "en"
     ]
   },
   "MV": {
     "name": "Maldives",
-    "native": "Maldives",
-    "phone": "960",
+    "nativeName": "Maldives",
     "continent": "AS",
     "capital": "Malé",
-    "currency": "MVR",
+    "currencyCode": "MVR",
     "languages": [
       "dv"
     ]
   },
   "MW": {
     "name": "Malawi",
-    "native": "Malawi",
-    "phone": "265",
+    "nativeName": "Malawi",
     "continent": "AF",
     "capital": "Lilongwe",
-    "currency": "MWK",
+    "currencyCode": "MWK",
     "languages": [
       "en",
       "ny"
@@ -1793,44 +1637,40 @@
   },
   "MX": {
     "name": "Mexico",
-    "native": "México",
-    "phone": "52",
+    "nativeName": "México",
     "continent": "NA",
     "capital": "Mexico City",
-    "currency": "MXN",
+    "currencyCode": "MXN",
     "languages": [
       "es"
     ]
   },
   "MY": {
     "name": "Malaysia",
-    "native": "Malaysia",
-    "phone": "60",
+    "nativeName": "Malaysia",
     "continent": "AS",
     "capital": "Kuala Lumpur",
-    "currency": "MYR",
+    "currencyCode": "MYR",
     "languages": [
       "ms"
     ]
   },
   "MZ": {
     "name": "Mozambique",
-    "native": "Moçambique",
-    "phone": "258",
+    "nativeName": "Moçambique",
     "continent": "AF",
     "capital": "Maputo",
-    "currency": "MZN",
+    "currencyCode": "MZN",
     "languages": [
       "pt"
     ]
   },
   "NA": {
     "name": "Namibia",
-    "native": "Namibia",
-    "phone": "264",
+    "nativeName": "Namibia",
     "continent": "AF",
     "capital": "Windhoek",
-    "currency": "NAD,ZAR",
+    "currencyCode": "NAD",
     "languages": [
       "en",
       "af"
@@ -1838,77 +1678,70 @@
   },
   "NC": {
     "name": "New Caledonia",
-    "native": "Nouvelle-Calédonie",
-    "phone": "687",
+    "nativeName": "Nouvelle-Calédonie",
     "continent": "OC",
     "capital": "Nouméa",
-    "currency": "XPF",
+    "currencyCode": "XPF",
     "languages": [
       "fr"
     ]
   },
   "NE": {
     "name": "Niger",
-    "native": "Niger",
-    "phone": "227",
+    "nativeName": "Niger",
     "continent": "AF",
     "capital": "Niamey",
-    "currency": "XOF",
+    "currencyCode": "XOF",
     "languages": [
       "fr"
     ]
   },
   "NF": {
     "name": "Norfolk Island",
-    "native": "Norfolk Island",
-    "phone": "672",
+    "nativeName": "Norfolk Island",
     "continent": "OC",
     "capital": "Kingston",
-    "currency": "AUD",
+    "currencyCode": "AUD",
     "languages": [
       "en"
     ]
   },
   "NG": {
     "name": "Nigeria",
-    "native": "Nigeria",
-    "phone": "234",
+    "nativeName": "Nigeria",
     "continent": "AF",
     "capital": "Abuja",
-    "currency": "NGN",
+    "currencyCode": "NGN",
     "languages": [
       "en"
     ]
   },
   "NI": {
     "name": "Nicaragua",
-    "native": "Nicaragua",
-    "phone": "505",
+    "nativeName": "Nicaragua",
     "continent": "NA",
     "capital": "Managua",
-    "currency": "NIO",
+    "currencyCode": "NIO",
     "languages": [
       "es"
     ]
   },
   "NL": {
     "name": "Netherlands",
-    "native": "Nederland",
-    "phone": "31",
+    "nativeName": "Nederland",
     "continent": "EU",
     "capital": "Amsterdam",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "nl"
     ]
   },
   "NO": {
     "name": "Norway",
-    "native": "Norge",
-    "phone": "47",
+    "nativeName": "Norge",
     "continent": "EU",
     "capital": "Oslo",
-    "currency": "NOK",
+    "currencyCode": "NOK",
     "languages": [
       "no",
       "nb",
@@ -1917,22 +1750,20 @@
   },
   "NP": {
     "name": "Nepal",
-    "native": "नपल",
-    "phone": "977",
+    "nativeName": "नपल",
     "continent": "AS",
     "capital": "Kathmandu",
-    "currency": "NPR",
+    "currencyCode": "NPR",
     "languages": [
       "ne"
     ]
   },
   "NR": {
     "name": "Nauru",
-    "native": "Nauru",
-    "phone": "674",
+    "nativeName": "Nauru",
     "continent": "OC",
     "capital": "Yaren",
-    "currency": "AUD",
+    "currencyCode": "AUD",
     "languages": [
       "en",
       "na"
@@ -1940,22 +1771,20 @@
   },
   "NU": {
     "name": "Niue",
-    "native": "Niuē",
-    "phone": "683",
+    "nativeName": "Niuē",
     "continent": "OC",
     "capital": "Alofi",
-    "currency": "NZD",
+    "currencyCode": "NZD",
     "languages": [
       "en"
     ]
   },
   "NZ": {
     "name": "New Zealand",
-    "native": "New Zealand",
-    "phone": "64",
+    "nativeName": "New Zealand",
     "continent": "OC",
     "capital": "Wellington",
-    "currency": "NZD",
+    "currencyCode": "NZD",
     "languages": [
       "en",
       "mi"
@@ -1963,77 +1792,70 @@
   },
   "OM": {
     "name": "Oman",
-    "native": "عمان",
-    "phone": "968",
+    "nativeName": "عمان",
     "continent": "AS",
     "capital": "Muscat",
-    "currency": "OMR",
+    "currencyCode": "OMR",
     "languages": [
       "ar"
     ]
   },
   "PA": {
     "name": "Panama",
-    "native": "Panamá",
-    "phone": "507",
+    "nativeName": "Panamá",
     "continent": "NA",
     "capital": "Panama City",
-    "currency": "PAB,USD",
+    "currencyCode": "PAB",
     "languages": [
       "es"
     ]
   },
   "PE": {
     "name": "Peru",
-    "native": "Perú",
-    "phone": "51",
+    "nativeName": "Perú",
     "continent": "SA",
     "capital": "Lima",
-    "currency": "PEN",
+    "currencyCode": "PEN",
     "languages": [
       "es"
     ]
   },
   "PF": {
     "name": "French Polynesia",
-    "native": "Polynésie française",
-    "phone": "689",
+    "nativeName": "Polynésie française",
     "continent": "OC",
     "capital": "Papeetē",
-    "currency": "XPF",
+    "currencyCode": "XPF",
     "languages": [
       "fr"
     ]
   },
   "PG": {
     "name": "Papua New Guinea",
-    "native": "Papua Niugini",
-    "phone": "675",
+    "nativeName": "Papua Niugini",
     "continent": "OC",
     "capital": "Port Moresby",
-    "currency": "PGK",
+    "currencyCode": "PGK",
     "languages": [
       "en"
     ]
   },
   "PH": {
     "name": "Philippines",
-    "native": "Pilipinas",
-    "phone": "63",
+    "nativeName": "Pilipinas",
     "continent": "AS",
     "capital": "Manila",
-    "currency": "PHP",
+    "currencyCode": "PHP",
     "languages": [
       "en"
     ]
   },
   "PK": {
     "name": "Pakistan",
-    "native": "Pakistan",
-    "phone": "92",
+    "nativeName": "Pakistan",
     "continent": "AS",
     "capital": "Islamabad",
-    "currency": "PKR",
+    "currencyCode": "PKR",
     "languages": [
       "en",
       "ur"
@@ -2041,44 +1863,40 @@
   },
   "PL": {
     "name": "Poland",
-    "native": "Polska",
-    "phone": "48",
+    "nativeName": "Polska",
     "continent": "EU",
     "capital": "Warsaw",
-    "currency": "PLN",
+    "currencyCode": "PLN",
     "languages": [
       "pl"
     ]
   },
   "PM": {
     "name": "Saint Pierre and Miquelon",
-    "native": "Saint-Pierre-et-Miquelon",
-    "phone": "508",
+    "nativeName": "Saint-Pierre-et-Miquelon",
     "continent": "NA",
     "capital": "Saint-Pierre",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "fr"
     ]
   },
   "PN": {
     "name": "Pitcairn Islands",
-    "native": "Pitcairn Islands",
-    "phone": "64",
+    "nativeName": "Pitcairn Islands",
     "continent": "OC",
     "capital": "Adamstown",
-    "currency": "NZD",
+    "currencyCode": "NZD",
     "languages": [
       "en"
     ]
   },
   "PR": {
     "name": "Puerto Rico",
-    "native": "Puerto Rico",
-    "phone": "1787,1939",
+    "nativeName": "Puerto Rico",
     "continent": "NA",
     "capital": "San Juan",
-    "currency": "USD",
+    "currencyCode": "USD",
     "languages": [
       "es",
       "en"
@@ -2086,44 +1904,40 @@
   },
   "PS": {
     "name": "Palestine",
-    "native": "فلسطين",
-    "phone": "970",
+    "nativeName": "فلسطين",
     "continent": "AS",
     "capital": "Ramallah",
-    "currency": "ILS",
+    "currencyCode": "ILS",
     "languages": [
       "ar"
     ]
   },
   "PT": {
     "name": "Portugal",
-    "native": "Portugal",
-    "phone": "351",
+    "nativeName": "Portugal",
     "continent": "EU",
     "capital": "Lisbon",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "pt"
     ]
   },
   "PW": {
     "name": "Palau",
-    "native": "Palau",
-    "phone": "680",
+    "nativeName": "Palau",
     "continent": "OC",
     "capital": "Ngerulmud",
-    "currency": "USD",
+    "currencyCode": "USD",
     "languages": [
       "en"
     ]
   },
   "PY": {
     "name": "Paraguay",
-    "native": "Paraguay",
-    "phone": "595",
+    "nativeName": "Paraguay",
     "continent": "SA",
     "capital": "Asunción",
-    "currency": "PYG",
+    "currencyCode": "PYG",
     "languages": [
       "es",
       "gn"
@@ -2131,66 +1945,60 @@
   },
   "QA": {
     "name": "Qatar",
-    "native": "قطر",
-    "phone": "974",
+    "nativeName": "قطر",
     "continent": "AS",
     "capital": "Doha",
-    "currency": "QAR",
+    "currencyCode": "QAR",
     "languages": [
       "ar"
     ]
   },
   "RE": {
     "name": "Réunion",
-    "native": "La Réunion",
-    "phone": "262",
+    "nativeName": "La Réunion",
     "continent": "AF",
     "capital": "Saint-Denis",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "fr"
     ]
   },
   "RO": {
     "name": "Romania",
-    "native": "România",
-    "phone": "40",
+    "nativeName": "România",
     "continent": "EU",
     "capital": "Bucharest",
-    "currency": "RON",
+    "currencyCode": "RON",
     "languages": [
       "ro"
     ]
   },
   "RS": {
     "name": "Serbia",
-    "native": "Србија",
-    "phone": "381",
+    "nativeName": "Србија",
     "continent": "EU",
     "capital": "Belgrade",
-    "currency": "RSD",
+    "currencyCode": "RSD",
     "languages": [
       "sr"
     ]
   },
   "RU": {
     "name": "Russia",
-    "native": "Россия",
-    "phone": "7",
+    "nativeName": "Россия",
     "continent": "EU",
     "capital": "Moscow",
-    "currency": "RUB",
+    "currencyCode": "RUB",
     "languages": [
       "ru"
     ]
   },
   "RW": {
     "name": "Rwanda",
-    "native": "Rwanda",
-    "phone": "250",
+    "nativeName": "Rwanda",
     "continent": "AF",
     "capital": "Kigali",
-    "currency": "RWF",
+    "currencyCode": "RWF",
     "languages": [
       "rw",
       "en",
@@ -2199,33 +2007,30 @@
   },
   "SA": {
     "name": "Saudi Arabia",
-    "native": "العربية السعودية",
-    "phone": "966",
+    "nativeName": "العربية السعودية",
     "continent": "AS",
     "capital": "Riyadh",
-    "currency": "SAR",
+    "currencyCode": "SAR",
     "languages": [
       "ar"
     ]
   },
   "SB": {
     "name": "Solomon Islands",
-    "native": "Solomon Islands",
-    "phone": "677",
+    "nativeName": "Solomon Islands",
     "continent": "OC",
     "capital": "Honiara",
-    "currency": "SBD",
+    "currencyCode": "SBD",
     "languages": [
       "en"
     ]
   },
   "SC": {
     "name": "Seychelles",
-    "native": "Seychelles",
-    "phone": "248",
+    "nativeName": "Seychelles",
     "continent": "AF",
     "capital": "Victoria",
-    "currency": "SCR",
+    "currencyCode": "SCR",
     "languages": [
       "fr",
       "en"
@@ -2233,11 +2038,10 @@
   },
   "SD": {
     "name": "Sudan",
-    "native": "السودان",
-    "phone": "249",
+    "nativeName": "السودان",
     "continent": "AF",
     "capital": "Khartoum",
-    "currency": "SDG",
+    "currencyCode": "SDG",
     "languages": [
       "ar",
       "en"
@@ -2245,22 +2049,20 @@
   },
   "SE": {
     "name": "Sweden",
-    "native": "Sverige",
-    "phone": "46",
+    "nativeName": "Sverige",
     "continent": "EU",
     "capital": "Stockholm",
-    "currency": "SEK",
+    "currencyCode": "SEK",
     "languages": [
       "sv"
     ]
   },
   "SG": {
     "name": "Singapore",
-    "native": "Singapore",
-    "phone": "65",
+    "nativeName": "Singapore",
     "continent": "AS",
     "capital": "Singapore",
-    "currency": "SGD",
+    "currencyCode": "SGD",
     "languages": [
       "en",
       "ms",
@@ -2270,88 +2072,80 @@
   },
   "SH": {
     "name": "Saint Helena",
-    "native": "Saint Helena",
-    "phone": "290",
+    "nativeName": "Saint Helena",
     "continent": "AF",
     "capital": "Jamestown",
-    "currency": "SHP",
+    "currencyCode": "SHP",
     "languages": [
       "en"
     ]
   },
   "SI": {
     "name": "Slovenia",
-    "native": "Slovenija",
-    "phone": "386",
+    "nativeName": "Slovenija",
     "continent": "EU",
     "capital": "Ljubljana",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "sl"
     ]
   },
   "SJ": {
     "name": "Svalbard and Jan Mayen",
-    "native": "Svalbard og Jan Mayen",
-    "phone": "4779",
+    "nativeName": "Svalbard og Jan Mayen",
     "continent": "EU",
     "capital": "Longyearbyen",
-    "currency": "NOK",
+    "currencyCode": "NOK",
     "languages": [
       "no"
     ]
   },
   "SK": {
     "name": "Slovakia",
-    "native": "Slovensko",
-    "phone": "421",
+    "nativeName": "Slovensko",
     "continent": "EU",
     "capital": "Bratislava",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "sk"
     ]
   },
   "SL": {
     "name": "Sierra Leone",
-    "native": "Sierra Leone",
-    "phone": "232",
+    "nativeName": "Sierra Leone",
     "continent": "AF",
     "capital": "Freetown",
-    "currency": "SLL",
+    "currencyCode": "SLL",
     "languages": [
       "en"
     ]
   },
   "SM": {
     "name": "San Marino",
-    "native": "San Marino",
-    "phone": "378",
+    "nativeName": "San Marino",
     "continent": "EU",
     "capital": "City of San Marino",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "it"
     ]
   },
   "SN": {
     "name": "Senegal",
-    "native": "Sénégal",
-    "phone": "221",
+    "nativeName": "Sénégal",
     "continent": "AF",
     "capital": "Dakar",
-    "currency": "XOF",
+    "currencyCode": "XOF",
     "languages": [
       "fr"
     ]
   },
   "SO": {
     "name": "Somalia",
-    "native": "Soomaaliya",
-    "phone": "252",
+    "nativeName": "Soomaaliya",
     "continent": "AF",
     "capital": "Mogadishu",
-    "currency": "SOS",
+    "currencyCode": "SOS",
     "languages": [
       "so",
       "ar"
@@ -2359,55 +2153,50 @@
   },
   "SR": {
     "name": "Suriname",
-    "native": "Suriname",
-    "phone": "597",
+    "nativeName": "Suriname",
     "continent": "SA",
     "capital": "Paramaribo",
-    "currency": "SRD",
+    "currencyCode": "SRD",
     "languages": [
       "nl"
     ]
   },
   "SS": {
     "name": "South Sudan",
-    "native": "South Sudan",
-    "phone": "211",
+    "nativeName": "South Sudan",
     "continent": "AF",
     "capital": "Juba",
-    "currency": "SSP",
+    "currencyCode": "SSP",
     "languages": [
       "en"
     ]
   },
   "ST": {
     "name": "São Tomé and Príncipe",
-    "native": "São Tomé e Príncipe",
-    "phone": "239",
+    "nativeName": "São Tomé e Príncipe",
     "continent": "AF",
     "capital": "São Tomé",
-    "currency": "STN",
+    "currencyCode": "STN",
     "languages": [
       "pt"
     ]
   },
   "SV": {
     "name": "El Salvador",
-    "native": "El Salvador",
-    "phone": "503",
+    "nativeName": "El Salvador",
     "continent": "NA",
     "capital": "San Salvador",
-    "currency": "SVC,USD",
+    "currencyCode": "SVC",
     "languages": [
       "es"
     ]
   },
   "SX": {
     "name": "Sint Maarten",
-    "native": "Sint Maarten",
-    "phone": "1721",
+    "nativeName": "Sint Maarten",
     "continent": "NA",
     "capital": "Philipsburg",
-    "currency": "ANG",
+    "currencyCode": "ANG",
     "languages": [
       "nl",
       "en"
@@ -2415,22 +2204,20 @@
   },
   "SY": {
     "name": "Syria",
-    "native": "سوريا",
-    "phone": "963",
+    "nativeName": "سوريا",
     "continent": "AS",
     "capital": "Damascus",
-    "currency": "SYP",
+    "currencyCode": "SYP",
     "languages": [
       "ar"
     ]
   },
   "SZ": {
     "name": "Swaziland",
-    "native": "Swaziland",
-    "phone": "268",
+    "nativeName": "Swaziland",
     "continent": "AF",
     "capital": "Lobamba",
-    "currency": "SZL",
+    "currencyCode": "SZL",
     "languages": [
       "en",
       "ss"
@@ -2438,22 +2225,20 @@
   },
   "TC": {
     "name": "Turks and Caicos Islands",
-    "native": "Turks and Caicos Islands",
-    "phone": "1649",
+    "nativeName": "Turks and Caicos Islands",
     "continent": "NA",
     "capital": "Cockburn Town",
-    "currency": "USD",
+    "currencyCode": "USD",
     "languages": [
       "en"
     ]
   },
   "TD": {
     "name": "Chad",
-    "native": "Tchad",
-    "phone": "235",
+    "nativeName": "Tchad",
     "continent": "AF",
     "capital": "N'Djamena",
-    "currency": "XAF",
+    "currencyCode": "XAF",
     "languages": [
       "fr",
       "ar"
@@ -2461,44 +2246,40 @@
   },
   "TF": {
     "name": "French Southern Territories",
-    "native": "Territoire des Terres australes et antarctiques fr",
-    "phone": "262",
+    "nativeName": "Territoire des Terres australes et antarctiques fr",
     "continent": "AN",
     "capital": "Port-aux-Français",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "fr"
     ]
   },
   "TG": {
     "name": "Togo",
-    "native": "Togo",
-    "phone": "228",
+    "nativeName": "Togo",
     "continent": "AF",
     "capital": "Lomé",
-    "currency": "XOF",
+    "currencyCode": "XOF",
     "languages": [
       "fr"
     ]
   },
   "TH": {
     "name": "Thailand",
-    "native": "ประเทศไทย",
-    "phone": "66",
+    "nativeName": "ประเทศไทย",
     "continent": "AS",
     "capital": "Bangkok",
-    "currency": "THB",
+    "currencyCode": "THB",
     "languages": [
       "th"
     ]
   },
   "TJ": {
     "name": "Tajikistan",
-    "native": "Тоҷикистон",
-    "phone": "992",
+    "nativeName": "Тоҷикистон",
     "continent": "AS",
     "capital": "Dushanbe",
-    "currency": "TJS",
+    "currencyCode": "TJS",
     "languages": [
       "tg",
       "ru"
@@ -2506,33 +2287,30 @@
   },
   "TK": {
     "name": "Tokelau",
-    "native": "Tokelau",
-    "phone": "690",
+    "nativeName": "Tokelau",
     "continent": "OC",
     "capital": "Fakaofo",
-    "currency": "NZD",
+    "currencyCode": "NZD",
     "languages": [
       "en"
     ]
   },
   "TL": {
     "name": "East Timor",
-    "native": "Timor-Leste",
-    "phone": "670",
+    "nativeName": "Timor-Leste",
     "continent": "OC",
     "capital": "Dili",
-    "currency": "USD",
+    "currencyCode": "USD",
     "languages": [
       "pt"
     ]
   },
   "TM": {
     "name": "Turkmenistan",
-    "native": "Türkmenistan",
-    "phone": "993",
+    "nativeName": "Türkmenistan",
     "continent": "AS",
     "capital": "Ashgabat",
-    "currency": "TMT",
+    "currencyCode": "TMT",
     "languages": [
       "tk",
       "ru"
@@ -2540,22 +2318,20 @@
   },
   "TN": {
     "name": "Tunisia",
-    "native": "تونس",
-    "phone": "216",
+    "nativeName": "تونس",
     "continent": "AF",
     "capital": "Tunis",
-    "currency": "TND",
+    "currencyCode": "TND",
     "languages": [
       "ar"
     ]
   },
   "TO": {
     "name": "Tonga",
-    "native": "Tonga",
-    "phone": "676",
+    "nativeName": "Tonga",
     "continent": "OC",
     "capital": "Nuku'alofa",
-    "currency": "TOP",
+    "currencyCode": "TOP",
     "languages": [
       "en",
       "to"
@@ -2563,55 +2339,50 @@
   },
   "TR": {
     "name": "Turkey",
-    "native": "Türkiye",
-    "phone": "90",
+    "nativeName": "Türkiye",
     "continent": "AS",
     "capital": "Ankara",
-    "currency": "TRY",
+    "currencyCode": "TRY",
     "languages": [
       "tr"
     ]
   },
   "TT": {
     "name": "Trinidad and Tobago",
-    "native": "Trinidad and Tobago",
-    "phone": "1868",
+    "nativeName": "Trinidad and Tobago",
     "continent": "NA",
     "capital": "Port of Spain",
-    "currency": "TTD",
+    "currencyCode": "TTD",
     "languages": [
       "en"
     ]
   },
   "TV": {
     "name": "Tuvalu",
-    "native": "Tuvalu",
-    "phone": "688",
+    "nativeName": "Tuvalu",
     "continent": "OC",
     "capital": "Funafuti",
-    "currency": "AUD",
+    "currencyCode": "AUD",
     "languages": [
       "en"
     ]
   },
   "TW": {
     "name": "Taiwan",
-    "native": "臺灣",
-    "phone": "886",
+    "nativeName": "臺灣",
     "continent": "AS",
     "capital": "Taipei",
-    "currency": "TWD",
+    "currencyCode": "TWD",
     "languages": [
       "zh"
     ]
   },
   "TZ": {
     "name": "Tanzania",
-    "native": "Tanzania",
-    "phone": "255",
+    "nativeName": "Tanzania",
     "continent": "AF",
     "capital": "Dodoma",
-    "currency": "TZS",
+    "currencyCode": "TZS",
     "languages": [
       "sw",
       "en"
@@ -2619,22 +2390,20 @@
   },
   "UA": {
     "name": "Ukraine",
-    "native": "Україна",
-    "phone": "380",
+    "nativeName": "Україна",
     "continent": "EU",
     "capital": "Kyiv",
-    "currency": "UAH",
+    "currencyCode": "UAH",
     "languages": [
       "uk"
     ]
   },
   "UG": {
     "name": "Uganda",
-    "native": "Uganda",
-    "phone": "256",
+    "nativeName": "Uganda",
     "continent": "AF",
     "capital": "Kampala",
-    "currency": "UGX",
+    "currencyCode": "UGX",
     "languages": [
       "en",
       "sw"
@@ -2642,44 +2411,40 @@
   },
   "UM": {
     "name": "U.S. Minor Outlying Islands",
-    "native": "United States Minor Outlying Islands",
-    "phone": "1",
+    "nativeName": "United States Minor Outlying Islands",
     "continent": "OC",
     "capital": "",
-    "currency": "USD",
+    "currencyCode": "USD",
     "languages": [
       "en"
     ]
   },
   "US": {
     "name": "United States",
-    "native": "United States",
-    "phone": "1",
+    "nativeName": "United States",
     "continent": "NA",
     "capital": "Washington D.C.",
-    "currency": "USD,USN,USS",
+    "currencyCode": "USD",
     "languages": [
       "en"
     ]
   },
   "UY": {
     "name": "Uruguay",
-    "native": "Uruguay",
-    "phone": "598",
+    "nativeName": "Uruguay",
     "continent": "SA",
     "capital": "Montevideo",
-    "currency": "UYI,UYU",
+    "currencyCode": "UYI",
     "languages": [
       "es"
     ]
   },
   "UZ": {
     "name": "Uzbekistan",
-    "native": "O‘zbekiston",
-    "phone": "998",
+    "nativeName": "O‘zbekiston",
     "continent": "AS",
     "capital": "Tashkent",
-    "currency": "UZS",
+    "currencyCode": "UZS",
     "languages": [
       "uz",
       "ru"
@@ -2687,11 +2452,10 @@
   },
   "VA": {
     "name": "Vatican City",
-    "native": "Vaticano",
-    "phone": "379",
+    "nativeName": "Vaticano",
     "continent": "EU",
     "capital": "Vatican City",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "it",
       "la"
@@ -2699,66 +2463,60 @@
   },
   "VC": {
     "name": "Saint Vincent and the Grenadines",
-    "native": "Saint Vincent and the Grenadines",
-    "phone": "1784",
+    "nativeName": "Saint Vincent and the Grenadines",
     "continent": "NA",
     "capital": "Kingstown",
-    "currency": "XCD",
+    "currencyCode": "XCD",
     "languages": [
       "en"
     ]
   },
   "VE": {
     "name": "Venezuela",
-    "native": "Venezuela",
-    "phone": "58",
+    "nativeName": "Venezuela",
     "continent": "SA",
     "capital": "Caracas",
-    "currency": "VES",
+    "currencyCode": "VES",
     "languages": [
       "es"
     ]
   },
   "VG": {
     "name": "British Virgin Islands",
-    "native": "British Virgin Islands",
-    "phone": "1284",
+    "nativeName": "British Virgin Islands",
     "continent": "NA",
     "capital": "Road Town",
-    "currency": "USD",
+    "currencyCode": "USD",
     "languages": [
       "en"
     ]
   },
   "VI": {
     "name": "U.S. Virgin Islands",
-    "native": "United States Virgin Islands",
-    "phone": "1340",
+    "nativeName": "United States Virgin Islands",
     "continent": "NA",
     "capital": "Charlotte Amalie",
-    "currency": "USD",
+    "currencyCode": "USD",
     "languages": [
       "en"
     ]
   },
   "VN": {
     "name": "Vietnam",
-    "native": "Việt Nam",
-    "phone": "84",
+    "nativeName": "Việt Nam",
     "continent": "AS",
     "capital": "Hanoi",
-    "currency": "VND",
+    "currencyCode": "VND",
     "languages": [
       "vi"
     ]
   },
   "VU": {
     "name": "Vanuatu",
-    "native": "Vanuatu",
-    "phone": "678",
+    "nativeName": "Vanuatu",
     "continent": "OC",
     "capital": "Port Vila",
-    "currency": "VUV",
+    "currencyCode": "VUV",
     "languages": [
       "bi",
       "en",
@@ -2767,22 +2525,20 @@
   },
   "WF": {
     "name": "Wallis and Futuna",
-    "native": "Wallis et Futuna",
-    "phone": "681",
+    "nativeName": "Wallis et Futuna",
     "continent": "OC",
     "capital": "Mata-Utu",
-    "currency": "XPF",
+    "currencyCode": "XPF",
     "languages": [
       "fr"
     ]
   },
   "WS": {
     "name": "Samoa",
-    "native": "Samoa",
-    "phone": "685",
+    "nativeName": "Samoa",
     "continent": "OC",
     "capital": "Apia",
-    "currency": "WST",
+    "currencyCode": "WST",
     "languages": [
       "sm",
       "en"
@@ -2790,11 +2546,10 @@
   },
   "XK": {
     "name": "Kosovo",
-    "native": "Republika e Kosovës",
-    "phone": "377,381,383,386",
+    "nativeName": "Republika e Kosovës",
     "continent": "EU",
     "capital": "Pristina",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "sq",
       "sr"
@@ -2802,33 +2557,30 @@
   },
   "YE": {
     "name": "Yemen",
-    "native": "اليَمَن",
-    "phone": "967",
+    "nativeName": "اليَمَن",
     "continent": "AS",
     "capital": "Sana'a",
-    "currency": "YER",
+    "currencyCode": "YER",
     "languages": [
       "ar"
     ]
   },
   "YT": {
     "name": "Mayotte",
-    "native": "Mayotte",
-    "phone": "262",
+    "nativeName": "Mayotte",
     "continent": "AF",
     "capital": "Mamoudzou",
-    "currency": "EUR",
+    "currencyCode": "EUR",
     "languages": [
       "fr"
     ]
   },
   "ZA": {
     "name": "South Africa",
-    "native": "South Africa",
-    "phone": "27",
+    "nativeName": "South Africa",
     "continent": "AF",
     "capital": "Pretoria",
-    "currency": "ZAR",
+    "currencyCode": "ZAR",
     "languages": [
       "af",
       "en",
@@ -2844,22 +2596,20 @@
   },
   "ZM": {
     "name": "Zambia",
-    "native": "Zambia",
-    "phone": "260",
+    "nativeName": "Zambia",
     "continent": "AF",
     "capital": "Lusaka",
-    "currency": "ZMW",
+    "currencyCode": "ZMW",
     "languages": [
       "en"
     ]
   },
   "ZW": {
     "name": "Zimbabwe",
-    "native": "Zimbabwe",
-    "phone": "263",
+    "nativeName": "Zimbabwe",
     "continent": "AF",
     "capital": "Harare",
-    "currency": "USD,ZAR,BWP,GBP,AUD,CNY,INR,JPY",
+    "currencyCode": "USD",
     "languages": [
       "en",
       "sn",
