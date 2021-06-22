@@ -3,8 +3,6 @@ import 'dart:io';
 import 'package:dart_countries/src/models/phone_description.dart';
 import 'package:xml/xml.dart';
 
-import '../country_info/country_info.extractor.dart';
-
 // this file is responsible of extracting the phone metadata
 // from the phone_number_metadata.xml
 

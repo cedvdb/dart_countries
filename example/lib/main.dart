@@ -6,14 +6,14 @@ void main(List<String> arguments) {
 
   // maps
   print(countriesName[us]);
-  print(countriesNative[us]); // native name
+  print(countriesNativeName[us]); // native name
   print(countriesContinent[us]);
   print(countriesCapital[us]);
-  print(countriesCurrency[us]);
+  print(countriesCurrencyCode[us]);
   print(countriesFlag[us]); // unicode flag wont display on windows yet
   print(countriesLanguages[us]);
-  print(countriesDialcode[us]);
-  print(countriesPhonenumberlengths[us]);
+  print(countriesDialCode[us]);
+  print(countriesPhoneNumberLengths[us]);
   print(countriesPhoneDescription[us]);
 
   // country class

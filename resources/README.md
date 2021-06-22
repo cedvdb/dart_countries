@@ -11,7 +11,13 @@ The package is organized as such:
 
 to generate the files the following command can be used from the root of the project
 
+for generating the aggregated json:
+
+`dart resources/data_sources/generate_countries_aggregated_info_json.dart`
+
 for generating dart files (from root dir)
 
 `dart resources/generate_country_data_files.dart && dart format .`
+
+
 

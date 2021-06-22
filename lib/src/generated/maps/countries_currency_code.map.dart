@@ -1,8 +1,8 @@
-// This file was auto generated on 2021-06-22T11:41:13.261422
+// This file was auto generated on 2021-06-22T15:40:17.357495
 
-import "./iso_codes.enum.dart";
+import "package:dart_countries/src/generated/iso_codes.enum.dart";
 
-const countriesCurrency = {
+const countriesCurrencyCode = {
   IsoCode.AD: "EUR",
   IsoCode.AE: "AED",
   IsoCode.AF: "AFN",

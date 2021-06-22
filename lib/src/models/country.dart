@@ -1,16 +1,7 @@
 import 'dart:convert';
 
 import 'package:dart_countries/dart_countries.dart';
-import 'package:dart_countries/src/generated/countries_capital.map.dart';
-import 'package:dart_countries/src/generated/countries_continent.map.dart';
-import 'package:dart_countries/src/generated/countries_currency.map.dart';
-import 'package:dart_countries/src/generated/countries_dial_code.map.dart';
-import 'package:dart_countries/src/generated/countries_flag.map.dart';
-import 'package:dart_countries/src/generated/countries_languages.map.dart';
-import 'package:dart_countries/src/generated/countries_name.map.dart';
-import 'package:dart_countries/src/generated/countries_native.map.dart';
-import 'package:dart_countries/src/generated/countries_phone_description.map.dart';
-import 'package:dart_countries/src/generated/iso_codes.enum.dart';
+import 'package:dart_countries/src/generated/generated.dart';
 
 import 'phone_description.dart';
 
@@ -22,11 +13,11 @@ class Country {
   String get name => countriesName[isoCode]!;
 
   /// The naame as the native would spell it
-  String get nativeName => countriesNative[isoCode]!;
+  String get nativeName => countriesNativeName[isoCode]!;
   String get capital => countriesCapital[isoCode]!;
   String get continent => countriesContinent[isoCode]!;
   List<String> get languages => countriesLanguages[isoCode]!;
-  String get currencyCode => countriesCurrency[isoCode]!;
+  String get currencyCode => countriesCurrencyCode[isoCode]!;
 
   /// emoji flag
   String get flag => countriesFlag[isoCode]!;
@@ -35,7 +26,7 @@ class Country {
   PhoneDescription get phoneDescription => countriesPhoneDescription[isoCode]!;
 
   /// country dialing code to call them internationally
-  String get dialCode => countriesDialcode[isoCode]!;
+  String get dialCode => countriesDialCode[isoCode]!;
 
   /// returns "+ [dialCode]"
   String get displayDialCode => '+ $dialCode';
