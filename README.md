@@ -10,7 +10,7 @@ You can use the maps to only import the information that you need
   - countriesNative[IsoCode.US] // native name
   - countriesContinent[IsoCode.US]
   - countriesCapital[IsoCode.US]
-  - countriesCurrency[IsoCode.US]
+  - countriesCurrencyCode[IsoCode.US]
   - countriesFlag[IsoCode.US] // unicode flag wont display on windows yet
   - countriesLanguages[IsoCode.US]
   - countriesDialcode[IsoCode.US]
