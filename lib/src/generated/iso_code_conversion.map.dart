@@ -1,8 +1,9 @@
-// This file was auto generated on 2021-07-18T15:42:15.921515
+// This file was auto generated on 2021-07-18T21:50:36.797899
 
 import "package:dart_countries/src/generated/iso_codes.enum.dart";
 
 const isoCodeConversionMap = {
+  "AC": IsoCode.AC,
   "AD": IsoCode.AD,
   "AE": IsoCode.AE,
   "AF": IsoCode.AF,
@@ -211,6 +212,7 @@ const isoCodeConversionMap = {
   "SX": IsoCode.SX,
   "SY": IsoCode.SY,
   "SZ": IsoCode.SZ,
+  "TA": IsoCode.TA,
   "TC": IsoCode.TC,
   "TD": IsoCode.TD,
   "TG": IsoCode.TG,

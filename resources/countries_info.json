@@ -119,14 +119,6 @@
     "flag": "🇦🇴",
     "isoCode": "AO"
   },
-  "AQ": {
-    "name": "Antarctica",
-    "nativeName": "Antarctica",
-    "continent": "AN",
-    "capital": "",
-    "currencyCode": "",
-    "languages": []
-  },
   "AR": {
     "name": "Argentina",
     "nativeName": "Argentina",
@@ -449,18 +441,6 @@
     "dialCode": "975",
     "flag": "🇧🇹",
     "isoCode": "BT"
-  },
-  "BV": {
-    "name": "Bouvet Island",
-    "nativeName": "Bouvetøya",
-    "continent": "AN",
-    "capital": "",
-    "currencyCode": "NOK",
-    "languages": [
-      "no",
-      "nb",
-      "nn"
-    ]
   },
   "BW": {
     "name": "Botswana",
@@ -1209,16 +1189,6 @@
     "flag": "🇬🇷",
     "isoCode": "GR"
   },
-  "GS": {
-    "name": "South Georgia and the South Sandwich Islands",
-    "nativeName": "South Georgia",
-    "continent": "AN",
-    "capital": "King Edward Point",
-    "currencyCode": "GBP",
-    "languages": [
-      "en"
-    ]
-  },
   "GT": {
     "name": "Guatemala",
     "nativeName": "Guatemala",
@@ -1286,16 +1256,6 @@
     "dialCode": "852",
     "flag": "🇭🇰",
     "isoCode": "HK"
-  },
-  "HM": {
-    "name": "Heard Island and McDonald Islands",
-    "nativeName": "Heard Island and McDonald Islands",
-    "continent": "AN",
-    "capital": "",
-    "currencyCode": "AUD",
-    "languages": [
-      "en"
-    ]
   },
   "HN": {
     "name": "Honduras",
@@ -1987,7 +1947,7 @@
     "name": "Macao",
     "nativeName": "澳門",
     "continent": "AS",
-    "capital": "",
+    "capital": "Macao",
     "currencyCode": "MOP",
     "languages": [
       "zh",
@@ -2421,16 +2381,6 @@
     "dialCode": "508",
     "flag": "🇵🇲",
     "isoCode": "PM"
-  },
-  "PN": {
-    "name": "Pitcairn Islands",
-    "nativeName": "Pitcairn Islands",
-    "continent": "OC",
-    "capital": "Adamstown",
-    "currencyCode": "NZD",
-    "languages": [
-      "en"
-    ]
   },
   "PR": {
     "name": "Puerto Rico",
@@ -2900,16 +2850,6 @@
     "flag": "🇹🇩",
     "isoCode": "TD"
   },
-  "TF": {
-    "name": "French Southern Territories",
-    "nativeName": "Territoire des Terres australes et antarctiques fr",
-    "continent": "AN",
-    "capital": "Port-aux-Français",
-    "currencyCode": "EUR",
-    "languages": [
-      "fr"
-    ]
-  },
   "TG": {
     "name": "Togo",
     "nativeName": "Togo",
@@ -3109,16 +3049,6 @@
     "dialCode": "256",
     "flag": "🇺🇬",
     "isoCode": "UG"
-  },
-  "UM": {
-    "name": "U.S. Minor Outlying Islands",
-    "nativeName": "United States Minor Outlying Islands",
-    "continent": "OC",
-    "capital": "",
-    "currencyCode": "USD",
-    "languages": [
-      "en"
-    ]
   },
   "US": {
     "name": "United States",

@@ -3,8 +3,6 @@ import 'dart:convert';
 import 'package:dart_countries/dart_countries.dart';
 import 'package:dart_countries/src/generated/generated.dart';
 
-import 'phone_description.dart';
-
 /// Country regroup informations for displaying a list of countries
 class Country {
   final IsoCode isoCode;
@@ -21,9 +19,6 @@ class Country {
 
   /// emoji flag
   String get flag => countriesFlag[isoCode]!;
-
-  /// description of what the country's phone number scheme
-  PhoneDescription get phoneDescription => countriesPhoneDescription[isoCode]!;
 
   /// country dialing code to call them internationally
   String get dialCode => countriesDialCode[isoCode]!;
@@ -47,7 +42,6 @@ class Country {
       'currencyCode': currencyCode,
       'flag': flag,
       'isoCode': isoCode,
-      'phoneDescription': phoneDescription.toMap(),
     };
   }
 
@@ -62,6 +56,6 @@ class Country {
 
   @override
   String toString() {
-    return 'Country(name: $name, nativeName: $nativeName, capital: $capital, continent: $continent, languages: $languages, currencyCode: $currencyCode, flag: $flag, isoCode: $isoCode, phoneDescription: $phoneDescription)';
+    return 'Country(name: $name, nativeName: $nativeName, capital: $capital, continent: $continent, languages: $languages, currencyCode: $currencyCode, flag: $flag, isoCode: $isoCode)';
   }
 }

@@ -1,8 +1,9 @@
-// This file was auto generated on 2021-07-18T15:42:15.921515
+// This file was auto generated on 2021-07-18T21:50:36.797899
 
 import "package:dart_countries/src/generated/iso_codes.enum.dart";
 
 const countriesCurrencyCode = {
+  IsoCode.AC: "SHP",
   IsoCode.AD: "EUR",
   IsoCode.AE: "AED",
   IsoCode.AF: "AFN",
@@ -211,6 +212,7 @@ const countriesCurrencyCode = {
   IsoCode.SX: "ANG",
   IsoCode.SY: "SYP",
   IsoCode.SZ: "SZL",
+  IsoCode.TA: "GBP",
   IsoCode.TC: "USD",
   IsoCode.TD: "XAF",
   IsoCode.TG: "XOF",

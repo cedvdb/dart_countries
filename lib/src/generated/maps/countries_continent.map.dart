@@ -1,8 +1,9 @@
-// This file was auto generated on 2021-07-18T15:42:15.921515
+// This file was auto generated on 2021-07-18T21:50:36.797899
 
 import "package:dart_countries/src/generated/iso_codes.enum.dart";
 
 const countriesContinent = {
+  IsoCode.AC: "AF",
   IsoCode.AD: "EU",
   IsoCode.AE: "AS",
   IsoCode.AF: "AS",
@@ -211,6 +212,7 @@ const countriesContinent = {
   IsoCode.SX: "NA",
   IsoCode.SY: "AS",
   IsoCode.SZ: "AF",
+  IsoCode.TA: "AF",
   IsoCode.TC: "NA",
   IsoCode.TD: "AF",
   IsoCode.TG: "AF",

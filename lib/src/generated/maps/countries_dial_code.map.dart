@@ -1,8 +1,9 @@
-// This file was auto generated on 2021-07-18T15:42:15.921515
+// This file was auto generated on 2021-07-18T21:50:36.797899
 
 import "package:dart_countries/src/generated/iso_codes.enum.dart";
 
 const countriesDialCode = {
+  IsoCode.AC: "247",
   IsoCode.AD: "376",
   IsoCode.AE: "971",
   IsoCode.AF: "93",
@@ -211,6 +212,7 @@ const countriesDialCode = {
   IsoCode.SX: "1",
   IsoCode.SY: "963",
   IsoCode.SZ: "268",
+  IsoCode.TA: "290",
   IsoCode.TC: "1",
   IsoCode.TD: "235",
   IsoCode.TG: "228",

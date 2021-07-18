@@ -1,8 +1,9 @@
-// This file was auto generated on 2021-07-18T15:42:15.921515
+// This file was auto generated on 2021-07-18T21:50:36.797899
 
 import "package:dart_countries/src/generated/iso_codes.enum.dart";
 
 const countriesCapital = {
+  IsoCode.AC: "Georgetown",
   IsoCode.AD: "Andorra la Vella",
   IsoCode.AE: "Abu Dhabi",
   IsoCode.AF: "Kabul",
@@ -146,7 +147,7 @@ const countriesCapital = {
   IsoCode.ML: "Bamako",
   IsoCode.MM: "Naypyidaw",
   IsoCode.MN: "Ulan Bator",
-  IsoCode.MO: "",
+  IsoCode.MO: "Macao",
   IsoCode.MP: "Saipan",
   IsoCode.MQ: "Fort-de-France",
   IsoCode.MR: "Nouakchott",
@@ -211,6 +212,7 @@ const countriesCapital = {
   IsoCode.SX: "Philipsburg",
   IsoCode.SY: "Damascus",
   IsoCode.SZ: "Lobamba",
+  IsoCode.TA: "Edinburgh of the Seven Seas",
   IsoCode.TC: "Cockburn Town",
   IsoCode.TD: "N'Djamena",
   IsoCode.TG: "Lomé",

@@ -4,13 +4,8 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:dart_countries/src/models/phone_description.dart';
-
-import 'data_sources/generate_countries_aggregated_info_json.dart';
+import 'country_info_reader.dart';
 import 'package:basic_utils/basic_utils.dart' show StringUtils;
-
-import 'data_sources/read_country_info.dart';
-import 'phone_encoder.dart';
 
 const OUTPUT_PATH = 'lib/src/generated/';
 const ISO_CODE_FILE = 'iso_codes.enum.dart';
@@ -18,41 +13,45 @@ const SRC = 'package:dart_countries/src';
 const ISO_CODE_IMPORT = 'import "$SRC/generated/$ISO_CODE_FILE";';
 final AUTO_GEN_COMMENT =
     '// This file was auto generated on ${DateTime.now().toIso8601String()}\n\n';
-String generatedContent = '';
 
+/// this file generates all the dart files from the json file
 void main() async {
-  final countriesInfo = await getCountryAggregatedInfo();
-  await Future.wait([
+  // read json
+  final countriesInfo = await readCountryInfo();
+
+  String generatedContent = '';
+
+  final addedExports = await Future.wait([
     generateIsoCodeEnum(countriesInfo),
     generateCountryList(countriesInfo),
     generateIsoCodeConversionMap(countriesInfo),
-
     // iso code to property
-    generateIsoCodeToPropertyMapFile(CountryInfoKeys.name, countriesInfo),
-    generateIsoCodeToPropertyMapFile(CountryInfoKeys.native, countriesInfo),
-    generateIsoCodeToPropertyMapFile(CountryInfoKeys.capital, countriesInfo),
-    generateIsoCodeToPropertyMapFile(CountryInfoKeys.continent, countriesInfo),
-    generateIsoCodeToPropertyMapFile(CountryInfoKeys.currency, countriesInfo),
-    generateIsoCodeToPropertyMapFile(CountryInfoKeys.languages, countriesInfo),
-    generateIsoCodeToPropertyMapFile(CountryInfoKeys.flag, countriesInfo),
-    generateIsoCodeToPropertyMapFile(CountryInfoKeys.dialCode, countriesInfo),
-    generateIsoCodeToPropertyMapFile(
-        CountryInfoKeys.phoneNumberLengths, countriesInfo),
-    generatePhoneDescMapFile(countriesInfo),
-    generateDialCodeMapFile(countriesInfo),
+    generateIsoCodeToPropertyMapFile('name', countriesInfo),
+    generateIsoCodeToPropertyMapFile('nativeName', countriesInfo),
+    generateIsoCodeToPropertyMapFile('continent', countriesInfo),
+    generateIsoCodeToPropertyMapFile('capital', countriesInfo),
+    generateIsoCodeToPropertyMapFile('currencyCode', countriesInfo),
+    generateIsoCodeToPropertyMapFile('languages', countriesInfo),
+    generateIsoCodeToPropertyMapFile('dialCode', countriesInfo),
+    generateIsoCodeToPropertyMapFile('flag', countriesInfo),
+    generateIsoCodeToPropertyMapFile('dialCode', countriesInfo),
   ]);
+
+  generatedContent = addedExports.join('');
   generateFile(fileName: 'generated.dart', content: generatedContent);
 }
 
-Future generateIsoCodeEnum(Map<String, dynamic> countries) {
+/// generates all isoCodes
+Future<String> generateIsoCodeEnum(Map<String, dynamic> countries) {
   String content = 'enum IsoCode {';
   countries.keys.forEach((key) => content += '${key},');
   content += '}';
   return generateFile(fileName: ISO_CODE_FILE, content: content);
 }
 
-Future generateCountryList(Map countries) {
-  String content = ISO_CODE_IMPORT + 'import "../models/country.dart";';
+/// generate country list
+Future<String> generateCountryList(Map countries) {
+  String content = ISO_CODE_IMPORT + "import '../models/country.dart';";
   content += 'const countries = [%%];';
   String body = '';
   countries.forEach((key, value) => body += 'Country(IsoCode.${key}),');
@@ -60,7 +59,8 @@ Future generateCountryList(Map countries) {
   return generateFile(fileName: 'countries.list.dart', content: content);
 }
 
-Future generateIsoCodeConversionMap(Map countries) {
+/// generate a conversion map for going from a string like "US" to IsoCode.US
+Future<String> generateIsoCodeConversionMap(Map countries) {
   String content = ISO_CODE_IMPORT;
   content += 'const isoCodeConversionMap = {%%};';
   String body = '';
@@ -71,7 +71,9 @@ Future generateIsoCodeConversionMap(Map countries) {
 }
 
 /// generates a map where the iso code is the key and the property is the value
-Future generateIsoCodeToPropertyMapFile(
+/// returns a string that is what should be added to the barrel to export the generated
+/// file
+Future<String> generateIsoCodeToPropertyMapFile(
   String property,
   Map<String, dynamic> map,
 ) {
@@ -88,58 +90,12 @@ Future generateIsoCodeToPropertyMapFile(
   return generateFile(fileName: fileName, content: content);
 }
 
-Future generateDialCodeMapFile(
-  Map<String, dynamic> countries,
-) {
-  final dialCodeMap = toDialCodeMap(countries);
-  final fileName = 'maps/countries_by_dial_code.map.dart';
-  String content = ISO_CODE_IMPORT + 'const countriesByDialCode = {%%};';
-  String body = '';
-  dialCodeMap.forEach((key, value) =>
-      body += '$key: [${value.map((v) => 'IsoCode.$v').join(',')}],');
-  content = content.replaceFirst('%%', body);
-  return generateFile(fileName: fileName, content: content);
-}
-
-Map<String, List> toDialCodeMap(Map<String, dynamic> countries) {
-  final map = <String, List>{};
-  countries.forEach((k, v) {
-    if (map[v['dialCode']] == null) {
-      map[v['dialCode']] = [];
-    }
-    // we insert the main country at the start of the array so it's easy to find
-    if (v['phoneDescription']['isMainCountryForDialCode'] == true) {
-      map[v['dialCode']]!.insert(0, k);
-    } else {
-      map[v['dialCode']]!.add(k);
-    }
-  });
-  return map;
-}
-
-Future generatePhoneDescMapFile(Map countriesInfo) {
-  String content =
-      ISO_CODE_IMPORT + 'import "$SRC/models/phone_description.dart";';
-  content += 'const countriesPhoneDescription = {%%};';
-  String body = '';
-  countriesInfo.forEach((key, value) {
-    final desc =
-        PhoneDescription.fromMap(value[CountryInfoKeys.phoneDescription]);
-    body += 'IsoCode.$key: ${encodePhoneDescription(desc)},';
-  });
-  content = content.replaceFirst('%%', body);
-  return generateFile(
-    fileName: 'maps/countries_phone_description.map.dart',
-    content: content,
-  );
-}
-
-Future generateFile({
+Future<String> generateFile({
   required String fileName,
   required String content,
 }) async {
   final file = await File(OUTPUT_PATH + fileName).create(recursive: true);
   content = AUTO_GEN_COMMENT + content;
   await file.writeAsString(content);
-  generatedContent += 'export "$fileName";';
+  return 'export "$fileName";';
 }

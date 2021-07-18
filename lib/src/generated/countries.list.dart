@@ -1,9 +1,10 @@
-// This file was auto generated on 2021-07-18T15:42:15.921515
+// This file was auto generated on 2021-07-18T21:50:36.797899
 
 import "package:dart_countries/src/generated/iso_codes.enum.dart";
-import "../models/country.dart";
+import '../country.dart';
 
 const countries = [
+  Country(IsoCode.AC),
   Country(IsoCode.AD),
   Country(IsoCode.AE),
   Country(IsoCode.AF),
@@ -212,6 +213,7 @@ const countries = [
   Country(IsoCode.SX),
   Country(IsoCode.SY),
   Country(IsoCode.SZ),
+  Country(IsoCode.TA),
   Country(IsoCode.TC),
   Country(IsoCode.TD),
   Country(IsoCode.TG),

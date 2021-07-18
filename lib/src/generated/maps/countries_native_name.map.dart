@@ -1,8 +1,9 @@
-// This file was auto generated on 2021-07-18T15:42:15.921515
+// This file was auto generated on 2021-07-18T21:50:36.797899
 
 import "package:dart_countries/src/generated/iso_codes.enum.dart";
 
 const countriesNativeName = {
+  IsoCode.AC: "Ascension Island",
   IsoCode.AD: "Andorra",
   IsoCode.AE: "دولة الإمارات العربية المتحدة",
   IsoCode.AF: "افغانستان",
@@ -211,6 +212,7 @@ const countriesNativeName = {
   IsoCode.SX: "Sint Maarten",
   IsoCode.SY: "سوريا",
   IsoCode.SZ: "Swaziland",
+  IsoCode.TA: "Tristan da Cunha",
   IsoCode.TC: "Turks and Caicos Islands",
   IsoCode.TD: "Tchad",
   IsoCode.TG: "Togo",

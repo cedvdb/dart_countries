@@ -1,19 +1,8 @@
 
 
-This package generates dart const from various data sources
-
-The package is organized as such:
-
- - resources: the files responsible for generating the const files
- - src contain the models and const files
+This package generates dart maps from a json data source
 
 # Resource
-
-to generate the files the following command can be used from the root of the project
-
-for generating the aggregated json:
-
-`dart resources/data_sources/generate_countries_aggregated_info_json.dart`
 
 for generating dart files (from root dir)
 

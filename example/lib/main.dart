@@ -13,8 +13,6 @@ void main(List<String> arguments) {
   print(countriesFlag[us]); // unicode flag wont display on windows yet
   print(countriesLanguages[us]);
   print(countriesDialCode[us]);
-  print(countriesPhoneNumberLengths[us]);
-  print(countriesPhoneDescription[us]);
 
   // country class
   final allCountries = countries;

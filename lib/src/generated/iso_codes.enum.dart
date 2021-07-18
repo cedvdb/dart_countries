@@ -1,6 +1,7 @@
-// This file was auto generated on 2021-07-18T15:42:15.921515
+// This file was auto generated on 2021-07-18T21:50:36.797899
 
 enum IsoCode {
+  AC,
   AD,
   AE,
   AF,
@@ -209,6 +210,7 @@ enum IsoCode {
   SX,
   SY,
   SZ,
+  TA,
   TC,
   TD,
   TG,

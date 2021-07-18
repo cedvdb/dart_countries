@@ -1,8 +1,9 @@
-// This file was auto generated on 2021-07-18T15:42:15.921515
+// This file was auto generated on 2021-07-18T21:50:36.797899
 
 import "package:dart_countries/src/generated/iso_codes.enum.dart";
 
 const countriesFlag = {
+  IsoCode.AC: "🇦🇨",
   IsoCode.AD: "🇦🇩",
   IsoCode.AE: "🇦🇪",
   IsoCode.AF: "🇦🇫",
@@ -211,6 +212,7 @@ const countriesFlag = {
   IsoCode.SX: "🇸🇽",
   IsoCode.SY: "🇸🇾",
   IsoCode.SZ: "🇸🇿",
+  IsoCode.TA: "🇹🇦",
   IsoCode.TC: "🇹🇨",
   IsoCode.TD: "🇹🇩",
   IsoCode.TG: "🇹🇬",
