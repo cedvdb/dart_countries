@@ -14,8 +14,6 @@ You can use the maps to only import the information that you need
   - countriesFlag[IsoCode.US] // unicode flag wont display on windows yet
   - countriesLanguages[IsoCode.US]
   - countriesDialcode[IsoCode.US]
-  - countriesPhonenumberlengths[IsoCode.US]
-  - countriesPhoneDescription[IsoCode.US]
 
 ## Country class
 
@@ -27,6 +25,5 @@ Alternatively you can use the country class that contains all the info.
   });
 
   print(Country(IsoCode.US).currencyCode);
-
 ```
 

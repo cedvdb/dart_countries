@@ -1,3 +1,6 @@
+## 2.0.0 - 18/07/2021
+ * [Breaking] Made this package simpler by removing phone number metadata which is now in its own package
+
 ## 1.0.0 - 22/06/2021
  * Added maps so user can import only what's needed
 
