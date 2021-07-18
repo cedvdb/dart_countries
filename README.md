@@ -17,7 +17,7 @@ You can use the maps to only import the information that you need
 
 ## Country class
 
-Alternatively you can use the country class that contains all the info.
+Alternatively you can use the country class that contains all the info (less tree shaking).
 
 ```dart
   countries.forEach((country) {
@@ -26,4 +26,5 @@ Alternatively you can use the country class that contains all the info.
 
   print(Country(IsoCode.US).currencyCode);
 ```
+
 
