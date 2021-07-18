@@ -39,7 +39,7 @@ void main() async {
     generateIsoCodeToPropertyMapFile(
         CountryInfoKeys.phoneNumberLengths, countriesInfo),
     generatePhoneDescMapFile(countriesInfo),
-    // property to isoCode
+    generateDialCodeMapFile(countriesInfo),
   ]);
   generateFile(fileName: 'generated.dart', content: generatedContent);
 }
@@ -70,15 +70,15 @@ Future generateIsoCodeConversionMap(Map countries) {
       fileName: 'iso_code_conversion.map.dart', content: content);
 }
 
+/// generates a map where the iso code is the key and the property is the value
 Future generateIsoCodeToPropertyMapFile(
   String property,
-  Map<String, dynamic> map, {
-  Function(Map countryInfo)? extractor,
-}) {
-  final extractorFn = extractor ?? (countryInfo) => countryInfo[property];
+  Map<String, dynamic> map,
+) {
+  final extractorFn = (countryInfo) => countryInfo[property];
   final newMap = Map.fromIterable(map.keys, value: (k) => extractorFn(map[k]));
   final fileName =
-      'iso_code_to_property_maps/countries_${StringUtils.camelCaseToLowerUnderscore(property)}.map.dart';
+      'maps/countries_${StringUtils.camelCaseToLowerUnderscore(property)}.map.dart';
   String content = ISO_CODE_IMPORT +
       'const countries${property.substring(0, 1).toUpperCase()}${property.substring(1)} = {%%};';
   String body = '';
@@ -88,24 +88,33 @@ Future generateIsoCodeToPropertyMapFile(
   return generateFile(fileName: fileName, content: content);
 }
 
-Future generatePropertyToIsoCodeMapFile(
-  String property,
-  Map<String, dynamic> map, {
-  bool multipleForSameKey = false,
-  Function(Map countryInfo)? extractor,
-}) {
-  final extractorFn = extractor ?? (countryInfo) => countryInfo[property];
-  final newMap = Map.fromIterable(map.keys, value: (k) => extractorFn(map[k]));
-  final fileName =
-      'property_to_iso_code_maps/countries_by_${StringUtils.camelCaseToLowerUnderscore(property)}.map.dart';
-  String content = ISO_CODE_IMPORT +
-      'const countriesBy${property.substring(0, 1).toUpperCase()}${property.substring(1)} = {%%};';
+Future generateDialCodeMapFile(
+  Map<String, dynamic> countries,
+) {
+  final dialCodeMap = toDialCodeMap(countries);
+  final fileName = 'maps/countries_by_dial_code.map.dart';
+  String content = ISO_CODE_IMPORT + 'const countriesByDialCode = {%%};';
   String body = '';
-  if (multipleForSameKey) {}
-  newMap
-      .forEach((key, value) => body += 'IsoCode.${key}: ${jsonEncode(value)},');
+  dialCodeMap.forEach((key, value) =>
+      body += '$key: [${value.map((v) => 'IsoCode.$v').join(',')}],');
   content = content.replaceFirst('%%', body);
   return generateFile(fileName: fileName, content: content);
+}
+
+Map<String, List> toDialCodeMap(Map<String, dynamic> countries) {
+  final map = <String, List>{};
+  countries.forEach((k, v) {
+    if (map[v['dialCode']] == null) {
+      map[v['dialCode']] = [];
+    }
+    // we insert the main country at the start of the array so it's easy to find
+    if (v['phoneDescription']['isMainCountryForDialCode'] == true) {
+      map[v['dialCode']]!.insert(0, k);
+    } else {
+      map[v['dialCode']]!.add(k);
+    }
+  });
+  return map;
 }
 
 Future generatePhoneDescMapFile(Map countriesInfo) {
@@ -120,7 +129,7 @@ Future generatePhoneDescMapFile(Map countriesInfo) {
   });
   content = content.replaceFirst('%%', body);
   return generateFile(
-    fileName: 'iso_code_to_property_maps/countries_phone_description.map.dart',
+    fileName: 'maps/countries_phone_description.map.dart',
     content: content,
   );
 }

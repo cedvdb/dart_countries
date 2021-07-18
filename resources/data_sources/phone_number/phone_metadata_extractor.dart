@@ -46,8 +46,8 @@ Map<String, PhoneDescription> _toPhoneDescriptions(
 
 /// from each territory, we extract the relevant data
 PhoneDescription _extractCountryPhoneDescription(XmlElement territory) {
+  final attr = territory.getAttribute;
   try {
-    final attr = territory.getAttribute;
     final maybeParseAttr = (String attrName) {
       final value = attr(attrName);
       return value == null ? null : parsePattern(value);
@@ -63,7 +63,7 @@ PhoneDescription _extractCountryPhoneDescription(XmlElement territory) {
       validation: _extractPhoneValidation(territory),
     );
   } catch (e) {
-    print(territory);
+    attr('countryCode');
     rethrow;
   }
 }
