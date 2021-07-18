@@ -1,4 +1,15 @@
 {
+  "AC": {
+    "name": "Ascension Island",
+    "nativeName": "Ascension Island",
+    "continent": "AF",
+    "capital": "Georgetown",
+    "currencyCode": "SHP",
+    "languages": [
+      "en"
+    ],
+    "dialCode": "247"
+  },
   "AD": {
     "name": "Andorra",
     "nativeName": "Andorra",
@@ -7,7 +18,8 @@
     "currencyCode": "EUR",
     "languages": [
       "ca"
-    ]
+    ],
+    "dialCode": "376"
   },
   "AE": {
     "name": "United Arab Emirates",
@@ -17,7 +29,8 @@
     "currencyCode": "AED",
     "languages": [
       "ar"
-    ]
+    ],
+    "dialCode": "971"
   },
   "AF": {
     "name": "Afghanistan",
@@ -29,7 +42,8 @@
       "ps",
       "uz",
       "tk"
-    ]
+    ],
+    "dialCode": "93"
   },
   "AG": {
     "name": "Antigua and Barbuda",
@@ -39,7 +53,8 @@
     "currencyCode": "XCD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "1"
   },
   "AI": {
     "name": "Anguilla",
@@ -49,7 +64,8 @@
     "currencyCode": "XCD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "1"
   },
   "AL": {
     "name": "Albania",
@@ -59,7 +75,8 @@
     "currencyCode": "ALL",
     "languages": [
       "sq"
-    ]
+    ],
+    "dialCode": "355"
   },
   "AM": {
     "name": "Armenia",
@@ -70,7 +87,8 @@
     "languages": [
       "hy",
       "ru"
-    ]
+    ],
+    "dialCode": "374"
   },
   "AO": {
     "name": "Angola",
@@ -80,7 +98,8 @@
     "currencyCode": "AOA",
     "languages": [
       "pt"
-    ]
+    ],
+    "dialCode": "244"
   },
   "AQ": {
     "name": "Antarctica",
@@ -99,7 +118,8 @@
     "languages": [
       "es",
       "gn"
-    ]
+    ],
+    "dialCode": "54"
   },
   "AS": {
     "name": "American Samoa",
@@ -110,7 +130,8 @@
     "languages": [
       "en",
       "sm"
-    ]
+    ],
+    "dialCode": "1"
   },
   "AT": {
     "name": "Austria",
@@ -120,7 +141,8 @@
     "currencyCode": "EUR",
     "languages": [
       "de"
-    ]
+    ],
+    "dialCode": "43"
   },
   "AU": {
     "name": "Australia",
@@ -130,7 +152,8 @@
     "currencyCode": "AUD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "61"
   },
   "AW": {
     "name": "Aruba",
@@ -141,7 +164,8 @@
     "languages": [
       "nl",
       "pa"
-    ]
+    ],
+    "dialCode": "297"
   },
   "AX": {
     "name": "Åland",
@@ -151,7 +175,8 @@
     "currencyCode": "EUR",
     "languages": [
       "sv"
-    ]
+    ],
+    "dialCode": "358"
   },
   "AZ": {
     "name": "Azerbaijan",
@@ -161,7 +186,8 @@
     "currencyCode": "AZN",
     "languages": [
       "az"
-    ]
+    ],
+    "dialCode": "994"
   },
   "BA": {
     "name": "Bosnia and Herzegovina",
@@ -173,7 +199,8 @@
       "bs",
       "hr",
       "sr"
-    ]
+    ],
+    "dialCode": "387"
   },
   "BB": {
     "name": "Barbados",
@@ -183,7 +210,8 @@
     "currencyCode": "BBD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "1"
   },
   "BD": {
     "name": "Bangladesh",
@@ -193,7 +221,8 @@
     "currencyCode": "BDT",
     "languages": [
       "bn"
-    ]
+    ],
+    "dialCode": "880"
   },
   "BE": {
     "name": "Belgium",
@@ -205,7 +234,8 @@
       "nl",
       "fr",
       "de"
-    ]
+    ],
+    "dialCode": "32"
   },
   "BF": {
     "name": "Burkina Faso",
@@ -216,7 +246,8 @@
     "languages": [
       "fr",
       "ff"
-    ]
+    ],
+    "dialCode": "226"
   },
   "BG": {
     "name": "Bulgaria",
@@ -226,7 +257,8 @@
     "currencyCode": "BGN",
     "languages": [
       "bg"
-    ]
+    ],
+    "dialCode": "359"
   },
   "BH": {
     "name": "Bahrain",
@@ -236,7 +268,8 @@
     "currencyCode": "BHD",
     "languages": [
       "ar"
-    ]
+    ],
+    "dialCode": "973"
   },
   "BI": {
     "name": "Burundi",
@@ -247,7 +280,8 @@
     "languages": [
       "fr",
       "rn"
-    ]
+    ],
+    "dialCode": "257"
   },
   "BJ": {
     "name": "Benin",
@@ -257,7 +291,8 @@
     "currencyCode": "XOF",
     "languages": [
       "fr"
-    ]
+    ],
+    "dialCode": "229"
   },
   "BL": {
     "name": "Saint Barthélemy",
@@ -267,7 +302,8 @@
     "currencyCode": "EUR",
     "languages": [
       "fr"
-    ]
+    ],
+    "dialCode": "590"
   },
   "BM": {
     "name": "Bermuda",
@@ -277,7 +313,8 @@
     "currencyCode": "BMD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "1"
   },
   "BN": {
     "name": "Brunei",
@@ -287,7 +324,8 @@
     "currencyCode": "BND",
     "languages": [
       "ms"
-    ]
+    ],
+    "dialCode": "673"
   },
   "BO": {
     "name": "Bolivia",
@@ -299,7 +337,8 @@
       "es",
       "ay",
       "qu"
-    ]
+    ],
+    "dialCode": "591"
   },
   "BQ": {
     "name": "Bonaire",
@@ -309,7 +348,8 @@
     "currencyCode": "USD",
     "languages": [
       "nl"
-    ]
+    ],
+    "dialCode": "599"
   },
   "BR": {
     "name": "Brazil",
@@ -319,7 +359,8 @@
     "currencyCode": "BRL",
     "languages": [
       "pt"
-    ]
+    ],
+    "dialCode": "55"
   },
   "BS": {
     "name": "Bahamas",
@@ -329,7 +370,8 @@
     "currencyCode": "BSD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "1"
   },
   "BT": {
     "name": "Bhutan",
@@ -339,7 +381,8 @@
     "currencyCode": "BTN",
     "languages": [
       "dz"
-    ]
+    ],
+    "dialCode": "975"
   },
   "BV": {
     "name": "Bouvet Island",
@@ -362,7 +405,8 @@
     "languages": [
       "en",
       "tn"
-    ]
+    ],
+    "dialCode": "267"
   },
   "BY": {
     "name": "Belarus",
@@ -373,7 +417,8 @@
     "languages": [
       "be",
       "ru"
-    ]
+    ],
+    "dialCode": "375"
   },
   "BZ": {
     "name": "Belize",
@@ -384,7 +429,8 @@
     "languages": [
       "en",
       "es"
-    ]
+    ],
+    "dialCode": "501"
   },
   "CA": {
     "name": "Canada",
@@ -395,7 +441,8 @@
     "languages": [
       "en",
       "fr"
-    ]
+    ],
+    "dialCode": "1"
   },
   "CC": {
     "name": "Cocos [Keeling] Islands",
@@ -405,7 +452,8 @@
     "currencyCode": "AUD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "61"
   },
   "CD": {
     "name": "Democratic Republic of the Congo",
@@ -419,7 +467,8 @@
       "kg",
       "sw",
       "lu"
-    ]
+    ],
+    "dialCode": "243"
   },
   "CF": {
     "name": "Central African Republic",
@@ -430,7 +479,8 @@
     "languages": [
       "fr",
       "sg"
-    ]
+    ],
+    "dialCode": "236"
   },
   "CG": {
     "name": "Republic of the Congo",
@@ -441,7 +491,8 @@
     "languages": [
       "fr",
       "ln"
-    ]
+    ],
+    "dialCode": "242"
   },
   "CH": {
     "name": "Switzerland",
@@ -453,7 +504,8 @@
       "de",
       "fr",
       "it"
-    ]
+    ],
+    "dialCode": "41"
   },
   "CI": {
     "name": "Ivory Coast",
@@ -463,7 +515,8 @@
     "currencyCode": "XOF",
     "languages": [
       "fr"
-    ]
+    ],
+    "dialCode": "225"
   },
   "CK": {
     "name": "Cook Islands",
@@ -473,7 +526,8 @@
     "currencyCode": "NZD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "682"
   },
   "CL": {
     "name": "Chile",
@@ -483,7 +537,8 @@
     "currencyCode": "CLF",
     "languages": [
       "es"
-    ]
+    ],
+    "dialCode": "56"
   },
   "CM": {
     "name": "Cameroon",
@@ -494,7 +549,8 @@
     "languages": [
       "en",
       "fr"
-    ]
+    ],
+    "dialCode": "237"
   },
   "CN": {
     "name": "China",
@@ -504,7 +560,8 @@
     "currencyCode": "CNY",
     "languages": [
       "zh"
-    ]
+    ],
+    "dialCode": "86"
   },
   "CO": {
     "name": "Colombia",
@@ -514,7 +571,8 @@
     "currencyCode": "COP",
     "languages": [
       "es"
-    ]
+    ],
+    "dialCode": "57"
   },
   "CR": {
     "name": "Costa Rica",
@@ -524,7 +582,8 @@
     "currencyCode": "CRC",
     "languages": [
       "es"
-    ]
+    ],
+    "dialCode": "506"
   },
   "CU": {
     "name": "Cuba",
@@ -534,7 +593,8 @@
     "currencyCode": "CUC",
     "languages": [
       "es"
-    ]
+    ],
+    "dialCode": "53"
   },
   "CV": {
     "name": "Cape Verde",
@@ -544,7 +604,8 @@
     "currencyCode": "CVE",
     "languages": [
       "pt"
-    ]
+    ],
+    "dialCode": "238"
   },
   "CW": {
     "name": "Curacao",
@@ -556,7 +617,8 @@
       "nl",
       "pa",
       "en"
-    ]
+    ],
+    "dialCode": "599"
   },
   "CX": {
     "name": "Christmas Island",
@@ -566,7 +628,8 @@
     "currencyCode": "AUD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "61"
   },
   "CY": {
     "name": "Cyprus",
@@ -578,7 +641,8 @@
       "el",
       "tr",
       "hy"
-    ]
+    ],
+    "dialCode": "357"
   },
   "CZ": {
     "name": "Czech Republic",
@@ -589,7 +653,8 @@
     "languages": [
       "cs",
       "sk"
-    ]
+    ],
+    "dialCode": "420"
   },
   "DE": {
     "name": "Germany",
@@ -599,7 +664,8 @@
     "currencyCode": "EUR",
     "languages": [
       "de"
-    ]
+    ],
+    "dialCode": "49"
   },
   "DJ": {
     "name": "Djibouti",
@@ -610,7 +676,8 @@
     "languages": [
       "fr",
       "ar"
-    ]
+    ],
+    "dialCode": "253"
   },
   "DK": {
     "name": "Denmark",
@@ -620,7 +687,8 @@
     "currencyCode": "DKK",
     "languages": [
       "da"
-    ]
+    ],
+    "dialCode": "45"
   },
   "DM": {
     "name": "Dominica",
@@ -630,7 +698,8 @@
     "currencyCode": "XCD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "1"
   },
   "DO": {
     "name": "Dominican Republic",
@@ -640,7 +709,8 @@
     "currencyCode": "DOP",
     "languages": [
       "es"
-    ]
+    ],
+    "dialCode": "1"
   },
   "DZ": {
     "name": "Algeria",
@@ -650,7 +720,8 @@
     "currencyCode": "DZD",
     "languages": [
       "ar"
-    ]
+    ],
+    "dialCode": "213"
   },
   "EC": {
     "name": "Ecuador",
@@ -660,7 +731,8 @@
     "currencyCode": "USD",
     "languages": [
       "es"
-    ]
+    ],
+    "dialCode": "593"
   },
   "EE": {
     "name": "Estonia",
@@ -670,7 +742,8 @@
     "currencyCode": "EUR",
     "languages": [
       "et"
-    ]
+    ],
+    "dialCode": "372"
   },
   "EG": {
     "name": "Egypt",
@@ -680,7 +753,8 @@
     "currencyCode": "EGP",
     "languages": [
       "ar"
-    ]
+    ],
+    "dialCode": "20"
   },
   "EH": {
     "name": "Western Sahara",
@@ -690,7 +764,8 @@
     "currencyCode": "MAD",
     "languages": [
       "es"
-    ]
+    ],
+    "dialCode": "212"
   },
   "ER": {
     "name": "Eritrea",
@@ -702,7 +777,8 @@
       "ti",
       "ar",
       "en"
-    ]
+    ],
+    "dialCode": "291"
   },
   "ES": {
     "name": "Spain",
@@ -716,7 +792,8 @@
       "ca",
       "gl",
       "oc"
-    ]
+    ],
+    "dialCode": "34"
   },
   "ET": {
     "name": "Ethiopia",
@@ -726,7 +803,8 @@
     "currencyCode": "ETB",
     "languages": [
       "am"
-    ]
+    ],
+    "dialCode": "251"
   },
   "FI": {
     "name": "Finland",
@@ -737,7 +815,8 @@
     "languages": [
       "fi",
       "sv"
-    ]
+    ],
+    "dialCode": "358"
   },
   "FJ": {
     "name": "Fiji",
@@ -750,7 +829,8 @@
       "fj",
       "hi",
       "ur"
-    ]
+    ],
+    "dialCode": "679"
   },
   "FK": {
     "name": "Falkland Islands",
@@ -760,7 +840,8 @@
     "currencyCode": "FKP",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "500"
   },
   "FM": {
     "name": "Micronesia",
@@ -770,7 +851,8 @@
     "currencyCode": "USD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "691"
   },
   "FO": {
     "name": "Faroe Islands",
@@ -780,7 +862,8 @@
     "currencyCode": "DKK",
     "languages": [
       "fo"
-    ]
+    ],
+    "dialCode": "298"
   },
   "FR": {
     "name": "France",
@@ -790,7 +873,8 @@
     "currencyCode": "EUR",
     "languages": [
       "fr"
-    ]
+    ],
+    "dialCode": "33"
   },
   "GA": {
     "name": "Gabon",
@@ -800,7 +884,8 @@
     "currencyCode": "XAF",
     "languages": [
       "fr"
-    ]
+    ],
+    "dialCode": "241"
   },
   "GB": {
     "name": "United Kingdom",
@@ -810,7 +895,8 @@
     "currencyCode": "GBP",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "44"
   },
   "GD": {
     "name": "Grenada",
@@ -820,7 +906,8 @@
     "currencyCode": "XCD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "1"
   },
   "GE": {
     "name": "Georgia",
@@ -830,7 +917,8 @@
     "currencyCode": "GEL",
     "languages": [
       "ka"
-    ]
+    ],
+    "dialCode": "995"
   },
   "GF": {
     "name": "French Guiana",
@@ -840,7 +928,8 @@
     "currencyCode": "EUR",
     "languages": [
       "fr"
-    ]
+    ],
+    "dialCode": "594"
   },
   "GG": {
     "name": "Guernsey",
@@ -851,7 +940,8 @@
     "languages": [
       "en",
       "fr"
-    ]
+    ],
+    "dialCode": "44"
   },
   "GH": {
     "name": "Ghana",
@@ -861,7 +951,8 @@
     "currencyCode": "GHS",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "233"
   },
   "GI": {
     "name": "Gibraltar",
@@ -871,7 +962,8 @@
     "currencyCode": "GIP",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "350"
   },
   "GL": {
     "name": "Greenland",
@@ -881,7 +973,8 @@
     "currencyCode": "DKK",
     "languages": [
       "kl"
-    ]
+    ],
+    "dialCode": "299"
   },
   "GM": {
     "name": "Gambia",
@@ -891,7 +984,8 @@
     "currencyCode": "GMD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "220"
   },
   "GN": {
     "name": "Guinea",
@@ -902,7 +996,8 @@
     "languages": [
       "fr",
       "ff"
-    ]
+    ],
+    "dialCode": "224"
   },
   "GP": {
     "name": "Guadeloupe",
@@ -912,7 +1007,8 @@
     "currencyCode": "EUR",
     "languages": [
       "fr"
-    ]
+    ],
+    "dialCode": "590"
   },
   "GQ": {
     "name": "Equatorial Guinea",
@@ -923,7 +1019,8 @@
     "languages": [
       "es",
       "fr"
-    ]
+    ],
+    "dialCode": "240"
   },
   "GR": {
     "name": "Greece",
@@ -933,7 +1030,8 @@
     "currencyCode": "EUR",
     "languages": [
       "el"
-    ]
+    ],
+    "dialCode": "30"
   },
   "GS": {
     "name": "South Georgia and the South Sandwich Islands",
@@ -953,7 +1051,8 @@
     "currencyCode": "GTQ",
     "languages": [
       "es"
-    ]
+    ],
+    "dialCode": "502"
   },
   "GU": {
     "name": "Guam",
@@ -965,7 +1064,8 @@
       "en",
       "ch",
       "es"
-    ]
+    ],
+    "dialCode": "1"
   },
   "GW": {
     "name": "Guinea-Bissau",
@@ -975,7 +1075,8 @@
     "currencyCode": "XOF",
     "languages": [
       "pt"
-    ]
+    ],
+    "dialCode": "245"
   },
   "GY": {
     "name": "Guyana",
@@ -985,7 +1086,8 @@
     "currencyCode": "GYD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "592"
   },
   "HK": {
     "name": "Hong Kong",
@@ -996,7 +1098,8 @@
     "languages": [
       "zh",
       "en"
-    ]
+    ],
+    "dialCode": "852"
   },
   "HM": {
     "name": "Heard Island and McDonald Islands",
@@ -1016,7 +1119,8 @@
     "currencyCode": "HNL",
     "languages": [
       "es"
-    ]
+    ],
+    "dialCode": "504"
   },
   "HR": {
     "name": "Croatia",
@@ -1026,7 +1130,8 @@
     "currencyCode": "HRK",
     "languages": [
       "hr"
-    ]
+    ],
+    "dialCode": "385"
   },
   "HT": {
     "name": "Haiti",
@@ -1037,7 +1142,8 @@
     "languages": [
       "fr",
       "ht"
-    ]
+    ],
+    "dialCode": "509"
   },
   "HU": {
     "name": "Hungary",
@@ -1047,7 +1153,8 @@
     "currencyCode": "HUF",
     "languages": [
       "hu"
-    ]
+    ],
+    "dialCode": "36"
   },
   "ID": {
     "name": "Indonesia",
@@ -1057,7 +1164,8 @@
     "currencyCode": "IDR",
     "languages": [
       "id"
-    ]
+    ],
+    "dialCode": "62"
   },
   "IE": {
     "name": "Ireland",
@@ -1068,7 +1176,8 @@
     "languages": [
       "ga",
       "en"
-    ]
+    ],
+    "dialCode": "353"
   },
   "IL": {
     "name": "Israel",
@@ -1079,7 +1188,8 @@
     "languages": [
       "he",
       "ar"
-    ]
+    ],
+    "dialCode": "972"
   },
   "IM": {
     "name": "Isle of Man",
@@ -1090,7 +1200,8 @@
     "languages": [
       "en",
       "gv"
-    ]
+    ],
+    "dialCode": "44"
   },
   "IN": {
     "name": "India",
@@ -1101,7 +1212,8 @@
     "languages": [
       "hi",
       "en"
-    ]
+    ],
+    "dialCode": "91"
   },
   "IO": {
     "name": "British Indian Ocean Territory",
@@ -1111,7 +1223,8 @@
     "currencyCode": "USD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "246"
   },
   "IQ": {
     "name": "Iraq",
@@ -1122,7 +1235,8 @@
     "languages": [
       "ar",
       "ku"
-    ]
+    ],
+    "dialCode": "964"
   },
   "IR": {
     "name": "Iran",
@@ -1132,7 +1246,8 @@
     "currencyCode": "IRR",
     "languages": [
       "fa"
-    ]
+    ],
+    "dialCode": "98"
   },
   "IS": {
     "name": "Iceland",
@@ -1142,7 +1257,8 @@
     "currencyCode": "ISK",
     "languages": [
       "is"
-    ]
+    ],
+    "dialCode": "354"
   },
   "IT": {
     "name": "Italy",
@@ -1152,7 +1268,8 @@
     "currencyCode": "EUR",
     "languages": [
       "it"
-    ]
+    ],
+    "dialCode": "39"
   },
   "JE": {
     "name": "Jersey",
@@ -1163,7 +1280,8 @@
     "languages": [
       "en",
       "fr"
-    ]
+    ],
+    "dialCode": "44"
   },
   "JM": {
     "name": "Jamaica",
@@ -1173,7 +1291,8 @@
     "currencyCode": "JMD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "1"
   },
   "JO": {
     "name": "Jordan",
@@ -1183,7 +1302,8 @@
     "currencyCode": "JOD",
     "languages": [
       "ar"
-    ]
+    ],
+    "dialCode": "962"
   },
   "JP": {
     "name": "Japan",
@@ -1193,7 +1313,8 @@
     "currencyCode": "JPY",
     "languages": [
       "ja"
-    ]
+    ],
+    "dialCode": "81"
   },
   "KE": {
     "name": "Kenya",
@@ -1204,7 +1325,8 @@
     "languages": [
       "en",
       "sw"
-    ]
+    ],
+    "dialCode": "254"
   },
   "KG": {
     "name": "Kyrgyzstan",
@@ -1215,7 +1337,8 @@
     "languages": [
       "ky",
       "ru"
-    ]
+    ],
+    "dialCode": "996"
   },
   "KH": {
     "name": "Cambodia",
@@ -1225,7 +1348,8 @@
     "currencyCode": "KHR",
     "languages": [
       "km"
-    ]
+    ],
+    "dialCode": "855"
   },
   "KI": {
     "name": "Kiribati",
@@ -1235,7 +1359,8 @@
     "currencyCode": "AUD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "686"
   },
   "KM": {
     "name": "Comoros",
@@ -1246,7 +1371,8 @@
     "languages": [
       "ar",
       "fr"
-    ]
+    ],
+    "dialCode": "269"
   },
   "KN": {
     "name": "Saint Kitts and Nevis",
@@ -1256,7 +1382,8 @@
     "currencyCode": "XCD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "1"
   },
   "KP": {
     "name": "North Korea",
@@ -1266,7 +1393,8 @@
     "currencyCode": "KPW",
     "languages": [
       "ko"
-    ]
+    ],
+    "dialCode": "850"
   },
   "KR": {
     "name": "South Korea",
@@ -1276,7 +1404,8 @@
     "currencyCode": "KRW",
     "languages": [
       "ko"
-    ]
+    ],
+    "dialCode": "82"
   },
   "KW": {
     "name": "Kuwait",
@@ -1286,7 +1415,8 @@
     "currencyCode": "KWD",
     "languages": [
       "ar"
-    ]
+    ],
+    "dialCode": "965"
   },
   "KY": {
     "name": "Cayman Islands",
@@ -1296,7 +1426,8 @@
     "currencyCode": "KYD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "1"
   },
   "KZ": {
     "name": "Kazakhstan",
@@ -1307,7 +1438,8 @@
     "languages": [
       "kk",
       "ru"
-    ]
+    ],
+    "dialCode": "7"
   },
   "LA": {
     "name": "Laos",
@@ -1317,7 +1449,8 @@
     "currencyCode": "LAK",
     "languages": [
       "lo"
-    ]
+    ],
+    "dialCode": "856"
   },
   "LB": {
     "name": "Lebanon",
@@ -1328,7 +1461,8 @@
     "languages": [
       "ar",
       "fr"
-    ]
+    ],
+    "dialCode": "961"
   },
   "LC": {
     "name": "Saint Lucia",
@@ -1338,7 +1472,8 @@
     "currencyCode": "XCD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "1"
   },
   "LI": {
     "name": "Liechtenstein",
@@ -1348,7 +1483,8 @@
     "currencyCode": "CHF",
     "languages": [
       "de"
-    ]
+    ],
+    "dialCode": "423"
   },
   "LK": {
     "name": "Sri Lanka",
@@ -1359,7 +1495,8 @@
     "languages": [
       "si",
       "ta"
-    ]
+    ],
+    "dialCode": "94"
   },
   "LR": {
     "name": "Liberia",
@@ -1369,7 +1506,8 @@
     "currencyCode": "LRD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "231"
   },
   "LS": {
     "name": "Lesotho",
@@ -1380,7 +1518,8 @@
     "languages": [
       "en",
       "st"
-    ]
+    ],
+    "dialCode": "266"
   },
   "LT": {
     "name": "Lithuania",
@@ -1390,7 +1529,8 @@
     "currencyCode": "EUR",
     "languages": [
       "lt"
-    ]
+    ],
+    "dialCode": "370"
   },
   "LU": {
     "name": "Luxembourg",
@@ -1402,7 +1542,8 @@
       "fr",
       "de",
       "lb"
-    ]
+    ],
+    "dialCode": "352"
   },
   "LV": {
     "name": "Latvia",
@@ -1412,7 +1553,8 @@
     "currencyCode": "EUR",
     "languages": [
       "lv"
-    ]
+    ],
+    "dialCode": "371"
   },
   "LY": {
     "name": "Libya",
@@ -1422,7 +1564,8 @@
     "currencyCode": "LYD",
     "languages": [
       "ar"
-    ]
+    ],
+    "dialCode": "218"
   },
   "MA": {
     "name": "Morocco",
@@ -1432,7 +1575,8 @@
     "currencyCode": "MAD",
     "languages": [
       "ar"
-    ]
+    ],
+    "dialCode": "212"
   },
   "MC": {
     "name": "Monaco",
@@ -1442,7 +1586,8 @@
     "currencyCode": "EUR",
     "languages": [
       "fr"
-    ]
+    ],
+    "dialCode": "377"
   },
   "MD": {
     "name": "Moldova",
@@ -1452,7 +1597,8 @@
     "currencyCode": "MDL",
     "languages": [
       "ro"
-    ]
+    ],
+    "dialCode": "373"
   },
   "ME": {
     "name": "Montenegro",
@@ -1465,7 +1611,8 @@
       "bs",
       "sq",
       "hr"
-    ]
+    ],
+    "dialCode": "382"
   },
   "MF": {
     "name": "Saint Martin",
@@ -1477,7 +1624,8 @@
       "en",
       "fr",
       "nl"
-    ]
+    ],
+    "dialCode": "590"
   },
   "MG": {
     "name": "Madagascar",
@@ -1488,7 +1636,8 @@
     "languages": [
       "fr",
       "mg"
-    ]
+    ],
+    "dialCode": "261"
   },
   "MH": {
     "name": "Marshall Islands",
@@ -1499,7 +1648,8 @@
     "languages": [
       "en",
       "mh"
-    ]
+    ],
+    "dialCode": "692"
   },
   "MK": {
     "name": "North Macedonia",
@@ -1509,7 +1659,8 @@
     "currencyCode": "MKD",
     "languages": [
       "mk"
-    ]
+    ],
+    "dialCode": "389"
   },
   "ML": {
     "name": "Mali",
@@ -1519,7 +1670,8 @@
     "currencyCode": "XOF",
     "languages": [
       "fr"
-    ]
+    ],
+    "dialCode": "223"
   },
   "MM": {
     "name": "Myanmar [Burma]",
@@ -1529,7 +1681,8 @@
     "currencyCode": "MMK",
     "languages": [
       "my"
-    ]
+    ],
+    "dialCode": "95"
   },
   "MN": {
     "name": "Mongolia",
@@ -1539,7 +1692,8 @@
     "currencyCode": "MNT",
     "languages": [
       "mn"
-    ]
+    ],
+    "dialCode": "976"
   },
   "MO": {
     "name": "Macao",
@@ -1550,7 +1704,8 @@
     "languages": [
       "zh",
       "pt"
-    ]
+    ],
+    "dialCode": "853"
   },
   "MP": {
     "name": "Northern Mariana Islands",
@@ -1561,7 +1716,8 @@
     "languages": [
       "en",
       "ch"
-    ]
+    ],
+    "dialCode": "1"
   },
   "MQ": {
     "name": "Martinique",
@@ -1571,7 +1727,8 @@
     "currencyCode": "EUR",
     "languages": [
       "fr"
-    ]
+    ],
+    "dialCode": "596"
   },
   "MR": {
     "name": "Mauritania",
@@ -1581,7 +1738,8 @@
     "currencyCode": "MRU",
     "languages": [
       "ar"
-    ]
+    ],
+    "dialCode": "222"
   },
   "MS": {
     "name": "Montserrat",
@@ -1591,7 +1749,8 @@
     "currencyCode": "XCD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "1"
   },
   "MT": {
     "name": "Malta",
@@ -1602,7 +1761,8 @@
     "languages": [
       "mt",
       "en"
-    ]
+    ],
+    "dialCode": "356"
   },
   "MU": {
     "name": "Mauritius",
@@ -1612,7 +1772,8 @@
     "currencyCode": "MUR",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "230"
   },
   "MV": {
     "name": "Maldives",
@@ -1622,7 +1783,8 @@
     "currencyCode": "MVR",
     "languages": [
       "dv"
-    ]
+    ],
+    "dialCode": "960"
   },
   "MW": {
     "name": "Malawi",
@@ -1633,7 +1795,8 @@
     "languages": [
       "en",
       "ny"
-    ]
+    ],
+    "dialCode": "265"
   },
   "MX": {
     "name": "Mexico",
@@ -1643,7 +1806,8 @@
     "currencyCode": "MXN",
     "languages": [
       "es"
-    ]
+    ],
+    "dialCode": "52"
   },
   "MY": {
     "name": "Malaysia",
@@ -1653,7 +1817,8 @@
     "currencyCode": "MYR",
     "languages": [
       "ms"
-    ]
+    ],
+    "dialCode": "60"
   },
   "MZ": {
     "name": "Mozambique",
@@ -1663,7 +1828,8 @@
     "currencyCode": "MZN",
     "languages": [
       "pt"
-    ]
+    ],
+    "dialCode": "258"
   },
   "NA": {
     "name": "Namibia",
@@ -1674,7 +1840,8 @@
     "languages": [
       "en",
       "af"
-    ]
+    ],
+    "dialCode": "264"
   },
   "NC": {
     "name": "New Caledonia",
@@ -1684,7 +1851,8 @@
     "currencyCode": "XPF",
     "languages": [
       "fr"
-    ]
+    ],
+    "dialCode": "687"
   },
   "NE": {
     "name": "Niger",
@@ -1694,7 +1862,8 @@
     "currencyCode": "XOF",
     "languages": [
       "fr"
-    ]
+    ],
+    "dialCode": "227"
   },
   "NF": {
     "name": "Norfolk Island",
@@ -1704,7 +1873,8 @@
     "currencyCode": "AUD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "672"
   },
   "NG": {
     "name": "Nigeria",
@@ -1714,7 +1884,8 @@
     "currencyCode": "NGN",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "234"
   },
   "NI": {
     "name": "Nicaragua",
@@ -1724,7 +1895,8 @@
     "currencyCode": "NIO",
     "languages": [
       "es"
-    ]
+    ],
+    "dialCode": "505"
   },
   "NL": {
     "name": "Netherlands",
@@ -1734,7 +1906,8 @@
     "currencyCode": "EUR",
     "languages": [
       "nl"
-    ]
+    ],
+    "dialCode": "31"
   },
   "NO": {
     "name": "Norway",
@@ -1746,7 +1919,8 @@
       "no",
       "nb",
       "nn"
-    ]
+    ],
+    "dialCode": "47"
   },
   "NP": {
     "name": "Nepal",
@@ -1756,7 +1930,8 @@
     "currencyCode": "NPR",
     "languages": [
       "ne"
-    ]
+    ],
+    "dialCode": "977"
   },
   "NR": {
     "name": "Nauru",
@@ -1767,7 +1942,8 @@
     "languages": [
       "en",
       "na"
-    ]
+    ],
+    "dialCode": "674"
   },
   "NU": {
     "name": "Niue",
@@ -1777,7 +1953,8 @@
     "currencyCode": "NZD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "683"
   },
   "NZ": {
     "name": "New Zealand",
@@ -1788,7 +1965,8 @@
     "languages": [
       "en",
       "mi"
-    ]
+    ],
+    "dialCode": "64"
   },
   "OM": {
     "name": "Oman",
@@ -1798,7 +1976,8 @@
     "currencyCode": "OMR",
     "languages": [
       "ar"
-    ]
+    ],
+    "dialCode": "968"
   },
   "PA": {
     "name": "Panama",
@@ -1808,7 +1987,8 @@
     "currencyCode": "PAB",
     "languages": [
       "es"
-    ]
+    ],
+    "dialCode": "507"
   },
   "PE": {
     "name": "Peru",
@@ -1818,7 +1998,8 @@
     "currencyCode": "PEN",
     "languages": [
       "es"
-    ]
+    ],
+    "dialCode": "51"
   },
   "PF": {
     "name": "French Polynesia",
@@ -1828,7 +2009,8 @@
     "currencyCode": "XPF",
     "languages": [
       "fr"
-    ]
+    ],
+    "dialCode": "689"
   },
   "PG": {
     "name": "Papua New Guinea",
@@ -1838,7 +2020,8 @@
     "currencyCode": "PGK",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "675"
   },
   "PH": {
     "name": "Philippines",
@@ -1848,7 +2031,8 @@
     "currencyCode": "PHP",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "63"
   },
   "PK": {
     "name": "Pakistan",
@@ -1859,7 +2043,8 @@
     "languages": [
       "en",
       "ur"
-    ]
+    ],
+    "dialCode": "92"
   },
   "PL": {
     "name": "Poland",
@@ -1869,7 +2054,8 @@
     "currencyCode": "PLN",
     "languages": [
       "pl"
-    ]
+    ],
+    "dialCode": "48"
   },
   "PM": {
     "name": "Saint Pierre and Miquelon",
@@ -1879,7 +2065,8 @@
     "currencyCode": "EUR",
     "languages": [
       "fr"
-    ]
+    ],
+    "dialCode": "508"
   },
   "PN": {
     "name": "Pitcairn Islands",
@@ -1900,7 +2087,8 @@
     "languages": [
       "es",
       "en"
-    ]
+    ],
+    "dialCode": "1"
   },
   "PS": {
     "name": "Palestine",
@@ -1910,7 +2098,8 @@
     "currencyCode": "ILS",
     "languages": [
       "ar"
-    ]
+    ],
+    "dialCode": "970"
   },
   "PT": {
     "name": "Portugal",
@@ -1920,7 +2109,8 @@
     "currencyCode": "EUR",
     "languages": [
       "pt"
-    ]
+    ],
+    "dialCode": "351"
   },
   "PW": {
     "name": "Palau",
@@ -1930,7 +2120,8 @@
     "currencyCode": "USD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "680"
   },
   "PY": {
     "name": "Paraguay",
@@ -1941,7 +2132,8 @@
     "languages": [
       "es",
       "gn"
-    ]
+    ],
+    "dialCode": "595"
   },
   "QA": {
     "name": "Qatar",
@@ -1951,7 +2143,8 @@
     "currencyCode": "QAR",
     "languages": [
       "ar"
-    ]
+    ],
+    "dialCode": "974"
   },
   "RE": {
     "name": "Réunion",
@@ -1961,7 +2154,8 @@
     "currencyCode": "EUR",
     "languages": [
       "fr"
-    ]
+    ],
+    "dialCode": "262"
   },
   "RO": {
     "name": "Romania",
@@ -1971,7 +2165,8 @@
     "currencyCode": "RON",
     "languages": [
       "ro"
-    ]
+    ],
+    "dialCode": "40"
   },
   "RS": {
     "name": "Serbia",
@@ -1981,7 +2176,8 @@
     "currencyCode": "RSD",
     "languages": [
       "sr"
-    ]
+    ],
+    "dialCode": "381"
   },
   "RU": {
     "name": "Russia",
@@ -1991,7 +2187,8 @@
     "currencyCode": "RUB",
     "languages": [
       "ru"
-    ]
+    ],
+    "dialCode": "7"
   },
   "RW": {
     "name": "Rwanda",
@@ -2003,7 +2200,8 @@
       "rw",
       "en",
       "fr"
-    ]
+    ],
+    "dialCode": "250"
   },
   "SA": {
     "name": "Saudi Arabia",
@@ -2013,7 +2211,8 @@
     "currencyCode": "SAR",
     "languages": [
       "ar"
-    ]
+    ],
+    "dialCode": "966"
   },
   "SB": {
     "name": "Solomon Islands",
@@ -2023,7 +2222,8 @@
     "currencyCode": "SBD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "677"
   },
   "SC": {
     "name": "Seychelles",
@@ -2034,7 +2234,8 @@
     "languages": [
       "fr",
       "en"
-    ]
+    ],
+    "dialCode": "248"
   },
   "SD": {
     "name": "Sudan",
@@ -2045,7 +2246,8 @@
     "languages": [
       "ar",
       "en"
-    ]
+    ],
+    "dialCode": "249"
   },
   "SE": {
     "name": "Sweden",
@@ -2055,7 +2257,8 @@
     "currencyCode": "SEK",
     "languages": [
       "sv"
-    ]
+    ],
+    "dialCode": "46"
   },
   "SG": {
     "name": "Singapore",
@@ -2068,7 +2271,8 @@
       "ms",
       "ta",
       "zh"
-    ]
+    ],
+    "dialCode": "65"
   },
   "SH": {
     "name": "Saint Helena",
@@ -2078,7 +2282,8 @@
     "currencyCode": "SHP",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "290"
   },
   "SI": {
     "name": "Slovenia",
@@ -2088,7 +2293,8 @@
     "currencyCode": "EUR",
     "languages": [
       "sl"
-    ]
+    ],
+    "dialCode": "386"
   },
   "SJ": {
     "name": "Svalbard and Jan Mayen",
@@ -2098,7 +2304,8 @@
     "currencyCode": "NOK",
     "languages": [
       "no"
-    ]
+    ],
+    "dialCode": "47"
   },
   "SK": {
     "name": "Slovakia",
@@ -2108,7 +2315,8 @@
     "currencyCode": "EUR",
     "languages": [
       "sk"
-    ]
+    ],
+    "dialCode": "421"
   },
   "SL": {
     "name": "Sierra Leone",
@@ -2118,7 +2326,8 @@
     "currencyCode": "SLL",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "232"
   },
   "SM": {
     "name": "San Marino",
@@ -2128,7 +2337,8 @@
     "currencyCode": "EUR",
     "languages": [
       "it"
-    ]
+    ],
+    "dialCode": "378"
   },
   "SN": {
     "name": "Senegal",
@@ -2138,7 +2348,8 @@
     "currencyCode": "XOF",
     "languages": [
       "fr"
-    ]
+    ],
+    "dialCode": "221"
   },
   "SO": {
     "name": "Somalia",
@@ -2149,7 +2360,8 @@
     "languages": [
       "so",
       "ar"
-    ]
+    ],
+    "dialCode": "252"
   },
   "SR": {
     "name": "Suriname",
@@ -2159,7 +2371,8 @@
     "currencyCode": "SRD",
     "languages": [
       "nl"
-    ]
+    ],
+    "dialCode": "597"
   },
   "SS": {
     "name": "South Sudan",
@@ -2169,7 +2382,8 @@
     "currencyCode": "SSP",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "211"
   },
   "ST": {
     "name": "São Tomé and Príncipe",
@@ -2179,7 +2393,8 @@
     "currencyCode": "STN",
     "languages": [
       "pt"
-    ]
+    ],
+    "dialCode": "239"
   },
   "SV": {
     "name": "El Salvador",
@@ -2189,7 +2404,8 @@
     "currencyCode": "SVC",
     "languages": [
       "es"
-    ]
+    ],
+    "dialCode": "503"
   },
   "SX": {
     "name": "Sint Maarten",
@@ -2200,7 +2416,8 @@
     "languages": [
       "nl",
       "en"
-    ]
+    ],
+    "dialCode": "1"
   },
   "SY": {
     "name": "Syria",
@@ -2210,7 +2427,8 @@
     "currencyCode": "SYP",
     "languages": [
       "ar"
-    ]
+    ],
+    "dialCode": "963"
   },
   "SZ": {
     "name": "Swaziland",
@@ -2221,7 +2439,19 @@
     "languages": [
       "en",
       "ss"
-    ]
+    ],
+    "dialCode": "268"
+  },
+  "TA": {
+    "name": "Tristan da Cunha",
+    "nativeName": "Tristan da Cunha",
+    "continent": "AF",
+    "capital": "Edinburgh of the Seven Seas",
+    "currencyCode": "GBP",
+    "languages": [
+      "en"
+    ],
+    "dialCode": "290"
   },
   "TC": {
     "name": "Turks and Caicos Islands",
@@ -2231,7 +2461,8 @@
     "currencyCode": "USD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "1"
   },
   "TD": {
     "name": "Chad",
@@ -2242,7 +2473,8 @@
     "languages": [
       "fr",
       "ar"
-    ]
+    ],
+    "dialCode": "235"
   },
   "TF": {
     "name": "French Southern Territories",
@@ -2262,7 +2494,8 @@
     "currencyCode": "XOF",
     "languages": [
       "fr"
-    ]
+    ],
+    "dialCode": "228"
   },
   "TH": {
     "name": "Thailand",
@@ -2272,7 +2505,8 @@
     "currencyCode": "THB",
     "languages": [
       "th"
-    ]
+    ],
+    "dialCode": "66"
   },
   "TJ": {
     "name": "Tajikistan",
@@ -2283,7 +2517,8 @@
     "languages": [
       "tg",
       "ru"
-    ]
+    ],
+    "dialCode": "992"
   },
   "TK": {
     "name": "Tokelau",
@@ -2293,7 +2528,8 @@
     "currencyCode": "NZD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "690"
   },
   "TL": {
     "name": "East Timor",
@@ -2303,7 +2539,8 @@
     "currencyCode": "USD",
     "languages": [
       "pt"
-    ]
+    ],
+    "dialCode": "670"
   },
   "TM": {
     "name": "Turkmenistan",
@@ -2314,7 +2551,8 @@
     "languages": [
       "tk",
       "ru"
-    ]
+    ],
+    "dialCode": "993"
   },
   "TN": {
     "name": "Tunisia",
@@ -2324,7 +2562,8 @@
     "currencyCode": "TND",
     "languages": [
       "ar"
-    ]
+    ],
+    "dialCode": "216"
   },
   "TO": {
     "name": "Tonga",
@@ -2335,7 +2574,8 @@
     "languages": [
       "en",
       "to"
-    ]
+    ],
+    "dialCode": "676"
   },
   "TR": {
     "name": "Turkey",
@@ -2345,7 +2585,8 @@
     "currencyCode": "TRY",
     "languages": [
       "tr"
-    ]
+    ],
+    "dialCode": "90"
   },
   "TT": {
     "name": "Trinidad and Tobago",
@@ -2355,7 +2596,8 @@
     "currencyCode": "TTD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "1"
   },
   "TV": {
     "name": "Tuvalu",
@@ -2365,7 +2607,8 @@
     "currencyCode": "AUD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "688"
   },
   "TW": {
     "name": "Taiwan",
@@ -2375,7 +2618,8 @@
     "currencyCode": "TWD",
     "languages": [
       "zh"
-    ]
+    ],
+    "dialCode": "886"
   },
   "TZ": {
     "name": "Tanzania",
@@ -2386,7 +2630,8 @@
     "languages": [
       "sw",
       "en"
-    ]
+    ],
+    "dialCode": "255"
   },
   "UA": {
     "name": "Ukraine",
@@ -2396,7 +2641,8 @@
     "currencyCode": "UAH",
     "languages": [
       "uk"
-    ]
+    ],
+    "dialCode": "380"
   },
   "UG": {
     "name": "Uganda",
@@ -2407,7 +2653,8 @@
     "languages": [
       "en",
       "sw"
-    ]
+    ],
+    "dialCode": "256"
   },
   "UM": {
     "name": "U.S. Minor Outlying Islands",
@@ -2427,7 +2674,8 @@
     "currencyCode": "USD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "1"
   },
   "UY": {
     "name": "Uruguay",
@@ -2437,7 +2685,8 @@
     "currencyCode": "UYI",
     "languages": [
       "es"
-    ]
+    ],
+    "dialCode": "598"
   },
   "UZ": {
     "name": "Uzbekistan",
@@ -2448,7 +2697,8 @@
     "languages": [
       "uz",
       "ru"
-    ]
+    ],
+    "dialCode": "998"
   },
   "VA": {
     "name": "Vatican City",
@@ -2459,7 +2709,8 @@
     "languages": [
       "it",
       "la"
-    ]
+    ],
+    "dialCode": "39"
   },
   "VC": {
     "name": "Saint Vincent and the Grenadines",
@@ -2469,7 +2720,8 @@
     "currencyCode": "XCD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "1"
   },
   "VE": {
     "name": "Venezuela",
@@ -2479,7 +2731,8 @@
     "currencyCode": "VES",
     "languages": [
       "es"
-    ]
+    ],
+    "dialCode": "58"
   },
   "VG": {
     "name": "British Virgin Islands",
@@ -2489,7 +2742,8 @@
     "currencyCode": "USD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "1"
   },
   "VI": {
     "name": "U.S. Virgin Islands",
@@ -2499,7 +2753,8 @@
     "currencyCode": "USD",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "1"
   },
   "VN": {
     "name": "Vietnam",
@@ -2509,7 +2764,8 @@
     "currencyCode": "VND",
     "languages": [
       "vi"
-    ]
+    ],
+    "dialCode": "84"
   },
   "VU": {
     "name": "Vanuatu",
@@ -2521,7 +2777,8 @@
       "bi",
       "en",
       "fr"
-    ]
+    ],
+    "dialCode": "678"
   },
   "WF": {
     "name": "Wallis and Futuna",
@@ -2531,7 +2788,8 @@
     "currencyCode": "XPF",
     "languages": [
       "fr"
-    ]
+    ],
+    "dialCode": "681"
   },
   "WS": {
     "name": "Samoa",
@@ -2542,7 +2800,8 @@
     "languages": [
       "sm",
       "en"
-    ]
+    ],
+    "dialCode": "685"
   },
   "XK": {
     "name": "Kosovo",
@@ -2553,7 +2812,8 @@
     "languages": [
       "sq",
       "sr"
-    ]
+    ],
+    "dialCode": "383"
   },
   "YE": {
     "name": "Yemen",
@@ -2563,7 +2823,8 @@
     "currencyCode": "YER",
     "languages": [
       "ar"
-    ]
+    ],
+    "dialCode": "967"
   },
   "YT": {
     "name": "Mayotte",
@@ -2573,7 +2834,8 @@
     "currencyCode": "EUR",
     "languages": [
       "fr"
-    ]
+    ],
+    "dialCode": "262"
   },
   "ZA": {
     "name": "South Africa",
@@ -2592,7 +2854,8 @@
       "ve",
       "xh",
       "zu"
-    ]
+    ],
+    "dialCode": "27"
   },
   "ZM": {
     "name": "Zambia",
@@ -2602,7 +2865,8 @@
     "currencyCode": "ZMW",
     "languages": [
       "en"
-    ]
+    ],
+    "dialCode": "260"
   },
   "ZW": {
     "name": "Zimbabwe",
@@ -2614,6 +2878,7 @@
       "en",
       "sn",
       "nd"
-    ]
+    ],
+    "dialCode": "263"
   }
 }

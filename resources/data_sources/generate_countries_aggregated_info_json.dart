@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'country_info_partial/country_info_partial.extractor.dart';
+import 'country_info_partial.extractor.dart';
 import 'phone_number/phone_metadata_extractor.dart';
 
 // merge various data sources into a single json file
@@ -32,12 +32,12 @@ void main() async {
     // // we put the dial code at the root because it is an important info
     countriesInfo[key][CountryInfoKeys.dialCode] = value.dialCode;
     // add phone number lengths as it could be used for light validation
-    countriesInfo[key][CountryInfoKeys.phoneNumberLengths] = {
-      'mobile': value.validation.mobile.lengths,
-      'fixedLine': value.validation.fixedLine.lengths,
-    };
-    // add extended phone description
-    countriesInfo[key][CountryInfoKeys.phoneDescription] = value.toMap();
+    // countriesInfo[key][CountryInfoKeys.phoneNumberLengths] = {
+    //   'mobile': value.validation.mobile.lengths,
+    //   'fixedLine': value.validation.fixedLine.lengths,
+    // };
+    // // add extended phone description
+    // countriesInfo[key][CountryInfoKeys.phoneDescription] = value.toMap();
   });
   JsonEncoder encoder = JsonEncoder.withIndent('  ');
   generateFile(
