@@ -1,19 +1,19 @@
 # dart_countries
 
-Dart const countries maps containing information relative to a country.
+A set of informations about countries. Contains various maps and isoCodes.
 
 ## Maps
 
 You can use the maps to only import the information that you need
 
   - countriesName[IsoCode.US]
-  - countriesNative[IsoCode.US] // native name
-  - countriesContinent[IsoCode.US]
-  - countriesCapital[IsoCode.US]
+  - countriesNative[IsoCode.FR] // native name
+  - countriesContinent[IsoCode.ES]
+  - countriesCapital[IsoCode.FR]
   - countriesCurrencyCode[IsoCode.US]
   - countriesFlag[IsoCode.US] // unicode flag wont display on windows yet
   - countriesLanguages[IsoCode.US]
-  - countriesDialcode[IsoCode.US]
+  - countriesDialcode[IsoCode.FR]
 
 ## Country class
 
