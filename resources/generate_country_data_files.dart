@@ -10,7 +10,7 @@ import 'package:basic_utils/basic_utils.dart' show StringUtils;
 const OUTPUT_PATH = 'lib/src/generated/';
 const ISO_CODE_FILE = 'iso_codes.enum.dart';
 const SRC = 'package:dart_countries/src';
-const ISO_CODE_IMPORT = 'import "$SRC/generated/$ISO_CODE_FILE";';
+// const ISO_CODE_IMPORT = 'import "$SRC/generated/$ISO_CODE_FILE";';
 final AUTO_GEN_COMMENT =
     '// This file was auto generated on ${DateTime.now().toIso8601String()}\n\n';
 
@@ -22,10 +22,11 @@ void main() async {
   String generatedContent = '';
 
   final addedExports = await Future.wait([
-    generateIsoCodeEnum(countriesInfo),
+    // generateIsoCodeEnum(countriesInfo),
     generateCountryList(countriesInfo),
-    generateIsoCodeConversionMap(countriesInfo),
+    // generateIsoCodeConversionMap(countriesInfo),
     // iso code to property
+    generateIsoCodeSet(countriesInfo),
     generateIsoCodeToPropertyMapFile('name', countriesInfo),
     generateIsoCodeToPropertyMapFile('nativeName', countriesInfo),
     generateIsoCodeToPropertyMapFile('continent', countriesInfo),
@@ -49,12 +50,22 @@ void main() async {
 //   return generateFile(fileName: ISO_CODE_FILE, content: content);
 // }
 
+/// generate isoCodeSet
+Future<String> generateIsoCodeSet(Map<String, dynamic> countriesInfo) {
+  var isoCodes = countriesInfo.keys;
+  String content = 'const isoCodes = {%%};';
+  String body = '';
+  isoCodes.forEach((iso) => body += '"${iso}",');
+  content = content.replaceFirst('%%', body);
+  return generateFile(fileName: 'iso_code_set.dart', content: content);
+}
+
 /// generate country list
 Future<String> generateCountryList(Map countries) {
-  String content = ISO_CODE_IMPORT + "import '../models/country.dart';";
+  String content = "import '../country.dart';";
   content += 'const countries = [%%];';
   String body = '';
-  countries.forEach((key, value) => body += 'Country("$key"),');
+  countries.forEach((key, value) => body += 'const Country("$key"),');
   content = content.replaceFirst('%%', body);
   return generateFile(fileName: 'countries.list.dart', content: content);
 }
@@ -81,7 +92,7 @@ Future<String> generateIsoCodeToPropertyMapFile(
   final newMap = Map.fromIterable(map.keys, value: (k) => extractorFn(map[k]));
   final fileName =
       'maps/countries_${StringUtils.camelCaseToLowerUnderscore(property)}.map.dart';
-  String content = ISO_CODE_IMPORT +
+  String content =
       'const countries${property.substring(0, 1).toUpperCase()}${property.substring(1)} = {%%};';
   String body = '';
   newMap.forEach((key, value) => body += '"$key": ${jsonEncode(value)},');

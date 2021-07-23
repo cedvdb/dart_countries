@@ -6,14 +6,14 @@ A set of informations about countries. Contains various maps and isoCodes.
 
 You can use the maps to only import the information that you need
 
-  - countriesName[IsoCode.US]
-  - countriesNative[IsoCode.FR] // native name
-  - countriesContinent[IsoCode.ES]
-  - countriesCapital[IsoCode.FR]
-  - countriesCurrencyCode[IsoCode.US]
-  - countriesFlag[IsoCode.US] // unicode flag wont display on windows yet
-  - countriesLanguages[IsoCode.US]
-  - countriesDialcode[IsoCode.FR]
+  - countriesName['US']
+  - countriesNative['FR'] // native name
+  - countriesContinent['ES']
+  - countriesCapital['FR']
+  - countriesCurrencyCode['US']
+  - countriesFlag['US'] // unicode flag wont display on windows yet
+  - countriesLanguages['US']
+  - countriesDialcode['FR']
 
 ## Country class
 

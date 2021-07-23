@@ -5,7 +5,7 @@ import 'package:dart_countries/src/generated/generated.dart';
 
 /// Country regroup informations for displaying a list of countries
 class Country {
-  final IsoCode isoCode;
+  final String isoCode;
 
   /// English name of the country
   String get name => countriesName[isoCode]!;
@@ -27,10 +27,6 @@ class Country {
   String get displayDialCode => '+ $dialCode';
 
   const Country(this.isoCode);
-
-  Country.fromIsoCodeString(String isoCodeStr)
-      : assert(isoCodeConversionMap[isoCodeStr.toUpperCase()] != null),
-        isoCode = isoCodeConversionMap[isoCodeStr.toUpperCase()]!;
 
   Map<String, dynamic> toMap() {
     return {

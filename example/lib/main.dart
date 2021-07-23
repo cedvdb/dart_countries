@@ -1,18 +1,15 @@
 import 'package:dart_countries/dart_countries.dart';
 
 void main(List<String> arguments) {
-  final us = IsoCode.US;
-  // final us = isoCodeConversionMap['US']; // alternatively
-
   // maps
-  print(countriesName[us]);
-  print(countriesNativeName[us]); // native name
-  print(countriesContinent[us]);
-  print(countriesCapital[us]);
-  print(countriesCurrencyCode[us]);
-  print(countriesFlag[us]); // unicode flag wont display on windows yet
-  print(countriesLanguages[us]);
-  print(countriesDialCode[us]);
+  print(countriesName['US']);
+  print(countriesNativeName['US']); // native name
+  print(countriesContinent['US']);
+  print(countriesCapital['US']);
+  print(countriesCurrencyCode['US']);
+  print(countriesFlag['US']); // unicode flag wont display on windows yet
+  print(countriesLanguages['US']);
+  print(countriesDialCode['US']);
 
   // country class
   final allCountries = countries;

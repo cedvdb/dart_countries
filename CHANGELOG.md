@@ -1,3 +1,6 @@
+## 2.1.0 - 23/07/2021
+ * [Breaking] Removed isoCode enum for now
+
 ## 2.0.0 - 18/07/2021
  * [Breaking] Made this package simpler by removing phone number metadata which is now in its own package
 
