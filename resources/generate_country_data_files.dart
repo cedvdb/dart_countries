@@ -42,33 +42,33 @@ void main() async {
 }
 
 /// generates all isoCodes
-Future<String> generateIsoCodeEnum(Map<String, dynamic> countries) {
-  String content = 'enum IsoCode {';
-  countries.keys.forEach((key) => content += '${key},');
-  content += '}';
-  return generateFile(fileName: ISO_CODE_FILE, content: content);
-}
+// Future<String> generateIsoCodeEnum(Map<String, dynamic> countries) {
+//   String content = 'enum IsoCode {';
+//   countries.keys.forEach((key) => content += '${key},');
+//   content += '}';
+//   return generateFile(fileName: ISO_CODE_FILE, content: content);
+// }
 
 /// generate country list
 Future<String> generateCountryList(Map countries) {
   String content = ISO_CODE_IMPORT + "import '../models/country.dart';";
   content += 'const countries = [%%];';
   String body = '';
-  countries.forEach((key, value) => body += 'Country(IsoCode.${key}),');
+  countries.forEach((key, value) => body += 'Country("$key"),');
   content = content.replaceFirst('%%', body);
   return generateFile(fileName: 'countries.list.dart', content: content);
 }
 
 /// generate a conversion map for going from a string like "US" to IsoCode.US
-Future<String> generateIsoCodeConversionMap(Map countries) {
-  String content = ISO_CODE_IMPORT;
-  content += 'const isoCodeConversionMap = {%%};';
-  String body = '';
-  countries.forEach((key, value) => body += '"${key}": IsoCode.${key},');
-  content = content.replaceFirst('%%', body);
-  return generateFile(
-      fileName: 'iso_code_conversion.map.dart', content: content);
-}
+// Future<String> generateIsoCodeConversionMap(Map countries) {
+//   String content = ISO_CODE_IMPORT;
+//   content += 'const isoCodeConversionMap = {%%};';
+//   String body = '';
+//   countries.forEach((key, value) => body += '"${key}": IsoCode.${key},');
+//   content = content.replaceFirst('%%', body);
+//   return generateFile(
+//       fileName: 'iso_code_conversion.map.dart', content: content);
+// }
 
 /// generates a map where the iso code is the key and the property is the value
 /// returns a string that is what should be added to the barrel to export the generated
@@ -84,8 +84,7 @@ Future<String> generateIsoCodeToPropertyMapFile(
   String content = ISO_CODE_IMPORT +
       'const countries${property.substring(0, 1).toUpperCase()}${property.substring(1)} = {%%};';
   String body = '';
-  newMap
-      .forEach((key, value) => body += 'IsoCode.${key}: ${jsonEncode(value)},');
+  newMap.forEach((key, value) => body += '"$key": ${jsonEncode(value)},');
   content = content.replaceFirst('%%', body);
   return generateFile(fileName: fileName, content: content);
 }
