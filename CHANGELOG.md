@@ -1,5 +1,5 @@
 
-## 3.0.0 - 01/04/2022
+## 3.0.1 - 01/04/2022
 * [Revert] int country code reverted to string
 
 ## 3.0.0 - 01/04/2022
