@@ -1,3 +1,5 @@
+## 3.0.2 - 01/04/2022
+* added isocode conversion map from string to isocode
 
 ## 3.0.1 - 01/04/2022
 * [Revert] int country code reverted to string
