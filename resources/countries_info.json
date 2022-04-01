@@ -8,7 +8,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "247",
+    "countryCode": "247",
     "flag": "🇦🇨",
     "isoCode": "AC"
   },
@@ -21,7 +21,7 @@
     "languages": [
       "ca"
     ],
-    "dialCode": "376",
+    "countryCode": "376",
     "flag": "🇦🇩",
     "isoCode": "AD"
   },
@@ -34,7 +34,7 @@
     "languages": [
       "ar"
     ],
-    "dialCode": "971",
+    "countryCode": "971",
     "flag": "🇦🇪",
     "isoCode": "AE"
   },
@@ -49,7 +49,7 @@
       "uz",
       "tk"
     ],
-    "dialCode": "93",
+    "countryCode": "93",
     "flag": "🇦🇫",
     "isoCode": "AF"
   },
@@ -62,7 +62,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇦🇬",
     "isoCode": "AG"
   },
@@ -75,7 +75,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇦🇮",
     "isoCode": "AI"
   },
@@ -88,7 +88,7 @@
     "languages": [
       "sq"
     ],
-    "dialCode": "355",
+    "countryCode": "355",
     "flag": "🇦🇱",
     "isoCode": "AL"
   },
@@ -102,7 +102,7 @@
       "hy",
       "ru"
     ],
-    "dialCode": "374",
+    "countryCode": "374",
     "flag": "🇦🇲",
     "isoCode": "AM"
   },
@@ -115,7 +115,7 @@
     "languages": [
       "pt"
     ],
-    "dialCode": "244",
+    "countryCode": "244",
     "flag": "🇦🇴",
     "isoCode": "AO"
   },
@@ -129,7 +129,7 @@
       "es",
       "gn"
     ],
-    "dialCode": "54",
+    "countryCode": "54",
     "flag": "🇦🇷",
     "isoCode": "AR"
   },
@@ -143,7 +143,7 @@
       "en",
       "sm"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇦🇸",
     "isoCode": "AS"
   },
@@ -156,7 +156,7 @@
     "languages": [
       "de"
     ],
-    "dialCode": "43",
+    "countryCode": "43",
     "flag": "🇦🇹",
     "isoCode": "AT"
   },
@@ -169,7 +169,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "61",
+    "countryCode": "61",
     "flag": "🇦🇺",
     "isoCode": "AU"
   },
@@ -183,7 +183,7 @@
       "nl",
       "pa"
     ],
-    "dialCode": "297",
+    "countryCode": "297",
     "flag": "🇦🇼",
     "isoCode": "AW"
   },
@@ -196,7 +196,7 @@
     "languages": [
       "sv"
     ],
-    "dialCode": "358",
+    "countryCode": "358",
     "flag": "🇦🇽",
     "isoCode": "AX"
   },
@@ -209,7 +209,7 @@
     "languages": [
       "az"
     ],
-    "dialCode": "994",
+    "countryCode": "994",
     "flag": "🇦🇿",
     "isoCode": "AZ"
   },
@@ -224,7 +224,7 @@
       "hr",
       "sr"
     ],
-    "dialCode": "387",
+    "countryCode": "387",
     "flag": "🇧🇦",
     "isoCode": "BA"
   },
@@ -237,7 +237,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇧🇧",
     "isoCode": "BB"
   },
@@ -250,7 +250,7 @@
     "languages": [
       "bn"
     ],
-    "dialCode": "880",
+    "countryCode": "880",
     "flag": "🇧🇩",
     "isoCode": "BD"
   },
@@ -265,7 +265,7 @@
       "fr",
       "de"
     ],
-    "dialCode": "32",
+    "countryCode": "32",
     "flag": "🇧🇪",
     "isoCode": "BE"
   },
@@ -279,7 +279,7 @@
       "fr",
       "ff"
     ],
-    "dialCode": "226",
+    "countryCode": "226",
     "flag": "🇧🇫",
     "isoCode": "BF"
   },
@@ -292,7 +292,7 @@
     "languages": [
       "bg"
     ],
-    "dialCode": "359",
+    "countryCode": "359",
     "flag": "🇧🇬",
     "isoCode": "BG"
   },
@@ -305,7 +305,7 @@
     "languages": [
       "ar"
     ],
-    "dialCode": "973",
+    "countryCode": "973",
     "flag": "🇧🇭",
     "isoCode": "BH"
   },
@@ -319,7 +319,7 @@
       "fr",
       "rn"
     ],
-    "dialCode": "257",
+    "countryCode": "257",
     "flag": "🇧🇮",
     "isoCode": "BI"
   },
@@ -332,7 +332,7 @@
     "languages": [
       "fr"
     ],
-    "dialCode": "229",
+    "countryCode": "229",
     "flag": "🇧🇯",
     "isoCode": "BJ"
   },
@@ -345,7 +345,7 @@
     "languages": [
       "fr"
     ],
-    "dialCode": "590",
+    "countryCode": "590",
     "flag": "🇧🇱",
     "isoCode": "BL"
   },
@@ -358,7 +358,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇧🇲",
     "isoCode": "BM"
   },
@@ -371,7 +371,7 @@
     "languages": [
       "ms"
     ],
-    "dialCode": "673",
+    "countryCode": "673",
     "flag": "🇧🇳",
     "isoCode": "BN"
   },
@@ -386,7 +386,7 @@
       "ay",
       "qu"
     ],
-    "dialCode": "591",
+    "countryCode": "591",
     "flag": "🇧🇴",
     "isoCode": "BO"
   },
@@ -399,7 +399,7 @@
     "languages": [
       "nl"
     ],
-    "dialCode": "599",
+    "countryCode": "599",
     "flag": "🇧🇶",
     "isoCode": "BQ"
   },
@@ -412,7 +412,7 @@
     "languages": [
       "pt"
     ],
-    "dialCode": "55",
+    "countryCode": "55",
     "flag": "🇧🇷",
     "isoCode": "BR"
   },
@@ -425,7 +425,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇧🇸",
     "isoCode": "BS"
   },
@@ -438,7 +438,7 @@
     "languages": [
       "dz"
     ],
-    "dialCode": "975",
+    "countryCode": "975",
     "flag": "🇧🇹",
     "isoCode": "BT"
   },
@@ -452,7 +452,7 @@
       "en",
       "tn"
     ],
-    "dialCode": "267",
+    "countryCode": "267",
     "flag": "🇧🇼",
     "isoCode": "BW"
   },
@@ -466,7 +466,7 @@
       "be",
       "ru"
     ],
-    "dialCode": "375",
+    "countryCode": "375",
     "flag": "🇧🇾",
     "isoCode": "BY"
   },
@@ -480,7 +480,7 @@
       "en",
       "es"
     ],
-    "dialCode": "501",
+    "countryCode": "501",
     "flag": "🇧🇿",
     "isoCode": "BZ"
   },
@@ -494,7 +494,7 @@
       "en",
       "fr"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇨🇦",
     "isoCode": "CA"
   },
@@ -507,7 +507,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "61",
+    "countryCode": "61",
     "flag": "🇨🇨",
     "isoCode": "CC"
   },
@@ -524,7 +524,7 @@
       "sw",
       "lu"
     ],
-    "dialCode": "243",
+    "countryCode": "243",
     "flag": "🇨🇩",
     "isoCode": "CD"
   },
@@ -538,7 +538,7 @@
       "fr",
       "sg"
     ],
-    "dialCode": "236",
+    "countryCode": "236",
     "flag": "🇨🇫",
     "isoCode": "CF"
   },
@@ -552,7 +552,7 @@
       "fr",
       "ln"
     ],
-    "dialCode": "242",
+    "countryCode": "242",
     "flag": "🇨🇬",
     "isoCode": "CG"
   },
@@ -567,7 +567,7 @@
       "fr",
       "it"
     ],
-    "dialCode": "41",
+    "countryCode": "41",
     "flag": "🇨🇭",
     "isoCode": "CH"
   },
@@ -580,7 +580,7 @@
     "languages": [
       "fr"
     ],
-    "dialCode": "225",
+    "countryCode": "225",
     "flag": "🇨🇮",
     "isoCode": "CI"
   },
@@ -593,7 +593,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "682",
+    "countryCode": "682",
     "flag": "🇨🇰",
     "isoCode": "CK"
   },
@@ -606,7 +606,7 @@
     "languages": [
       "es"
     ],
-    "dialCode": "56",
+    "countryCode": "56",
     "flag": "🇨🇱",
     "isoCode": "CL"
   },
@@ -620,7 +620,7 @@
       "en",
       "fr"
     ],
-    "dialCode": "237",
+    "countryCode": "237",
     "flag": "🇨🇲",
     "isoCode": "CM"
   },
@@ -633,7 +633,7 @@
     "languages": [
       "zh"
     ],
-    "dialCode": "86",
+    "countryCode": "86",
     "flag": "🇨🇳",
     "isoCode": "CN"
   },
@@ -646,7 +646,7 @@
     "languages": [
       "es"
     ],
-    "dialCode": "57",
+    "countryCode": "57",
     "flag": "🇨🇴",
     "isoCode": "CO"
   },
@@ -659,7 +659,7 @@
     "languages": [
       "es"
     ],
-    "dialCode": "506",
+    "countryCode": "506",
     "flag": "🇨🇷",
     "isoCode": "CR"
   },
@@ -672,7 +672,7 @@
     "languages": [
       "es"
     ],
-    "dialCode": "53",
+    "countryCode": "53",
     "flag": "🇨🇺",
     "isoCode": "CU"
   },
@@ -685,7 +685,7 @@
     "languages": [
       "pt"
     ],
-    "dialCode": "238",
+    "countryCode": "238",
     "flag": "🇨🇻",
     "isoCode": "CV"
   },
@@ -700,7 +700,7 @@
       "pa",
       "en"
     ],
-    "dialCode": "599",
+    "countryCode": "599",
     "flag": "🇨🇼",
     "isoCode": "CW"
   },
@@ -713,7 +713,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "61",
+    "countryCode": "61",
     "flag": "🇨🇽",
     "isoCode": "CX"
   },
@@ -728,7 +728,7 @@
       "tr",
       "hy"
     ],
-    "dialCode": "357",
+    "countryCode": "357",
     "flag": "🇨🇾",
     "isoCode": "CY"
   },
@@ -742,7 +742,7 @@
       "cs",
       "sk"
     ],
-    "dialCode": "420",
+    "countryCode": "420",
     "flag": "🇨🇿",
     "isoCode": "CZ"
   },
@@ -755,7 +755,7 @@
     "languages": [
       "de"
     ],
-    "dialCode": "49",
+    "countryCode": "49",
     "flag": "🇩🇪",
     "isoCode": "DE"
   },
@@ -769,7 +769,7 @@
       "fr",
       "ar"
     ],
-    "dialCode": "253",
+    "countryCode": "253",
     "flag": "🇩🇯",
     "isoCode": "DJ"
   },
@@ -782,7 +782,7 @@
     "languages": [
       "da"
     ],
-    "dialCode": "45",
+    "countryCode": "45",
     "flag": "🇩🇰",
     "isoCode": "DK"
   },
@@ -795,7 +795,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇩🇲",
     "isoCode": "DM"
   },
@@ -808,7 +808,7 @@
     "languages": [
       "es"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇩🇴",
     "isoCode": "DO"
   },
@@ -821,7 +821,7 @@
     "languages": [
       "ar"
     ],
-    "dialCode": "213",
+    "countryCode": "213",
     "flag": "🇩🇿",
     "isoCode": "DZ"
   },
@@ -834,7 +834,7 @@
     "languages": [
       "es"
     ],
-    "dialCode": "593",
+    "countryCode": "593",
     "flag": "🇪🇨",
     "isoCode": "EC"
   },
@@ -847,7 +847,7 @@
     "languages": [
       "et"
     ],
-    "dialCode": "372",
+    "countryCode": "372",
     "flag": "🇪🇪",
     "isoCode": "EE"
   },
@@ -860,7 +860,7 @@
     "languages": [
       "ar"
     ],
-    "dialCode": "20",
+    "countryCode": "20",
     "flag": "🇪🇬",
     "isoCode": "EG"
   },
@@ -873,7 +873,7 @@
     "languages": [
       "es"
     ],
-    "dialCode": "212",
+    "countryCode": "212",
     "flag": "🇪🇭",
     "isoCode": "EH"
   },
@@ -888,7 +888,7 @@
       "ar",
       "en"
     ],
-    "dialCode": "291",
+    "countryCode": "291",
     "flag": "🇪🇷",
     "isoCode": "ER"
   },
@@ -905,7 +905,7 @@
       "gl",
       "oc"
     ],
-    "dialCode": "34",
+    "countryCode": "34",
     "flag": "🇪🇸",
     "isoCode": "ES"
   },
@@ -918,7 +918,7 @@
     "languages": [
       "am"
     ],
-    "dialCode": "251",
+    "countryCode": "251",
     "flag": "🇪🇹",
     "isoCode": "ET"
   },
@@ -932,7 +932,7 @@
       "fi",
       "sv"
     ],
-    "dialCode": "358",
+    "countryCode": "358",
     "flag": "🇫🇮",
     "isoCode": "FI"
   },
@@ -948,7 +948,7 @@
       "hi",
       "ur"
     ],
-    "dialCode": "679",
+    "countryCode": "679",
     "flag": "🇫🇯",
     "isoCode": "FJ"
   },
@@ -961,7 +961,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "500",
+    "countryCode": "500",
     "flag": "🇫🇰",
     "isoCode": "FK"
   },
@@ -974,7 +974,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "691",
+    "countryCode": "691",
     "flag": "🇫🇲",
     "isoCode": "FM"
   },
@@ -987,7 +987,7 @@
     "languages": [
       "fo"
     ],
-    "dialCode": "298",
+    "countryCode": "298",
     "flag": "🇫🇴",
     "isoCode": "FO"
   },
@@ -1000,7 +1000,7 @@
     "languages": [
       "fr"
     ],
-    "dialCode": "33",
+    "countryCode": "33",
     "flag": "🇫🇷",
     "isoCode": "FR"
   },
@@ -1013,7 +1013,7 @@
     "languages": [
       "fr"
     ],
-    "dialCode": "241",
+    "countryCode": "241",
     "flag": "🇬🇦",
     "isoCode": "GA"
   },
@@ -1026,7 +1026,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "44",
+    "countryCode": "44",
     "flag": "🇬🇧",
     "isoCode": "GB"
   },
@@ -1039,7 +1039,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇬🇩",
     "isoCode": "GD"
   },
@@ -1052,7 +1052,7 @@
     "languages": [
       "ka"
     ],
-    "dialCode": "995",
+    "countryCode": "995",
     "flag": "🇬🇪",
     "isoCode": "GE"
   },
@@ -1065,7 +1065,7 @@
     "languages": [
       "fr"
     ],
-    "dialCode": "594",
+    "countryCode": "594",
     "flag": "🇬🇫",
     "isoCode": "GF"
   },
@@ -1079,7 +1079,7 @@
       "en",
       "fr"
     ],
-    "dialCode": "44",
+    "countryCode": "44",
     "flag": "🇬🇬",
     "isoCode": "GG"
   },
@@ -1092,7 +1092,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "233",
+    "countryCode": "233",
     "flag": "🇬🇭",
     "isoCode": "GH"
   },
@@ -1105,7 +1105,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "350",
+    "countryCode": "350",
     "flag": "🇬🇮",
     "isoCode": "GI"
   },
@@ -1118,7 +1118,7 @@
     "languages": [
       "kl"
     ],
-    "dialCode": "299",
+    "countryCode": "299",
     "flag": "🇬🇱",
     "isoCode": "GL"
   },
@@ -1131,7 +1131,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "220",
+    "countryCode": "220",
     "flag": "🇬🇲",
     "isoCode": "GM"
   },
@@ -1145,7 +1145,7 @@
       "fr",
       "ff"
     ],
-    "dialCode": "224",
+    "countryCode": "224",
     "flag": "🇬🇳",
     "isoCode": "GN"
   },
@@ -1158,7 +1158,7 @@
     "languages": [
       "fr"
     ],
-    "dialCode": "590",
+    "countryCode": "590",
     "flag": "🇬🇵",
     "isoCode": "GP"
   },
@@ -1172,7 +1172,7 @@
       "es",
       "fr"
     ],
-    "dialCode": "240",
+    "countryCode": "240",
     "flag": "🇬🇶",
     "isoCode": "GQ"
   },
@@ -1185,7 +1185,7 @@
     "languages": [
       "el"
     ],
-    "dialCode": "30",
+    "countryCode": "30",
     "flag": "🇬🇷",
     "isoCode": "GR"
   },
@@ -1198,7 +1198,7 @@
     "languages": [
       "es"
     ],
-    "dialCode": "502",
+    "countryCode": "502",
     "flag": "🇬🇹",
     "isoCode": "GT"
   },
@@ -1213,7 +1213,7 @@
       "ch",
       "es"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇬🇺",
     "isoCode": "GU"
   },
@@ -1226,7 +1226,7 @@
     "languages": [
       "pt"
     ],
-    "dialCode": "245",
+    "countryCode": "245",
     "flag": "🇬🇼",
     "isoCode": "GW"
   },
@@ -1239,7 +1239,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "592",
+    "countryCode": "592",
     "flag": "🇬🇾",
     "isoCode": "GY"
   },
@@ -1253,7 +1253,7 @@
       "zh",
       "en"
     ],
-    "dialCode": "852",
+    "countryCode": "852",
     "flag": "🇭🇰",
     "isoCode": "HK"
   },
@@ -1266,7 +1266,7 @@
     "languages": [
       "es"
     ],
-    "dialCode": "504",
+    "countryCode": "504",
     "flag": "🇭🇳",
     "isoCode": "HN"
   },
@@ -1279,7 +1279,7 @@
     "languages": [
       "hr"
     ],
-    "dialCode": "385",
+    "countryCode": "385",
     "flag": "🇭🇷",
     "isoCode": "HR"
   },
@@ -1293,7 +1293,7 @@
       "fr",
       "ht"
     ],
-    "dialCode": "509",
+    "countryCode": "509",
     "flag": "🇭🇹",
     "isoCode": "HT"
   },
@@ -1306,7 +1306,7 @@
     "languages": [
       "hu"
     ],
-    "dialCode": "36",
+    "countryCode": "36",
     "flag": "🇭🇺",
     "isoCode": "HU"
   },
@@ -1319,7 +1319,7 @@
     "languages": [
       "id"
     ],
-    "dialCode": "62",
+    "countryCode": "62",
     "flag": "🇮🇩",
     "isoCode": "ID"
   },
@@ -1333,7 +1333,7 @@
       "ga",
       "en"
     ],
-    "dialCode": "353",
+    "countryCode": "353",
     "flag": "🇮🇪",
     "isoCode": "IE"
   },
@@ -1347,7 +1347,7 @@
       "he",
       "ar"
     ],
-    "dialCode": "972",
+    "countryCode": "972",
     "flag": "🇮🇱",
     "isoCode": "IL"
   },
@@ -1361,7 +1361,7 @@
       "en",
       "gv"
     ],
-    "dialCode": "44",
+    "countryCode": "44",
     "flag": "🇮🇲",
     "isoCode": "IM"
   },
@@ -1375,7 +1375,7 @@
       "hi",
       "en"
     ],
-    "dialCode": "91",
+    "countryCode": "91",
     "flag": "🇮🇳",
     "isoCode": "IN"
   },
@@ -1388,7 +1388,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "246",
+    "countryCode": "246",
     "flag": "🇮🇴",
     "isoCode": "IO"
   },
@@ -1402,7 +1402,7 @@
       "ar",
       "ku"
     ],
-    "dialCode": "964",
+    "countryCode": "964",
     "flag": "🇮🇶",
     "isoCode": "IQ"
   },
@@ -1415,7 +1415,7 @@
     "languages": [
       "fa"
     ],
-    "dialCode": "98",
+    "countryCode": "98",
     "flag": "🇮🇷",
     "isoCode": "IR"
   },
@@ -1428,7 +1428,7 @@
     "languages": [
       "is"
     ],
-    "dialCode": "354",
+    "countryCode": "354",
     "flag": "🇮🇸",
     "isoCode": "IS"
   },
@@ -1441,7 +1441,7 @@
     "languages": [
       "it"
     ],
-    "dialCode": "39",
+    "countryCode": "39",
     "flag": "🇮🇹",
     "isoCode": "IT"
   },
@@ -1455,7 +1455,7 @@
       "en",
       "fr"
     ],
-    "dialCode": "44",
+    "countryCode": "44",
     "flag": "🇯🇪",
     "isoCode": "JE"
   },
@@ -1468,7 +1468,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇯🇲",
     "isoCode": "JM"
   },
@@ -1481,7 +1481,7 @@
     "languages": [
       "ar"
     ],
-    "dialCode": "962",
+    "countryCode": "962",
     "flag": "🇯🇴",
     "isoCode": "JO"
   },
@@ -1494,7 +1494,7 @@
     "languages": [
       "ja"
     ],
-    "dialCode": "81",
+    "countryCode": "81",
     "flag": "🇯🇵",
     "isoCode": "JP"
   },
@@ -1508,7 +1508,7 @@
       "en",
       "sw"
     ],
-    "dialCode": "254",
+    "countryCode": "254",
     "flag": "🇰🇪",
     "isoCode": "KE"
   },
@@ -1522,7 +1522,7 @@
       "ky",
       "ru"
     ],
-    "dialCode": "996",
+    "countryCode": "996",
     "flag": "🇰🇬",
     "isoCode": "KG"
   },
@@ -1535,7 +1535,7 @@
     "languages": [
       "km"
     ],
-    "dialCode": "855",
+    "countryCode": "855",
     "flag": "🇰🇭",
     "isoCode": "KH"
   },
@@ -1548,7 +1548,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "686",
+    "countryCode": "686",
     "flag": "🇰🇮",
     "isoCode": "KI"
   },
@@ -1562,7 +1562,7 @@
       "ar",
       "fr"
     ],
-    "dialCode": "269",
+    "countryCode": "269",
     "flag": "🇰🇲",
     "isoCode": "KM"
   },
@@ -1575,7 +1575,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇰🇳",
     "isoCode": "KN"
   },
@@ -1588,7 +1588,7 @@
     "languages": [
       "ko"
     ],
-    "dialCode": "850",
+    "countryCode": "850",
     "flag": "🇰🇵",
     "isoCode": "KP"
   },
@@ -1601,7 +1601,7 @@
     "languages": [
       "ko"
     ],
-    "dialCode": "82",
+    "countryCode": "82",
     "flag": "🇰🇷",
     "isoCode": "KR"
   },
@@ -1614,7 +1614,7 @@
     "languages": [
       "ar"
     ],
-    "dialCode": "965",
+    "countryCode": "965",
     "flag": "🇰🇼",
     "isoCode": "KW"
   },
@@ -1627,7 +1627,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇰🇾",
     "isoCode": "KY"
   },
@@ -1641,7 +1641,7 @@
       "kk",
       "ru"
     ],
-    "dialCode": "7",
+    "countryCode": "7",
     "flag": "🇰🇿",
     "isoCode": "KZ"
   },
@@ -1654,7 +1654,7 @@
     "languages": [
       "lo"
     ],
-    "dialCode": "856",
+    "countryCode": "856",
     "flag": "🇱🇦",
     "isoCode": "LA"
   },
@@ -1668,7 +1668,7 @@
       "ar",
       "fr"
     ],
-    "dialCode": "961",
+    "countryCode": "961",
     "flag": "🇱🇧",
     "isoCode": "LB"
   },
@@ -1681,7 +1681,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇱🇨",
     "isoCode": "LC"
   },
@@ -1694,7 +1694,7 @@
     "languages": [
       "de"
     ],
-    "dialCode": "423",
+    "countryCode": "423",
     "flag": "🇱🇮",
     "isoCode": "LI"
   },
@@ -1708,7 +1708,7 @@
       "si",
       "ta"
     ],
-    "dialCode": "94",
+    "countryCode": "94",
     "flag": "🇱🇰",
     "isoCode": "LK"
   },
@@ -1721,7 +1721,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "231",
+    "countryCode": "231",
     "flag": "🇱🇷",
     "isoCode": "LR"
   },
@@ -1735,7 +1735,7 @@
       "en",
       "st"
     ],
-    "dialCode": "266",
+    "countryCode": "266",
     "flag": "🇱🇸",
     "isoCode": "LS"
   },
@@ -1748,7 +1748,7 @@
     "languages": [
       "lt"
     ],
-    "dialCode": "370",
+    "countryCode": "370",
     "flag": "🇱🇹",
     "isoCode": "LT"
   },
@@ -1763,7 +1763,7 @@
       "de",
       "lb"
     ],
-    "dialCode": "352",
+    "countryCode": "352",
     "flag": "🇱🇺",
     "isoCode": "LU"
   },
@@ -1776,7 +1776,7 @@
     "languages": [
       "lv"
     ],
-    "dialCode": "371",
+    "countryCode": "371",
     "flag": "🇱🇻",
     "isoCode": "LV"
   },
@@ -1789,7 +1789,7 @@
     "languages": [
       "ar"
     ],
-    "dialCode": "218",
+    "countryCode": "218",
     "flag": "🇱🇾",
     "isoCode": "LY"
   },
@@ -1802,7 +1802,7 @@
     "languages": [
       "ar"
     ],
-    "dialCode": "212",
+    "countryCode": "212",
     "flag": "🇲🇦",
     "isoCode": "MA"
   },
@@ -1815,7 +1815,7 @@
     "languages": [
       "fr"
     ],
-    "dialCode": "377",
+    "countryCode": "377",
     "flag": "🇲🇨",
     "isoCode": "MC"
   },
@@ -1828,7 +1828,7 @@
     "languages": [
       "ro"
     ],
-    "dialCode": "373",
+    "countryCode": "373",
     "flag": "🇲🇩",
     "isoCode": "MD"
   },
@@ -1844,7 +1844,7 @@
       "sq",
       "hr"
     ],
-    "dialCode": "382",
+    "countryCode": "382",
     "flag": "🇲🇪",
     "isoCode": "ME"
   },
@@ -1859,7 +1859,7 @@
       "fr",
       "nl"
     ],
-    "dialCode": "590",
+    "countryCode": "590",
     "flag": "🇲🇫",
     "isoCode": "MF"
   },
@@ -1873,7 +1873,7 @@
       "fr",
       "mg"
     ],
-    "dialCode": "261",
+    "countryCode": "261",
     "flag": "🇲🇬",
     "isoCode": "MG"
   },
@@ -1887,7 +1887,7 @@
       "en",
       "mh"
     ],
-    "dialCode": "692",
+    "countryCode": "692",
     "flag": "🇲🇭",
     "isoCode": "MH"
   },
@@ -1900,7 +1900,7 @@
     "languages": [
       "mk"
     ],
-    "dialCode": "389",
+    "countryCode": "389",
     "flag": "🇲🇰",
     "isoCode": "MK"
   },
@@ -1913,7 +1913,7 @@
     "languages": [
       "fr"
     ],
-    "dialCode": "223",
+    "countryCode": "223",
     "flag": "🇲🇱",
     "isoCode": "ML"
   },
@@ -1926,7 +1926,7 @@
     "languages": [
       "my"
     ],
-    "dialCode": "95",
+    "countryCode": "95",
     "flag": "🇲🇲",
     "isoCode": "MM"
   },
@@ -1939,7 +1939,7 @@
     "languages": [
       "mn"
     ],
-    "dialCode": "976",
+    "countryCode": "976",
     "flag": "🇲🇳",
     "isoCode": "MN"
   },
@@ -1953,7 +1953,7 @@
       "zh",
       "pt"
     ],
-    "dialCode": "853",
+    "countryCode": "853",
     "flag": "🇲🇴",
     "isoCode": "MO"
   },
@@ -1967,7 +1967,7 @@
       "en",
       "ch"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇲🇵",
     "isoCode": "MP"
   },
@@ -1980,7 +1980,7 @@
     "languages": [
       "fr"
     ],
-    "dialCode": "596",
+    "countryCode": "596",
     "flag": "🇲🇶",
     "isoCode": "MQ"
   },
@@ -1993,7 +1993,7 @@
     "languages": [
       "ar"
     ],
-    "dialCode": "222",
+    "countryCode": "222",
     "flag": "🇲🇷",
     "isoCode": "MR"
   },
@@ -2006,7 +2006,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇲🇸",
     "isoCode": "MS"
   },
@@ -2020,7 +2020,7 @@
       "mt",
       "en"
     ],
-    "dialCode": "356",
+    "countryCode": "356",
     "flag": "🇲🇹",
     "isoCode": "MT"
   },
@@ -2033,7 +2033,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "230",
+    "countryCode": "230",
     "flag": "🇲🇺",
     "isoCode": "MU"
   },
@@ -2046,7 +2046,7 @@
     "languages": [
       "dv"
     ],
-    "dialCode": "960",
+    "countryCode": "960",
     "flag": "🇲🇻",
     "isoCode": "MV"
   },
@@ -2060,7 +2060,7 @@
       "en",
       "ny"
     ],
-    "dialCode": "265",
+    "countryCode": "265",
     "flag": "🇲🇼",
     "isoCode": "MW"
   },
@@ -2073,7 +2073,7 @@
     "languages": [
       "es"
     ],
-    "dialCode": "52",
+    "countryCode": "52",
     "flag": "🇲🇽",
     "isoCode": "MX"
   },
@@ -2086,7 +2086,7 @@
     "languages": [
       "ms"
     ],
-    "dialCode": "60",
+    "countryCode": "60",
     "flag": "🇲🇾",
     "isoCode": "MY"
   },
@@ -2099,7 +2099,7 @@
     "languages": [
       "pt"
     ],
-    "dialCode": "258",
+    "countryCode": "258",
     "flag": "🇲🇿",
     "isoCode": "MZ"
   },
@@ -2113,7 +2113,7 @@
       "en",
       "af"
     ],
-    "dialCode": "264",
+    "countryCode": "264",
     "flag": "🇳🇦",
     "isoCode": "NA"
   },
@@ -2126,7 +2126,7 @@
     "languages": [
       "fr"
     ],
-    "dialCode": "687",
+    "countryCode": "687",
     "flag": "🇳🇨",
     "isoCode": "NC"
   },
@@ -2139,7 +2139,7 @@
     "languages": [
       "fr"
     ],
-    "dialCode": "227",
+    "countryCode": "227",
     "flag": "🇳🇪",
     "isoCode": "NE"
   },
@@ -2152,7 +2152,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "672",
+    "countryCode": "672",
     "flag": "🇳🇫",
     "isoCode": "NF"
   },
@@ -2165,7 +2165,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "234",
+    "countryCode": "234",
     "flag": "🇳🇬",
     "isoCode": "NG"
   },
@@ -2178,7 +2178,7 @@
     "languages": [
       "es"
     ],
-    "dialCode": "505",
+    "countryCode": "505",
     "flag": "🇳🇮",
     "isoCode": "NI"
   },
@@ -2191,7 +2191,7 @@
     "languages": [
       "nl"
     ],
-    "dialCode": "31",
+    "countryCode": "31",
     "flag": "🇳🇱",
     "isoCode": "NL"
   },
@@ -2206,7 +2206,7 @@
       "nb",
       "nn"
     ],
-    "dialCode": "47",
+    "countryCode": "47",
     "flag": "🇳🇴",
     "isoCode": "NO"
   },
@@ -2219,7 +2219,7 @@
     "languages": [
       "ne"
     ],
-    "dialCode": "977",
+    "countryCode": "977",
     "flag": "🇳🇵",
     "isoCode": "NP"
   },
@@ -2233,7 +2233,7 @@
       "en",
       "na"
     ],
-    "dialCode": "674",
+    "countryCode": "674",
     "flag": "🇳🇷",
     "isoCode": "NR"
   },
@@ -2246,7 +2246,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "683",
+    "countryCode": "683",
     "flag": "🇳🇺",
     "isoCode": "NU"
   },
@@ -2260,7 +2260,7 @@
       "en",
       "mi"
     ],
-    "dialCode": "64",
+    "countryCode": "64",
     "flag": "🇳🇿",
     "isoCode": "NZ"
   },
@@ -2273,7 +2273,7 @@
     "languages": [
       "ar"
     ],
-    "dialCode": "968",
+    "countryCode": "968",
     "flag": "🇴🇲",
     "isoCode": "OM"
   },
@@ -2286,7 +2286,7 @@
     "languages": [
       "es"
     ],
-    "dialCode": "507",
+    "countryCode": "507",
     "flag": "🇵🇦",
     "isoCode": "PA"
   },
@@ -2299,7 +2299,7 @@
     "languages": [
       "es"
     ],
-    "dialCode": "51",
+    "countryCode": "51",
     "flag": "🇵🇪",
     "isoCode": "PE"
   },
@@ -2312,7 +2312,7 @@
     "languages": [
       "fr"
     ],
-    "dialCode": "689",
+    "countryCode": "689",
     "flag": "🇵🇫",
     "isoCode": "PF"
   },
@@ -2325,7 +2325,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "675",
+    "countryCode": "675",
     "flag": "🇵🇬",
     "isoCode": "PG"
   },
@@ -2338,7 +2338,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "63",
+    "countryCode": "63",
     "flag": "🇵🇭",
     "isoCode": "PH"
   },
@@ -2352,7 +2352,7 @@
       "en",
       "ur"
     ],
-    "dialCode": "92",
+    "countryCode": "92",
     "flag": "🇵🇰",
     "isoCode": "PK"
   },
@@ -2365,7 +2365,7 @@
     "languages": [
       "pl"
     ],
-    "dialCode": "48",
+    "countryCode": "48",
     "flag": "🇵🇱",
     "isoCode": "PL"
   },
@@ -2378,7 +2378,7 @@
     "languages": [
       "fr"
     ],
-    "dialCode": "508",
+    "countryCode": "508",
     "flag": "🇵🇲",
     "isoCode": "PM"
   },
@@ -2392,7 +2392,7 @@
       "es",
       "en"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇵🇷",
     "isoCode": "PR"
   },
@@ -2405,7 +2405,7 @@
     "languages": [
       "ar"
     ],
-    "dialCode": "970",
+    "countryCode": "970",
     "flag": "🇵🇸",
     "isoCode": "PS"
   },
@@ -2418,7 +2418,7 @@
     "languages": [
       "pt"
     ],
-    "dialCode": "351",
+    "countryCode": "351",
     "flag": "🇵🇹",
     "isoCode": "PT"
   },
@@ -2431,7 +2431,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "680",
+    "countryCode": "680",
     "flag": "🇵🇼",
     "isoCode": "PW"
   },
@@ -2445,7 +2445,7 @@
       "es",
       "gn"
     ],
-    "dialCode": "595",
+    "countryCode": "595",
     "flag": "🇵🇾",
     "isoCode": "PY"
   },
@@ -2458,7 +2458,7 @@
     "languages": [
       "ar"
     ],
-    "dialCode": "974",
+    "countryCode": "974",
     "flag": "🇶🇦",
     "isoCode": "QA"
   },
@@ -2471,7 +2471,7 @@
     "languages": [
       "fr"
     ],
-    "dialCode": "262",
+    "countryCode": "262",
     "flag": "🇷🇪",
     "isoCode": "RE"
   },
@@ -2484,7 +2484,7 @@
     "languages": [
       "ro"
     ],
-    "dialCode": "40",
+    "countryCode": "40",
     "flag": "🇷🇴",
     "isoCode": "RO"
   },
@@ -2497,7 +2497,7 @@
     "languages": [
       "sr"
     ],
-    "dialCode": "381",
+    "countryCode": "381",
     "flag": "🇷🇸",
     "isoCode": "RS"
   },
@@ -2510,7 +2510,7 @@
     "languages": [
       "ru"
     ],
-    "dialCode": "7",
+    "countryCode": "7",
     "flag": "🇷🇺",
     "isoCode": "RU"
   },
@@ -2525,7 +2525,7 @@
       "en",
       "fr"
     ],
-    "dialCode": "250",
+    "countryCode": "250",
     "flag": "🇷🇼",
     "isoCode": "RW"
   },
@@ -2538,7 +2538,7 @@
     "languages": [
       "ar"
     ],
-    "dialCode": "966",
+    "countryCode": "966",
     "flag": "🇸🇦",
     "isoCode": "SA"
   },
@@ -2551,7 +2551,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "677",
+    "countryCode": "677",
     "flag": "🇸🇧",
     "isoCode": "SB"
   },
@@ -2565,7 +2565,7 @@
       "fr",
       "en"
     ],
-    "dialCode": "248",
+    "countryCode": "248",
     "flag": "🇸🇨",
     "isoCode": "SC"
   },
@@ -2579,7 +2579,7 @@
       "ar",
       "en"
     ],
-    "dialCode": "249",
+    "countryCode": "249",
     "flag": "🇸🇩",
     "isoCode": "SD"
   },
@@ -2592,7 +2592,7 @@
     "languages": [
       "sv"
     ],
-    "dialCode": "46",
+    "countryCode": "46",
     "flag": "🇸🇪",
     "isoCode": "SE"
   },
@@ -2608,7 +2608,7 @@
       "ta",
       "zh"
     ],
-    "dialCode": "65",
+    "countryCode": "65",
     "flag": "🇸🇬",
     "isoCode": "SG"
   },
@@ -2621,7 +2621,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "290",
+    "countryCode": "290",
     "flag": "🇸🇭",
     "isoCode": "SH"
   },
@@ -2634,7 +2634,7 @@
     "languages": [
       "sl"
     ],
-    "dialCode": "386",
+    "countryCode": "386",
     "flag": "🇸🇮",
     "isoCode": "SI"
   },
@@ -2647,7 +2647,7 @@
     "languages": [
       "no"
     ],
-    "dialCode": "47",
+    "countryCode": "47",
     "flag": "🇸🇯",
     "isoCode": "SJ"
   },
@@ -2660,7 +2660,7 @@
     "languages": [
       "sk"
     ],
-    "dialCode": "421",
+    "countryCode": "421",
     "flag": "🇸🇰",
     "isoCode": "SK"
   },
@@ -2673,7 +2673,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "232",
+    "countryCode": "232",
     "flag": "🇸🇱",
     "isoCode": "SL"
   },
@@ -2686,7 +2686,7 @@
     "languages": [
       "it"
     ],
-    "dialCode": "378",
+    "countryCode": "378",
     "flag": "🇸🇲",
     "isoCode": "SM"
   },
@@ -2699,7 +2699,7 @@
     "languages": [
       "fr"
     ],
-    "dialCode": "221",
+    "countryCode": "221",
     "flag": "🇸🇳",
     "isoCode": "SN"
   },
@@ -2713,7 +2713,7 @@
       "so",
       "ar"
     ],
-    "dialCode": "252",
+    "countryCode": "252",
     "flag": "🇸🇴",
     "isoCode": "SO"
   },
@@ -2726,7 +2726,7 @@
     "languages": [
       "nl"
     ],
-    "dialCode": "597",
+    "countryCode": "597",
     "flag": "🇸🇷",
     "isoCode": "SR"
   },
@@ -2739,7 +2739,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "211",
+    "countryCode": "211",
     "flag": "🇸🇸",
     "isoCode": "SS"
   },
@@ -2752,7 +2752,7 @@
     "languages": [
       "pt"
     ],
-    "dialCode": "239",
+    "countryCode": "239",
     "flag": "🇸🇹",
     "isoCode": "ST"
   },
@@ -2765,7 +2765,7 @@
     "languages": [
       "es"
     ],
-    "dialCode": "503",
+    "countryCode": "503",
     "flag": "🇸🇻",
     "isoCode": "SV"
   },
@@ -2779,7 +2779,7 @@
       "nl",
       "en"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇸🇽",
     "isoCode": "SX"
   },
@@ -2792,7 +2792,7 @@
     "languages": [
       "ar"
     ],
-    "dialCode": "963",
+    "countryCode": "963",
     "flag": "🇸🇾",
     "isoCode": "SY"
   },
@@ -2806,7 +2806,7 @@
       "en",
       "ss"
     ],
-    "dialCode": "268",
+    "countryCode": "268",
     "flag": "🇸🇿",
     "isoCode": "SZ"
   },
@@ -2819,7 +2819,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "290",
+    "countryCode": "290",
     "flag": "🇹🇦",
     "isoCode": "TA"
   },
@@ -2832,7 +2832,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇹🇨",
     "isoCode": "TC"
   },
@@ -2846,7 +2846,7 @@
       "fr",
       "ar"
     ],
-    "dialCode": "235",
+    "countryCode": "235",
     "flag": "🇹🇩",
     "isoCode": "TD"
   },
@@ -2859,7 +2859,7 @@
     "languages": [
       "fr"
     ],
-    "dialCode": "228",
+    "countryCode": "228",
     "flag": "🇹🇬",
     "isoCode": "TG"
   },
@@ -2872,7 +2872,7 @@
     "languages": [
       "th"
     ],
-    "dialCode": "66",
+    "countryCode": "66",
     "flag": "🇹🇭",
     "isoCode": "TH"
   },
@@ -2886,7 +2886,7 @@
       "tg",
       "ru"
     ],
-    "dialCode": "992",
+    "countryCode": "992",
     "flag": "🇹🇯",
     "isoCode": "TJ"
   },
@@ -2899,7 +2899,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "690",
+    "countryCode": "690",
     "flag": "🇹🇰",
     "isoCode": "TK"
   },
@@ -2912,7 +2912,7 @@
     "languages": [
       "pt"
     ],
-    "dialCode": "670",
+    "countryCode": "670",
     "flag": "🇹🇱",
     "isoCode": "TL"
   },
@@ -2926,7 +2926,7 @@
       "tk",
       "ru"
     ],
-    "dialCode": "993",
+    "countryCode": "993",
     "flag": "🇹🇲",
     "isoCode": "TM"
   },
@@ -2939,7 +2939,7 @@
     "languages": [
       "ar"
     ],
-    "dialCode": "216",
+    "countryCode": "216",
     "flag": "🇹🇳",
     "isoCode": "TN"
   },
@@ -2953,7 +2953,7 @@
       "en",
       "to"
     ],
-    "dialCode": "676",
+    "countryCode": "676",
     "flag": "🇹🇴",
     "isoCode": "TO"
   },
@@ -2966,7 +2966,7 @@
     "languages": [
       "tr"
     ],
-    "dialCode": "90",
+    "countryCode": "90",
     "flag": "🇹🇷",
     "isoCode": "TR"
   },
@@ -2979,7 +2979,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇹🇹",
     "isoCode": "TT"
   },
@@ -2992,7 +2992,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "688",
+    "countryCode": "688",
     "flag": "🇹🇻",
     "isoCode": "TV"
   },
@@ -3005,7 +3005,7 @@
     "languages": [
       "zh"
     ],
-    "dialCode": "886",
+    "countryCode": "886",
     "flag": "🇹🇼",
     "isoCode": "TW"
   },
@@ -3019,7 +3019,7 @@
       "sw",
       "en"
     ],
-    "dialCode": "255",
+    "countryCode": "255",
     "flag": "🇹🇿",
     "isoCode": "TZ"
   },
@@ -3032,7 +3032,7 @@
     "languages": [
       "uk"
     ],
-    "dialCode": "380",
+    "countryCode": "380",
     "flag": "🇺🇦",
     "isoCode": "UA"
   },
@@ -3046,7 +3046,7 @@
       "en",
       "sw"
     ],
-    "dialCode": "256",
+    "countryCode": "256",
     "flag": "🇺🇬",
     "isoCode": "UG"
   },
@@ -3059,7 +3059,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇺🇸",
     "isoCode": "US"
   },
@@ -3072,7 +3072,7 @@
     "languages": [
       "es"
     ],
-    "dialCode": "598",
+    "countryCode": "598",
     "flag": "🇺🇾",
     "isoCode": "UY"
   },
@@ -3086,7 +3086,7 @@
       "uz",
       "ru"
     ],
-    "dialCode": "998",
+    "countryCode": "998",
     "flag": "🇺🇿",
     "isoCode": "UZ"
   },
@@ -3100,7 +3100,7 @@
       "it",
       "la"
     ],
-    "dialCode": "39",
+    "countryCode": "39",
     "flag": "🇻🇦",
     "isoCode": "VA"
   },
@@ -3113,7 +3113,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇻🇨",
     "isoCode": "VC"
   },
@@ -3126,7 +3126,7 @@
     "languages": [
       "es"
     ],
-    "dialCode": "58",
+    "countryCode": "58",
     "flag": "🇻🇪",
     "isoCode": "VE"
   },
@@ -3139,7 +3139,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇻🇬",
     "isoCode": "VG"
   },
@@ -3152,7 +3152,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "1",
+    "countryCode": "1",
     "flag": "🇻🇮",
     "isoCode": "VI"
   },
@@ -3165,7 +3165,7 @@
     "languages": [
       "vi"
     ],
-    "dialCode": "84",
+    "countryCode": "84",
     "flag": "🇻🇳",
     "isoCode": "VN"
   },
@@ -3180,7 +3180,7 @@
       "en",
       "fr"
     ],
-    "dialCode": "678",
+    "countryCode": "678",
     "flag": "🇻🇺",
     "isoCode": "VU"
   },
@@ -3193,7 +3193,7 @@
     "languages": [
       "fr"
     ],
-    "dialCode": "681",
+    "countryCode": "681",
     "flag": "🇼🇫",
     "isoCode": "WF"
   },
@@ -3207,7 +3207,7 @@
       "sm",
       "en"
     ],
-    "dialCode": "685",
+    "countryCode": "685",
     "flag": "🇼🇸",
     "isoCode": "WS"
   },
@@ -3221,7 +3221,7 @@
       "sq",
       "sr"
     ],
-    "dialCode": "383",
+    "countryCode": "383",
     "flag": "🇽🇰",
     "isoCode": "XK"
   },
@@ -3234,7 +3234,7 @@
     "languages": [
       "ar"
     ],
-    "dialCode": "967",
+    "countryCode": "967",
     "flag": "🇾🇪",
     "isoCode": "YE"
   },
@@ -3247,7 +3247,7 @@
     "languages": [
       "fr"
     ],
-    "dialCode": "262",
+    "countryCode": "262",
     "flag": "🇾🇹",
     "isoCode": "YT"
   },
@@ -3269,7 +3269,7 @@
       "xh",
       "zu"
     ],
-    "dialCode": "27",
+    "countryCode": "27",
     "flag": "🇿🇦",
     "isoCode": "ZA"
   },
@@ -3282,7 +3282,7 @@
     "languages": [
       "en"
     ],
-    "dialCode": "260",
+    "countryCode": "260",
     "flag": "🇿🇲",
     "isoCode": "ZM"
   },
@@ -3297,7 +3297,7 @@
       "sn",
       "nd"
     ],
-    "dialCode": "263",
+    "countryCode": "263",
     "flag": "🇿🇼",
     "isoCode": "ZW"
   }

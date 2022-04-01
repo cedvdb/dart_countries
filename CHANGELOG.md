@@ -1,3 +1,7 @@
+## 3.0.0 - 01/04/2022
+* [Breaking] maps now use iso code enum
+* [Breaking] countriesDialCode renamed to countriesCountryCode and the value is now an int
+
 ## 2.1.0 - 23/07/2021
  * [Breaking] Removed isoCode enum for now
 

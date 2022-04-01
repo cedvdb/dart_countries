@@ -5,7 +5,7 @@ import 'package:dart_countries/src/generated/generated.dart';
 
 /// Country regroup informations for displaying a list of countries
 class Country {
-  final String isoCode;
+  final IsoCode isoCode;
 
   /// English name of the country
   String get name => countriesName[isoCode]!;
@@ -20,11 +20,11 @@ class Country {
   /// emoji flag
   String get flag => countriesFlag[isoCode]!;
 
-  /// country dialing code to call them internationally
-  String get dialCode => countriesDialCode[isoCode]!;
+  /// country calling code to call them internationally
+  int get countryCode => countriesCountryCode[isoCode]!;
 
-  /// returns "+ [dialCode]"
-  String get displayDialCode => '+ $dialCode';
+  /// returns "+ [countryCode]"
+  String get displayDialCode => '+ $countryCode';
 
   const Country(this.isoCode);
 
@@ -37,12 +37,12 @@ class Country {
       'languages': languages,
       'currencyCode': currencyCode,
       'flag': flag,
-      'isoCode': isoCode,
+      'isoCode': isoCode.name,
     };
   }
 
   factory Country.fromMap(Map<String, dynamic> map) {
-    return Country(map['isoCode']);
+    return Country(IsoCode.values.byName(map['isoCode']));
   }
 
   String toJson() => json.encode(toMap());

@@ -22,20 +22,23 @@ void main() async {
   String generatedContent = '';
 
   final addedExports = await Future.wait([
-    // generateIsoCodeEnum(countriesInfo),
+    generateIsoCodeEnum(countriesInfo),
     generateCountryList(countriesInfo),
     // generateIsoCodeConversionMap(countriesInfo),
     // iso code to property
-    generateIsoCodeSet(countriesInfo),
+    // generateIsoCodeSet(countriesInfo),
     generateIsoCodeToPropertyMapFile('name', countriesInfo),
     generateIsoCodeToPropertyMapFile('nativeName', countriesInfo),
     generateIsoCodeToPropertyMapFile('continent', countriesInfo),
     generateIsoCodeToPropertyMapFile('capital', countriesInfo),
     generateIsoCodeToPropertyMapFile('currencyCode', countriesInfo),
     generateIsoCodeToPropertyMapFile('languages', countriesInfo),
-    generateIsoCodeToPropertyMapFile('dialCode', countriesInfo),
+    generateIsoCodeToPropertyMapFile(
+      'countryCode',
+      countriesInfo,
+      isIntValue: true,
+    ),
     generateIsoCodeToPropertyMapFile('flag', countriesInfo),
-    generateIsoCodeToPropertyMapFile('dialCode', countriesInfo),
   ]);
 
   generatedContent = addedExports.join('');
@@ -43,19 +46,19 @@ void main() async {
 }
 
 /// generates all isoCodes
-// Future<String> generateIsoCodeEnum(Map<String, dynamic> countries) {
-//   String content = 'enum IsoCode {';
-//   countries.keys.forEach((key) => content += '${key},');
-//   content += '}';
-//   return generateFile(fileName: ISO_CODE_FILE, content: content);
-// }
+Future<String> generateIsoCodeEnum(Map<String, dynamic> countries) {
+  String content = 'enum IsoCode {';
+  countries.keys.forEach((key) => content += '${key},');
+  content += '}';
+  return generateFile(fileName: ISO_CODE_FILE, content: content);
+}
 
 /// generate isoCodeSet
 Future<String> generateIsoCodeSet(Map<String, dynamic> countriesInfo) {
   var isoCodes = countriesInfo.keys;
   String content = 'const isoCodes = {%%};';
   String body = '';
-  isoCodes.forEach((iso) => body += '"${iso}",');
+  isoCodes.forEach((iso) => body += "'${iso}',");
   content = content.replaceFirst('%%', body);
   return generateFile(fileName: 'iso_code_set.dart', content: content);
 }
@@ -63,9 +66,10 @@ Future<String> generateIsoCodeSet(Map<String, dynamic> countriesInfo) {
 /// generate country list
 Future<String> generateCountryList(Map countries) {
   String content = "import '../country.dart';";
+  content += "import 'iso_codes.enum.dart';";
   content += 'const countries = [%%];';
   String body = '';
-  countries.forEach((key, value) => body += 'const Country("$key"),');
+  countries.forEach((key, value) => body += "const Country(IsoCode.$key),");
   content = content.replaceFirst('%%', body);
   return generateFile(fileName: 'countries.list.dart', content: content);
 }
@@ -86,16 +90,22 @@ Future<String> generateCountryList(Map countries) {
 /// file
 Future<String> generateIsoCodeToPropertyMapFile(
   String property,
-  Map<String, dynamic> map,
-) {
+  Map<String, dynamic> map, {
+  bool isIntValue = false,
+}) {
   final extractorFn = (countryInfo) => countryInfo[property];
   final newMap = Map.fromIterable(map.keys, value: (k) => extractorFn(map[k]));
   final fileName =
       'maps/countries_${StringUtils.camelCaseToLowerUnderscore(property)}.map.dart';
-  String content =
-      'const countries${property.substring(0, 1).toUpperCase()}${property.substring(1)} = {%%};';
+  String content = '''import '../iso_codes.enum.dart';
+  const countries${property.substring(0, 1).toUpperCase()}${property.substring(1)} = {%%};''';
   String body = '';
-  newMap.forEach((key, value) => body += '"$key": ${jsonEncode(value)},');
+  newMap.forEach((key, value) {
+    if (isIntValue)
+      body += "IsoCode.$key: $value,";
+    else
+      body += "IsoCode.$key: ${jsonEncode(value)},";
+  });
   content = content.replaceFirst('%%', body);
   return generateFile(fileName: fileName, content: content);
 }
@@ -107,5 +117,5 @@ Future<String> generateFile({
   final file = await File(OUTPUT_PATH + fileName).create(recursive: true);
   content = AUTO_GEN_COMMENT + content;
   await file.writeAsString(content);
-  return 'export "$fileName";';
+  return "export '$fileName';";
 }
