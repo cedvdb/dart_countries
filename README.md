@@ -13,7 +13,7 @@ You can use the maps to only import the information that you need
   - countriesCurrencyCode['US']  // USD
   - countriesFlag['US'] // unicode flag wont display on windows yet
   - countriesLanguages['US']  //  ['en']
-  - countriesCountryCode['FR']  // +33
+  - countriesCountryCode['FR']  // 33
 
 ## Country class
 

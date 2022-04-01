@@ -14,7 +14,7 @@ void main() {
       expect(us.continent, equals('NA'));
       expect(us.capital, equals('Washington D.C.'));
       expect(us.currencyCode, equals('USD'));
-      expect(us.countryCode, equals(1));
+      expect(us.countryCode, equals('1'));
       expect(us.displayDialCode, equals('+ 1'));
       expect(us.languages, equals(['en']));
     });

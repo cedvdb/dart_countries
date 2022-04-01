@@ -36,7 +36,6 @@ void main() async {
     generateIsoCodeToPropertyMapFile(
       'countryCode',
       countriesInfo,
-      isIntValue: true,
     ),
     generateIsoCodeToPropertyMapFile('flag', countriesInfo),
   ]);
@@ -89,10 +88,7 @@ Future<String> generateCountryList(Map countries) {
 /// returns a string that is what should be added to the barrel to export the generated
 /// file
 Future<String> generateIsoCodeToPropertyMapFile(
-  String property,
-  Map<String, dynamic> map, {
-  bool isIntValue = false,
-}) {
+    String property, Map<String, dynamic> map) {
   final extractorFn = (countryInfo) => countryInfo[property];
   final newMap = Map.fromIterable(map.keys, value: (k) => extractorFn(map[k]));
   final fileName =
@@ -100,12 +96,7 @@ Future<String> generateIsoCodeToPropertyMapFile(
   String content = '''import '../iso_codes.enum.dart';
   const countries${property.substring(0, 1).toUpperCase()}${property.substring(1)} = {%%};''';
   String body = '';
-  newMap.forEach((key, value) {
-    if (isIntValue)
-      body += "IsoCode.$key: $value,";
-    else
-      body += "IsoCode.$key: ${jsonEncode(value)},";
-  });
+  newMap.forEach((key, value) => body += "IsoCode.$key: ${jsonEncode(value)},");
   content = content.replaceFirst('%%', body);
   return generateFile(fileName: fileName, content: content);
 }

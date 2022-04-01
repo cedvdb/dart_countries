@@ -21,7 +21,7 @@ class Country {
   String get flag => countriesFlag[isoCode]!;
 
   /// country calling code to call them internationally
-  int get countryCode => countriesCountryCode[isoCode]!;
+  String get countryCode => countriesCountryCode[isoCode]!;
 
   /// returns "+ [countryCode]"
   String get displayDialCode => '+ $countryCode';
