@@ -1,10 +1,10 @@
 name: dart_countries
 description: A set of informations about countries. Contains various maps and isoCodes.
-version: 3.0.2
+version: 3.0.3
 homepage: https://github.com/cedvdb/dart_countries
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.17.0 <3.0.0"
 
 dev_dependencies:
   xml: ^5.1.2

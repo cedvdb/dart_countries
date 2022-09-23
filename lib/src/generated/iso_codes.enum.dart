@@ -1,5 +1,7 @@
 // This file was auto generated on 2022-04-01T17:17:02.853307
 
+import 'package:dart_countries/dart_countries.dart';
+
 enum IsoCode {
   AC,
   AD,
@@ -245,5 +247,17 @@ enum IsoCode {
   YT,
   ZA,
   ZM,
-  ZW,
+  ZW;
+
+  const IsoCode();
+
+  static IsoCode fromJson(String isoCodeStr) {
+    final isoCode = isoCodeConversionMap[isoCodeStr];
+    if (isoCode == null) {
+      throw 'Iso code not found $isoCodeStr ';
+    }
+    return isoCode;
+  }
+
+  String toJson() => name;
 }
