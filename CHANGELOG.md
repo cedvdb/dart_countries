@@ -1,3 +1,6 @@
+## 3.0.3
+* Add toJson fromJson
+
 ## 3.0.2 - 01/04/2022
 * added isocode conversion map from string to isocode
 
